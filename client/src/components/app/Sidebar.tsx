@@ -153,6 +153,7 @@ export default function Sidebar({
               color: "primary.main",
             },
           }}
+          href="/documents"
         >
           <DescriptionIcon
             sx={{
@@ -172,6 +173,7 @@ export default function Sidebar({
               color: "primary.main",
             },
           }}
+          href="/upload"
         >
           <UploadFileIcon sx={{ width: 40 }} /> Prześlij Dokument
         </Link>

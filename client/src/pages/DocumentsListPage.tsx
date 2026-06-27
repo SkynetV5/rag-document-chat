@@ -80,9 +80,9 @@ export default function DocumentsListPage() {
                   },
                   fontSize: 16,
                 }}
-                href="/documents"
+                href="/upload"
               >
-                Lista Dokumentów
+                Prześlij Dokument
               </Link>
             </Box>
           </Toolbar>
@@ -132,7 +132,7 @@ export default function DocumentsListPage() {
                       py: 2,
                       transition: ".2s",
                       "&:hover": {
-                        bgcolor: "grey.100",
+                        bgcolor: "grey.800",
                       },
                     }}
                   >

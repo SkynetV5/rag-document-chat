@@ -1,8 +1,7 @@
+import './env';
 import express from 'express';
 import cors from 'cors';
-import dotenv from 'dotenv';
-
-dotenv.config();
+import chatRoutes from "./routers/chat.route";
 
 const app = express();
 
@@ -10,6 +9,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+app.use("/chat", chatRoutes);
+
 
 // test route
 

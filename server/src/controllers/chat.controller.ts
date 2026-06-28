@@ -14,7 +14,7 @@ export const ChatController = {
                 message
             });
 
-        res.json(result);
+        res.status(200).json(result);
         } catch (err) {
             console.log(err);
             res.status(500).json({error: "Chat failed"});
@@ -22,35 +22,53 @@ export const ChatController = {
     },
 
     async getAllChats(req:Request, res:Response){
-        const {data, error} = await supabase.from("chats").select("*").order("created_at", {ascending: false});
-
-        if(error){
+       try{
+            const data = await chatService.getAllChats();
+            res.status(200).json(data);
+       }
+       catch(error){
             return res.status(500).json(error);
         }
-        res.json(data);
+       
+    },
+
+    async getChatById(req:Request<{id:string}>, res:Response){
+
+        try{
+            const {id} = req.params;
+            const data = await chatService.getChatById(id);
+            res.status(200).json(data);
+        
+        } catch(error){
+            return res.status(500).json(error);
+        }
+        
     },
 
     async create(req:Request, res:Response){
-        const { title} = req.body;
-        const {data, error} = await supabase.from("chats").insert({title}).select().single();
-
-        if(error){
+        try{
+            const { title } = req.body;
+            const data = await chatService.create(title);
+            res.status(201).json(data);
+        }
+        catch (error){
             return res.status(500).json(error);
         }
 
-        res.json(data);
+       
     },
 
-    async delete(req:Request, res:Response){
-        const {id} = req.params;
-
-        const {data, error} = await supabase.from("chats").delete().eq("id", id);
-
-        if(error){
+    async delete(req:Request<{id:string}>, res:Response){
+        try{
+            const {id} = req.params;
+            const data = await chatService.delete(id);
+            res.status(204).json(data);
+       }
+        catch(error){
             return res.status(500).json(error);
         }
 
-        res.json(data);
+        
     }
 
 }

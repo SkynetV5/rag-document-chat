@@ -1,3 +1,4 @@
+import { supabase } from "../lib/supabase";
 import { ragService } from "./rag.service";
 
 export const chatService = {
@@ -18,5 +19,38 @@ export const chatService = {
             answer,
             contextUsed: context.length
         }
+    },
+
+    async getAllChats(){
+        const {data, error} = await supabase.from("chats").select("*").order("created_at", {ascending: false});
+
+        
+        if (error) throw error;
+
+        return data
+    },
+
+    async getChatById(id:string){
+        const {data, error} = await supabase.from("chats").select("*").eq("id", id).single();
+
+        if (error) throw error;
+
+        return data;
+    },
+
+    async create(title:string){
+        const {data, error} = await supabase.from("chats").insert({title}).select().single();
+
+        if (error) throw error;
+
+        return data;
+    },
+
+    async delete(id:string){
+        const {data, error} = await supabase.from("chats").delete().eq("id", id).single();
+
+        if (error) throw error;
+
+        return data;
     }
 }

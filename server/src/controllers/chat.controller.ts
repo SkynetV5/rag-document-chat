@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import { chatService } from "../services/chat.service";
-import {supabase} from "../lib/supabase";
 
 
 export const ChatController = {

@@ -10,7 +10,7 @@ export const MessageController = {
 
             res.status(200).json(data);
         } catch (error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to get all messages. Error: ${error}`});
         }
 
     },
@@ -22,7 +22,7 @@ export const MessageController = {
             const data = await messageService.getMessageById(id);
             res.status(200).json(data);
         } catch (error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to get message by id. Error: ${error}`});
         }
     },
 
@@ -33,7 +33,7 @@ export const MessageController = {
             const data = await messageService.getMessagesByChatId(chatId);
             res.status(200).json(data);
         } catch (error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to get messages by chat id. Error: ${error}`});
         }
     },
 
@@ -44,7 +44,7 @@ export const MessageController = {
             const data = await messageService.getMessagesByChatIdAndRole({chatId,role});
             res.status(200).json(data);
         } catch (error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to get messages by chat id and role. Error: ${error}`});
         }
     },
 
@@ -55,7 +55,7 @@ export const MessageController = {
             const data = await messageService.getMessagesByRole(role);
             res.status(200).json(data);
         } catch (error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to get messages by role. Error: ${error}`});
         }
     },
 
@@ -66,7 +66,7 @@ export const MessageController = {
             const data = await messageService.create({chatId,role,content})
             res.status(201).json(data);
         } catch (error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to create message. Error: ${error}`});
         }
     },
 
@@ -75,9 +75,9 @@ export const MessageController = {
             const {id} = req.params;
 
             const data = await messageService.delete(id);
-            res.status(204).json(data);
+            res.status(204).json({message: "Message deleted successfully."});
         } catch (error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to delete message. Error: ${error}`});
         }
     }
 }

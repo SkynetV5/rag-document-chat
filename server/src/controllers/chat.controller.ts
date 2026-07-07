@@ -13,20 +13,20 @@ export const ChatController = {
                 message
             });
 
-        res.status(200).json(result);
-        } catch (err) {
-            console.log(err);
-            res.status(500).json({error: "Chat failed"});
+            return res.status(200).json(result);
+        } catch (error) {
+            
+            return res.status(500).json({error: `Chat failed. Error: ${error}`});
         }
     },
 
     async getAllChats(req:Request, res:Response){
        try{
             const data = await chatService.getAllChats();
-            res.status(200).json(data);
+            return res.status(200).json(data);
        }
        catch(error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to get all chats. Error: ${error}`});
         }
        
     },
@@ -36,10 +36,10 @@ export const ChatController = {
         try{
             const {id} = req.params;
             const data = await chatService.getChatById(id);
-            res.status(200).json(data);
+            return res.status(200).json(data);
         
         } catch(error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to get chat by id. Error: ${error}`});
         }
         
     },
@@ -48,10 +48,10 @@ export const ChatController = {
         try{
             const { title } = req.body;
             const data = await chatService.create(title);
-            res.status(201).json(data);
+            return res.status(201).json(data);
         }
         catch (error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to create chat. Error: ${error}`});
         }
 
        
@@ -61,10 +61,10 @@ export const ChatController = {
         try{
             const {id} = req.params;
             const data = await chatService.delete(id);
-            res.status(204).json(data);
+            return res.status(204).json({message: "Chat deleted successfully."});
        }
         catch(error){
-            return res.status(500).json(error);
+            return res.status(500).json({error: `Failed to delete chat. Error: ${error}`});
         }
 
         

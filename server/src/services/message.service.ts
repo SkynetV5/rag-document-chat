@@ -1,4 +1,5 @@
 import { supabase } from "../lib/supabase"
+import { chatService } from "./chat.service";
 
 export const messageService = {
     async getAllMessages(){
@@ -42,6 +43,11 @@ export const messageService = {
 
 
     async create({chatId, role, content}: {chatId:string, role:string, content:string}){
+
+        const {data: chat, error: chatError} = await chatService.getChatById(chatId);
+
+        if (!chat[0].id) throw new Error("This Chat Id doesn't exist.");
+
         const {data, error} = await supabase.from("messages").insert({chatId,role,content}).select().single();
 
         if (error) throw error;

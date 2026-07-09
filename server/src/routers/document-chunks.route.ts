@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { DocumentChunksController } from "../controllers/document_chunks.controller";
+import { DocumentChunksController } from "../controllers/document-chunks.controller";
 
 const router  = Router();
 

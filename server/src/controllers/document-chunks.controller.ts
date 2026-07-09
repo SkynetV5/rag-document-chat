@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { documentChunksService } from "../services/document_chunks.service";
+import { documentChunksService } from "../services/document-chunks.service";
 
 export const DocumentChunksController = {
 

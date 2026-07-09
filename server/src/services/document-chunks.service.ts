@@ -1,7 +1,7 @@
 import { supabase } from "../lib/supabase"
 import { pdfService } from "./pdf.service"
 import { chunkService } from "./chunk.service"
-import { documentService } from "../services/document.service"
+import { documentService } from "./document.service"
 import { embeddingService } from "./embedding.service"
 
 export const documentChunksService = {

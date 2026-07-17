@@ -1,4 +1,4 @@
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   Box,
   Button,
@@ -10,6 +10,7 @@ import {
 import CloudUploadOutlinedIcon from "@mui/icons-material/CloudUploadOutlined";
 import InsertDriveFileOutlinedIcon from "@mui/icons-material/InsertDriveFileOutlined";
 import CloseIcon from "@mui/icons-material/Close";
+import { usePostDocumentCreate } from "../../api/documents/documents";
 
 const ACCEPTED_TYPES = ["application/pdf"];
 const ACCEPTED_EXTENSIONS = ".pdf";
@@ -33,7 +34,11 @@ export default function UploadDropzone() {
   const [isDragging, setIsDragging] = useState(false);
   const [file, setFile] = useState<File | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [complete, setComplete] = useState<Boolean>(false);
   const [isUploading, setIsUploading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const uploadFile = usePostDocumentCreate();
 
   const validateAndSetFile = useCallback((nextFile: File | null) => {
     if (!nextFile) {
@@ -92,15 +97,39 @@ export default function UploadDropzone() {
     if (!file) return;
 
     setIsUploading(true);
-    try {
-      // TODO: podłącz endpoint API
-      await new Promise((resolve) => setTimeout(resolve, 800));
-      console.log("upload", file.name);
-      setFile(null);
-    } finally {
-      setIsUploading(false);
-    }
+
+    uploadFile.mutate(
+      { data: { file } },
+      {
+        onSuccess: () => {
+          console.log("upload", file.name);
+
+          setComplete(true);
+          setFile(null);
+          setIsUploading(false);
+
+          setTimeout(() => {
+            setComplete(false);
+          }, 2000);
+        },
+
+        onError: (error) => {
+          console.error(error);
+          setIsUploading(false);
+        },
+      },
+    );
   };
+
+  useEffect(() => {
+    if (complete) {
+      const timer = setTimeout(() => {
+        setComplete(false);
+      }, 2000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [complete]);
 
   return (
     <Stack
@@ -200,6 +229,16 @@ export default function UploadDropzone() {
       {error && (
         <Typography variant="body2" color="error" textAlign="center">
           {error}
+        </Typography>
+      )}
+      {complete && (
+        <Typography
+          variant="body2"
+          color="success"
+          textAlign="center"
+          sx={{ textAlign: "center" }}
+        >
+          Dokument został przesłany.
         </Typography>
       )}
 

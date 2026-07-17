@@ -1,6 +1,7 @@
 import Axios, { AxiosError} from 'axios';
 import type { AxiosRequestConfig } from 'axios';
-const BASE_URL = import.meta.env.VITE_AXIOS_BASE_URL_API;
+
+const BASE_URL = import.meta.env.VITE_AXIOS_BASE_URL_API ?? 'http://localhost:3000';
 
 export const instance = Axios.create({
   baseURL: BASE_URL,
@@ -9,6 +10,8 @@ export const instance = Axios.create({
   },
   withCredentials: true,
 });
+
+
 
 export const axios = <T>(
   config: AxiosRequestConfig,

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   AppBar,
   Box,
@@ -12,20 +12,46 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import ChatPage from "./ChatPage";
 import Sidebar, { DRAWER_WIDTH } from "../components/app/Sidebar";
+import {
+  useGetChatGetAllChats,
+  type GetChatGetAllChatsQueryResult,
+} from "../api/chats/chats";
+import {
+  useGetDocumentGetAllDocuments,
+  type GetDocumentGetAllDocumentsQueryResult,
+} from "../api/documents/documents";
 
 export default function LandingPage() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const [sidebarOpen, setSidebarOpen] = useState(!isMobile);
-  const [conversations] = useState([
-    { id: "1", title: "Pytania o umowę" },
-    { id: "2", title: "Podsumowanie raportu" },
-  ]);
-  const [documents] = useState([
-    { id: "a", name: "raport-2024.pdf" },
-    { id: "b", name: "umowa.pdf" },
-    { id: "c", name: "umowa.pdf" },
-  ]);
+
+  const { data: conversationsData } = useGetChatGetAllChats(undefined);
+  const [conversations, setConversations] = useState<
+    GetChatGetAllChatsQueryResult | undefined
+  >(undefined);
+
+  useEffect(() => {
+    if (conversationsData) {
+      setConversations(conversationsData);
+    }
+  }, [conversationsData]);
+
+  console.log(conversations);
+
+  const { data: documentsData } = useGetDocumentGetAllDocuments();
+  const [documents, setDocuments] = useState<
+    GetDocumentGetAllDocumentsQueryResult | undefined
+  >(undefined);
+
+  useEffect(() => {
+    if (documentsData) {
+      setDocuments(documentsData);
+    }
+  }, [documentsData]);
+
+  const conversationsList = conversations ?? [];
+  const documentsList = documents ?? [];
 
   return (
     <Box sx={{ display: "flex", minHeight: "100vh" }}>
@@ -69,7 +95,7 @@ export default function LandingPage() {
         </AppBar>
         <Toolbar />
         <Container maxWidth="md" sx={{ py: 2 }}>
-          <ChatPage documents={documents} />
+          <ChatPage documents={documentsList} />
         </Container>
       </Box>
     </Box>

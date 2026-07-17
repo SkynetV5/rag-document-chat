@@ -1,10 +1,5 @@
 import {
   Box,
-  ListItemIcon,
-  ListItemText,
-  ListItemButton,
-  List,
-  Typography,
   InputLabel,
   FormControl,
   MenuItem,
@@ -14,6 +9,7 @@ import {
 import ChatBox from "../components/chat/ChatBox";
 import InputBar from "../components/chat/InputBar";
 import { useState } from "react";
+import type { Document } from "../types/types";
 
 type ChatPageProps = {
   documents: Document[];
@@ -21,7 +17,9 @@ type ChatPageProps = {
 
 export default function ChatPage({ documents }: ChatPageProps) {
   const [messages, setMessages] = useState<any[]>([]);
-  const [selectedDocumentId, setSelectedDocumentId] = useState<number>(null);
+  const [selectedDocumentId, setSelectedDocumentId] = useState<string | null>(
+    null,
+  );
 
   return (
     <Box

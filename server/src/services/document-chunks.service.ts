@@ -17,9 +17,9 @@ export const documentChunksService = {
         const chunks = chunkService.createChunks(1000, 200, text);
 
         for (let i = 0; i < chunks.length; i++){
-            const embedding = await embeddingService.embed(chunks[i]);
+            const embedding = await embeddingService.embed(chunks[i].content);
 
-            await supabase.from("documents_chunks").insert({document_id: documentId,
+            await supabase.from("document_chunks").insert({document_id: documentId,
                 content: chunks[i].content,
                 chunk_index: i,
                 page_number: chunks[i].pageNumber,

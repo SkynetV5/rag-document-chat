@@ -8,12 +8,18 @@ const router = Router();
  * @swagger
  * /document/create:
  *   post:
- *     summary: Upload a document
+ *     summary: Upload document
  *     tags:
  *       - Documents
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         multipart/form-data:
+ *           schema:
+ *             $ref: '#/components/schemas/UploadDocumentRequest'
  *     responses:
- *       200:
- *         description: Success
+ *       201:
+ *         description: Document created
  */
 router.post("/create", upload.single("file"), DocumentController.create);
 
@@ -31,8 +37,14 @@ router.post("/create", upload.single("file"), DocumentController.create);
  *         schema:
  *           type: string
  *     responses:
- *       200:
- *         description: Success
+ *       204:
+ *         description: No Content
+ *       404:
+ *         description: Not found
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.delete("/delete/:id", DocumentController.delete);
 
@@ -46,6 +58,10 @@ router.delete("/delete/:id", DocumentController.delete);
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/DocumentsArray'
  */
 router.get("/getAllDocuments", DocumentController.getAllDocuments);
 
@@ -65,6 +81,16 @@ router.get("/getAllDocuments", DocumentController.getAllDocuments);
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Document'
+ *       404:
+ *         description: Not found
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.get("/getDocumentById/:id", DocumentController.getDocumentById);
 
@@ -84,6 +110,10 @@ router.get("/getDocumentById/:id", DocumentController.getDocumentById);
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/DocumentsArray'
  */
 router.get("/getDocumentsByName/:name", DocumentController.getDocumentsByName);
 

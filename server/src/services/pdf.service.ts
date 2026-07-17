@@ -4,18 +4,21 @@ import {PDFParse} from "pdf-parse";
 
 export const pdfService = {
     async downloadPdf(filePath: string){
-        const { data, error} = await supabase.storage.from("documents").download(filePath);
-
-        if (error){
+        const { data, error } =
+            await supabase.storage
+            .from("documents")
+            .download(filePath);
+    
+        if(error){
             throw error;
         }
-
-        const buffer = Buffer.from(await data.arrayBuffer());
-
-        return buffer;
+    
+        const arrayBuffer = await data.arrayBuffer();
+    
+        return new Uint8Array(arrayBuffer);
     },
 
-    async extractPages(buffer: Buffer){
+    async extractPages(buffer: Uint8Array){
         const pdf = await pdfjsLib.getDocument({data: buffer}).promise;
 
         

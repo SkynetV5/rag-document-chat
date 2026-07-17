@@ -26,24 +26,62 @@ export const documentService = {
     },
 
     async create(file: Express.Multer.File){
-        const fileName = `${Date.now()}-${file.originalname}`;
-        const name = file.filename;
-        const size = file.size;
-        
-        const {error : uploadError} = await supabase.storage.from("documents").upload(fileName, file.buffer, {contentType: file.mimetype});
 
-        if (uploadError) throw uploadError;
+    console.log("FILE:", {
+        name: file.originalname,
+        size: file.size,
+        mimetype: file.mimetype,
+        bufferType: file.buffer.constructor.name
+    });
 
-        const {data: urlData} = supabase.storage.from("documents").getPublicUrl(fileName);
 
-        const file_path = urlData.publicUrl;
+    const fileName = `${Date.now()}-${file.originalname}`;
 
-        const {data,error} = await supabase.from("documents").insert({name,file_path,size}).select().single();
 
-        if (error) throw error;
+    console.log("BEFORE UPLOAD");
 
-        return data;
-    },
+
+    const {error: uploadError} =
+        await supabase.storage
+        .from("documents")
+        .upload(
+            fileName,
+            new Uint8Array(file.buffer),
+            {
+                contentType:file.mimetype
+            }
+        );
+
+
+    console.log("AFTER UPLOAD");
+
+
+    if(uploadError) throw uploadError;
+
+
+    console.log("BEFORE INSERT");
+
+
+    const {data,error} =
+        await supabase
+        .from("documents")
+        .insert({
+            name:file.originalname,
+            file_path:fileName,
+            size:file.size
+        })
+        .select()
+        .single();
+
+
+    console.log("AFTER INSERT");
+
+
+    if(error) throw error;
+
+
+    return data;
+},
 
     async delete(id:string){
         const {data: document, error: errorDocument} = await supabase.from("documents").select("file_path").eq("id",id).single();

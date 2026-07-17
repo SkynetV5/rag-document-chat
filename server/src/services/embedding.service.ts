@@ -1,20 +1,26 @@
-import {groq} from "../lib/groq";
+import { pipeline } from "@xenova/transformers";
 
 
+let extractor: any;
+
+async function getExtractor() {
+  if (!extractor) {
+      extractor = await pipeline(
+          "feature-extraction",
+          "Xenova/all-MiniLM-L6-v2"
+      );
+  }
+
+  return extractor;
+}
 
 export const embeddingService = {
     async embed(text: string): Promise<number[]> {
-      const res = await groq.embeddings.create({
-        model: "nomic-embed-text",
-        input: text,
-      });
+
+      const model = await getExtractor();
+      const res = await model(
+        text,{pooling: "mean", normalize:true});
   
-      const embedding = res.data[0].embedding;
-  
-      if (!Array.isArray(embedding)) {
-        throw new Error("Embedding is not a number array.");
-      }
-  
-      return embedding;
+      return Array.from(res.data);
     },
   };

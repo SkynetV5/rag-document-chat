@@ -4,20 +4,36 @@ import { DocumentsChatsController } from "../controllers/documents-chats.control
 const router = Router();
 
 /**
- * @swagger
+ * @openapi
  * /document-chats/create:
  *   post:
  *     summary: Create a document-chat relation
  *     tags:
  *       - Document Chats
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             $ref: '#/components/schemas/CreateDocumentChatRequest'
  *     responses:
- *       200:
- *         description: Success
+ *       201:
+ *         description: Created
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/DocumentChatsArray'
+ *       400:
+ *         description: Bad request
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.post("/create", DocumentsChatsController.create);
 
 /**
- * @swagger
+ * @openapi
  * /document-chats/deleteByChatId/{id}:
  *   delete:
  *     summary: Delete document-chat relations by chat id
@@ -30,13 +46,19 @@ router.post("/create", DocumentsChatsController.create);
  *         schema:
  *           type: string
  *     responses:
- *       200:
- *         description: Success
+ *       204:
+ *         description: No Content
+ *       404:
+ *         description: Not found
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.delete("/deleteByChatId/:id", DocumentsChatsController.deleteByChatId);
 
 /**
- * @swagger
+ * @openapi
  * /document-chats/deleteByDocumentId/{id}:
  *   delete:
  *     summary: Delete document-chat relations by document id
@@ -49,34 +71,60 @@ router.delete("/deleteByChatId/:id", DocumentsChatsController.deleteByChatId);
  *         schema:
  *           type: string
  *     responses:
- *       200:
- *         description: Success
+ *       204:
+ *         description: No Content
+ *       404:
+ *         description: Not found
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.delete("/deleteByDocumentId/:id", DocumentsChatsController.deleteByDocumentId);
 
 /**
- * @swagger
+ * @openapi
  * /document-chats/getByDocumentId:
  *   get:
  *     summary: Get document-chat relations by document id
  *     tags:
  *       - Document Chats
+ *     parameters:
+ *       - in: query
+ *         name: documentId
+ *         required: true
+ *         schema:
+ *           type: string
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/DocumentChatsArray'
  */
 router.get("/getByDocumentId", DocumentsChatsController.getByDocumentId);
 
 /**
- * @swagger
+ * @openapi
  * /document-chats/getByChatId:
  *   get:
  *     summary: Get document-chat relations by chat id
  *     tags:
  *       - Document Chats
+ *     parameters:
+ *       - in: query
+ *         name: chatId
+ *         required: true
+ *         schema:
+ *           type: string
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/DocumentChatsArray'
  */
 router.get("/getByChatId", DocumentsChatsController.getByChatId);
 

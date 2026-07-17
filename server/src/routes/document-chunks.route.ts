@@ -4,7 +4,7 @@ import { DocumentChunksController } from "../controllers/document-chunks.control
 const router = Router();
 
 /**
- * @swagger
+ * @openapi
  * /document-chunks/indexDocumentChunks/{documentId}:
  *   post:
  *     summary: Index document chunks
@@ -17,8 +17,18 @@ const router = Router();
  *         schema:
  *           type: string
  *     responses:
- *       200:
- *         description: Success
+ *       201:
+ *         description: Created
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/MessageResponse'
+ *       400:
+ *         description: Bad request
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.post("/indexDocumentChunks/:documentId", DocumentChunksController.indexDocumentChunks);
 

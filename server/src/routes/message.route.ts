@@ -4,20 +4,36 @@ import { MessageController } from "../controllers/message.controller";
 const router = Router();
 
 /**
- * @swagger
+ * @openapi
  * /message/create:
  *   post:
  *     summary: Create a message
  *     tags:
  *       - Messages
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             $ref: '#/components/schemas/CreateMessageRequest'
  *     responses:
- *       200:
- *         description: Success
+ *       201:
+ *         description: Created
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Message'
+ *       400:
+ *         description: Bad request
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.post("/create", MessageController.create);
 
 /**
- * @swagger
+ * @openapi
  * /message/getAllMessages:
  *   get:
  *     summary: Get all messages
@@ -26,71 +42,138 @@ router.post("/create", MessageController.create);
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/MessagesArray'
  */
 router.get("/getAllMessages", MessageController.getAllMessages);
 
 /**
- * @swagger
- * /message/getMessageById:
+ * @openapi
+ * /message/getMessageById/{id}:
  *   get:
- *     summary: Get messages by chat id
+ *     summary: Get message by id
  *     tags:
  *       - Messages
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Message'
+ *       404:
+ *         description: Not found
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.get("/getMessageById", MessageController.getMessagesByChatId);
 
 /**
- * @swagger
- * /message/getMessageByRole:
+ * @openapi
+ * /message/getMessageByRole/{role}:
  *   get:
  *     summary: Get messages by role
  *     tags:
  *       - Messages
+ *     parameters:
+ *       - in: path
+ *         name: role
+ *         required: true
+ *         schema:
+ *           type: string
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/MessagesArray'
  */
 router.get("/getMessageByRole", MessageController.getMessagesByRole);
 
 /**
- * @swagger
- * /message/getMessagesByChatId:
+ * @openapi
+ * /message/getMessagesByChatId/{chatId}:
  *   get:
  *     summary: Get messages by chat id
  *     tags:
  *       - Messages
+ *     parameters:
+ *       - in: path
+ *         name: chatId
+ *         required: true
+ *         schema:
+ *           type: string
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/MessagesArray'
  */
 router.get("/getMessagesByChatId", MessageController.getMessagesByChatId);
 
 /**
- * @swagger
- * /message/getMessagesByChatIdAndRole:
+ * @openapi
+ * /message/getMessagesByChatIdAndRole/{chatId}/{role}:
  *   get:
  *     summary: Get messages by chat id and role
  *     tags:
  *       - Messages
+ *     parameters:
+ *       - in: path
+ *         name: chatId
+ *         required: true
+ *         schema:
+ *           type: string
+ *       - in: path
+ *         name: role
+ *         required: true
+ *         schema:
+ *           type: string
  *     responses:
  *       200:
  *         description: Success
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/MessagesArray'
  */
 router.get("/getMessagesByChatIdAndRole", MessageController.getMessagesByChatIdAndRole);
 
 /**
- * @swagger
- * /message/delete:
+ * @openapi
+ * /message/delete/{id}:
  *   delete:
  *     summary: Delete a message
  *     tags:
  *       - Messages
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
  *     responses:
- *       200:
- *         description: Success
+ *       204:
+ *         description: No Content
+ *       404:
+ *         description: Not found
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.delete("/delete", MessageController.delete);
 

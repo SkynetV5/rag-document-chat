@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import { documentService } from "../services/document.service";
+import { documentChunksService } from "../services/document-chunks.service";
 
 export const DocumentController = {
 
@@ -12,6 +13,10 @@ export const DocumentController = {
             }
 
             const data = await documentService.create(file);
+
+            await documentChunksService.indexDocumentChunks(
+                data.id
+            );
             
             return res.status(201).json({message: "Document created successfully."});
         } catch (error){

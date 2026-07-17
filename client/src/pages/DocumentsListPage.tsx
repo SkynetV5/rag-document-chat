@@ -16,31 +16,45 @@ import {
 import DescriptionIcon from "@mui/icons-material/Description";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutlineOutlined";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
-
-const documents = [
-  {
-    id: 1,
-    name: "Umowa.pdf",
-    size: "1.8 MB",
-    date: "12.06.2026",
-  },
-  {
-    id: 2,
-    name: "Faktura.pdf",
-    size: "540 KB",
-    date: "10.06.2026",
-  },
-  {
-    id: 3,
-    name: "Regulamin.pdf",
-    size: "2.3 MB",
-    date: "08.06.2026",
-  },
-];
+import { useEffect, useState } from "react";
+import type { Document } from "../types/types";
+import {
+  useDeleteDocumentDeleteId,
+  useGetDocumentGetAllDocuments,
+} from "../api/documents/documents";
 
 export default function DocumentsListPage() {
-  const handleDelete = (id: number) => {
-    console.log("Usuń dokument", id);
+  const [documents, setDocuments] = useState<Document[]>([]);
+
+  const {
+    data: documentsData,
+    error: documentDataError,
+    refetch,
+  } = useGetDocumentGetAllDocuments();
+
+  const deleteDocument = useDeleteDocumentDeleteId();
+
+  useEffect(() => {
+    if (documentsData) {
+      setDocuments(documentsData);
+    }
+  }, [documentsData]);
+
+  console.log(documents);
+
+  const handleDelete = (id: string) => {
+    deleteDocument.mutate(
+      { id },
+      {
+        onSuccess: () => {
+          console.log("Dokument Został usuniety.");
+          refetch();
+        },
+        onError: (error) => {
+          console.error(error);
+        },
+      },
+    );
   };
 
   return (
@@ -144,13 +158,13 @@ export default function DocumentsListPage() {
                       primary={
                         <Typography fontWeight={600}>{doc.name}</Typography>
                       }
-                      secondary={`Dodano: ${doc.date}`}
+                      secondary={`Dodano: ${new Date(Number(doc.file_path.split("-")[0]) * 1000)}`}
                     />
 
                     <Chip
                       sx={{ px: 0.5, mx: 1 }}
                       icon={<DescriptionIcon />}
-                      label={doc.size}
+                      label={`${(doc.size / 1024).toFixed(2)} KB`}
                       variant="outlined"
                     />
                   </ListItem>

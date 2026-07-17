@@ -17,6 +17,8 @@ import AddIcon from "@mui/icons-material/Add";
 import ChatIcon from "@mui/icons-material/Chat";
 import DescriptionIcon from "@mui/icons-material/Description";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
+import type { GetChatGetAllChatsQueryResult } from "../../api/chats/chats";
+import type { Chat } from "../../types/types";
 
 const DRAWER_WIDTH = 280;
 
@@ -24,7 +26,7 @@ type SidebarProps = {
   open: boolean;
   onClose?: () => void;
   variant?: "permanent" | "persistent" | "temporary";
-  conversations?: { id: string; title: string }[];
+  conversations?: Chat[];
   activeConversationId?: string;
   onNewChat?: () => void;
   onSelectConversation?: (id: string) => void;
@@ -34,7 +36,7 @@ export default function Sidebar({
   open,
   onClose,
   variant = "permanent",
-  conversations = [],
+  conversations = undefined,
   activeConversationId,
   onNewChat,
   onSelectConversation,
@@ -61,7 +63,7 @@ export default function Sidebar({
         </Typography>
       </Toolbar>
 
-      {conversations.length !== 0 && (
+      {conversations?.length !== 0 && (
         <Box sx={{ px: 2, pb: 2 }}>
           <Button
             fullWidth
@@ -82,7 +84,7 @@ export default function Sidebar({
       </Box>
 
       <List dense disablePadding sx={{ flex: 1, overflowY: "auto" }}>
-        {conversations.length === 0 ? (
+        {conversations?.length === 0 ? (
           <Box sx={{ px: 2, pb: 2 }}>
             <Typography
               variant="body1"
@@ -101,7 +103,7 @@ export default function Sidebar({
             </Button>
           </Box>
         ) : (
-          conversations.map((chat) => (
+          conversations?.map((chat) => (
             <ListItemButton
               key={chat.id}
               selected={chat.id === activeConversationId}
@@ -110,10 +112,7 @@ export default function Sidebar({
               <ListItemIcon sx={{ minWidth: 36 }}>
                 <ChatIcon fontSize="small" />
               </ListItemIcon>
-              <ListItemText
-                primary={chat.title}
-                primaryTypographyProps={{ noWrap: true }}
-              />
+              <ListItemText primary={chat.title} />
             </ListItemButton>
           ))
         )}

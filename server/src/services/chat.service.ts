@@ -1,4 +1,5 @@
 import { supabase } from "../lib/supabase";
+import { DocumentsChatsService } from "./documents-chats.service";
 import { ragService } from "./rag.service";
 
 export const chatService = {
@@ -47,6 +48,13 @@ export const chatService = {
     },
 
     async delete(id:string){
+
+        const documentsChatByChatId = await DocumentsChatsService.getByChatId(id);
+
+        for (let i = 0; i < documentsChatByChatId.length; i++){
+            await DocumentsChatsService.deleteByChatId(id);
+        }
+
         const {data, error} = await supabase.from("chats").delete().eq("id", id).single();
 
         if (error) throw error;

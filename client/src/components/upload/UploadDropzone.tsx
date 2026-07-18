@@ -102,8 +102,6 @@ export default function UploadDropzone() {
       { data: { file } },
       {
         onSuccess: () => {
-          console.log("upload", file.name);
-
           setComplete(true);
           setFile(null);
           setIsUploading(false);

@@ -103,7 +103,7 @@ router.delete("/deleteByDocumentId/:id", DocumentsChatsController.deleteByDocume
  *             schema:
  *               $ref: '#/components/schemas/DocumentChatsArray'
  */
-router.get("/getByDocumentId", DocumentsChatsController.getByDocumentId);
+router.get("/getByDocumentId/:id", DocumentsChatsController.getByDocumentId);
 
 /**
  * @openapi
@@ -126,7 +126,7 @@ router.get("/getByDocumentId", DocumentsChatsController.getByDocumentId);
  *             schema:
  *               $ref: '#/components/schemas/DocumentChatsArray'
  */
-router.get("/getByChatId", DocumentsChatsController.getByChatId);
+router.get("/getByChatId/:id", DocumentsChatsController.getByChatId);
 
 export default router;
 

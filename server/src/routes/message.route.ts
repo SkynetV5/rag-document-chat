@@ -76,7 +76,7 @@ router.get("/getAllMessages", MessageController.getAllMessages);
  *             schema:
  *               $ref: '#/components/schemas/ErrorResponse'
  */
-router.get("/getMessageById", MessageController.getMessagesByChatId);
+router.get("/getMessageById/:id", MessageController.getMessagesByChatId);
 
 /**
  * @openapi
@@ -99,7 +99,7 @@ router.get("/getMessageById", MessageController.getMessagesByChatId);
  *             schema:
  *               $ref: '#/components/schemas/MessagesArray'
  */
-router.get("/getMessageByRole", MessageController.getMessagesByRole);
+router.get("/getMessageByRole/:role", MessageController.getMessagesByRole);
 
 /**
  * @openapi
@@ -122,7 +122,7 @@ router.get("/getMessageByRole", MessageController.getMessagesByRole);
  *             schema:
  *               $ref: '#/components/schemas/MessagesArray'
  */
-router.get("/getMessagesByChatId", MessageController.getMessagesByChatId);
+router.get("/getMessagesByChatId/:chatId", MessageController.getMessagesByChatId);
 
 /**
  * @openapi
@@ -150,7 +150,7 @@ router.get("/getMessagesByChatId", MessageController.getMessagesByChatId);
  *             schema:
  *               $ref: '#/components/schemas/MessagesArray'
  */
-router.get("/getMessagesByChatIdAndRole", MessageController.getMessagesByChatIdAndRole);
+router.get("/getMessagesByChatIdAndRole/:chatId/:role", MessageController.getMessagesByChatIdAndRole);
 
 /**
  * @openapi
@@ -175,6 +175,6 @@ router.get("/getMessagesByChatIdAndRole", MessageController.getMessagesByChatIdA
  *             schema:
  *               $ref: '#/components/schemas/ErrorResponse'
  */
-router.delete("/delete", MessageController.delete);
+router.delete("/delete/:id", MessageController.delete);
 
 export default router;

@@ -5,7 +5,17 @@ export default function ChatBox({ messages }: any) {
   return (
     <Box sx={{ flex: 1, overflowY: "auto", mb: 2 }}>
       {messages.map((msg: any, i: number) => (
-        <Message key={i} {...msg} />
+        <Box
+          key={i}
+          sx={{
+            display: "flex",
+            justifyContent: msg.role === "user" ? "flex-end" : "flex-start",
+            mb: 1,
+            px: 2,
+          }}
+        >
+          <Message {...msg} />
+        </Box>
       ))}
     </Box>
   );

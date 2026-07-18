@@ -17,7 +17,11 @@ import AddIcon from "@mui/icons-material/Add";
 import ChatIcon from "@mui/icons-material/Chat";
 import DescriptionIcon from "@mui/icons-material/Description";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
-import type { GetChatGetAllChatsQueryResult } from "../../api/chats/chats";
+import DeleteOutlineIcon from "@mui/icons-material/DeleteOutlineOutlined";
+import {
+  useDeleteChatDeleteId,
+  type GetChatGetAllChatsQueryResult,
+} from "../../api/chats/chats";
 import type { Chat } from "../../types/types";
 
 const DRAWER_WIDTH = 280;
@@ -28,8 +32,9 @@ type SidebarProps = {
   variant?: "permanent" | "persistent" | "temporary";
   conversations?: Chat[];
   activeConversationId?: string;
-  onNewChat?: () => void;
-  onSelectConversation?: (id: string) => void;
+  onNewChat: (value: boolean) => void;
+  onSelectConversation: (id: string) => void;
+  refetchConversations: () => void;
 };
 
 export default function Sidebar({
@@ -40,7 +45,26 @@ export default function Sidebar({
   activeConversationId,
   onNewChat,
   onSelectConversation,
+  refetchConversations,
 }: SidebarProps) {
+  const deleteChat = useDeleteChatDeleteId();
+
+  const handleDelete = (id: string) => {
+    deleteChat.mutate(
+      { id },
+      {
+        onSuccess: () => {
+          refetchConversations();
+          onNewChat(true);
+          onSelectConversation("");
+        },
+        onError: (error) => {
+          console.error(error);
+        },
+      },
+    );
+  };
+
   return (
     <Drawer
       variant={variant}
@@ -69,7 +93,10 @@ export default function Sidebar({
             fullWidth
             variant="contained"
             startIcon={<AddIcon />}
-            onClick={onNewChat}
+            onClick={() => {
+              onNewChat?.(true);
+              onSelectConversation?.("");
+            }}
           >
             Nowa rozmowa
           </Button>
@@ -105,14 +132,30 @@ export default function Sidebar({
         ) : (
           conversations?.map((chat) => (
             <ListItemButton
+              sx={{ py: 1 }}
               key={chat.id}
               selected={chat.id === activeConversationId}
-              onClick={() => onSelectConversation?.(chat.id)}
+              onClick={() => {
+                onSelectConversation?.(chat.id);
+                onNewChat?.(false);
+              }}
             >
-              <ListItemIcon sx={{ minWidth: 36 }}>
+              <ListItemIcon>
                 <ChatIcon fontSize="small" />
               </ListItemIcon>
-              <ListItemText primary={chat.title} />
+              <ListItemText primary={chat.title} sx={{ flex: 10 }} />
+              {chat.id === activeConversationId && (
+                <ListItemText sx={{ minWidth: 36 }}>
+                  <IconButton
+                    edge="end"
+                    color="error"
+                    size="small"
+                    onClick={() => handleDelete(chat.id)}
+                  >
+                    <DeleteOutlineIcon />
+                  </IconButton>
+                </ListItemText>
+              )}
             </ListItemButton>
           ))
         )}

@@ -5,7 +5,7 @@ import chatRoutes from "./routes/chat.route";
 import messageRouters from "./routes/message.route";
 import documentRoutes from "./routes/document.route";
 import documentChunksRoutes from "./routes/document-chunks.route";
-import documentsChatsRoutes from "./routes/document-chunks.route";
+import documentsChatsRoutes from "./routes/documents-chats.route";
 
 import swaggerUi from "swagger-ui-express";
 import { swaggerSpec } from "./config/swagger";

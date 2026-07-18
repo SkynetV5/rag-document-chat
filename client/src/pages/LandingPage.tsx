@@ -24,9 +24,12 @@ import {
 export default function LandingPage() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
-  const [sidebarOpen, setSidebarOpen] = useState(!isMobile);
+  const [sidebarOpen, setSidebarOpen] = useState<boolean>(!isMobile);
+  const [isNewChat, setIsNewChat] = useState<boolean>(true);
+  const [activeConversationId, setActiveConversationId] = useState<string>("");
 
-  const { data: conversationsData } = useGetChatGetAllChats(undefined);
+  const { data: conversationsData, refetch: refetchConversations } =
+    useGetChatGetAllChats(undefined);
   const [conversations, setConversations] = useState<
     GetChatGetAllChatsQueryResult | undefined
   >(undefined);
@@ -36,8 +39,6 @@ export default function LandingPage() {
       setConversations(conversationsData);
     }
   }, [conversationsData]);
-
-  console.log(conversations);
 
   const { data: documentsData } = useGetDocumentGetAllDocuments();
   const [documents, setDocuments] = useState<
@@ -60,8 +61,10 @@ export default function LandingPage() {
         onClose={() => setSidebarOpen(false)}
         variant={isMobile ? "temporary" : "permanent"}
         conversations={conversations}
-        onNewChat={() => console.log("new chat")}
-        onSelectConversation={(id) => console.log("select", id)}
+        onNewChat={setIsNewChat}
+        onSelectConversation={(id) => setActiveConversationId(id)}
+        activeConversationId={activeConversationId}
+        refetchConversations={refetchConversations}
       />
       <Box
         component="main"
@@ -95,7 +98,14 @@ export default function LandingPage() {
         </AppBar>
         <Toolbar />
         <Container maxWidth="md" sx={{ py: 2 }}>
-          <ChatPage documents={documentsList} />
+          <ChatPage
+            documents={documentsList}
+            isNewChat={isNewChat}
+            setIsNewChat={setIsNewChat}
+            activeConversationId={activeConversationId}
+            onSelectConversation={setActiveConversationId}
+            refetchConversations={refetchConversations}
+          />
         </Container>
       </Box>
     </Box>

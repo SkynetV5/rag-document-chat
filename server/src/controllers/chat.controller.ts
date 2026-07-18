@@ -4,19 +4,23 @@ import { chatService } from "../services/chat.service";
 
 export const ChatController = {
 
-    async sendMessage(req: Request, res: Response) {
-        try{
-            const {chatId,message} = req.body;
-        
-            const result = await chatService.handleChat({
+    async sendMessage(req: Request, res: Response){
+        try {
+            const {chatId, message} = req.body;
+    
+    
+            const data = await chatService.handleChat({
                 chatId,
                 message
             });
-
-            return res.status(200).json(result);
-        } catch (error) {
-            
-            return res.status(500).json({error: `Chat failed. Error: ${error}`});
+    
+            res.status(200).json(data);
+    
+        } catch(error){
+            console.error(error);
+            res.status(500).json({
+                error: `Chat failed. Error: ${error}`
+            });
         }
     },
 

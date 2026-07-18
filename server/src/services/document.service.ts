@@ -1,4 +1,5 @@
 import { supabase } from "../lib/supabase"
+import { DocumentsChatsService } from "./documents-chats.service";
 
 export const documentService = {
     async getAllDocuments(){
@@ -27,19 +28,14 @@ export const documentService = {
 
     async create(file: Express.Multer.File){
 
-    console.log("FILE:", {
-        name: file.originalname,
-        size: file.size,
-        mimetype: file.mimetype,
-        bufferType: file.buffer.constructor.name
-    });
-
+    // console.log("FILE:", {
+    //     name: file.originalname,
+    //     size: file.size,
+    //     mimetype: file.mimetype,
+    //     bufferType: file.buffer.constructor.name
+    // });
 
     const fileName = `${Date.now()}-${file.originalname}`;
-
-
-    console.log("BEFORE UPLOAD");
-
 
     const {error: uploadError} =
         await supabase.storage
@@ -52,15 +48,7 @@ export const documentService = {
             }
         );
 
-
-    console.log("AFTER UPLOAD");
-
-
     if(uploadError) throw uploadError;
-
-
-    console.log("BEFORE INSERT");
-
 
     const {data,error} =
         await supabase
@@ -72,10 +60,6 @@ export const documentService = {
         })
         .select()
         .single();
-
-
-    console.log("AFTER INSERT");
-
 
     if(error) throw error;
 
@@ -98,6 +82,12 @@ export const documentService = {
         const {error: storageError} = await supabase.storage.from("documents").remove([fileName]);
 
         if (storageError) throw storageError;
+
+        const documentsChatByDocumentId = await DocumentsChatsService.getByDocumentId(id);
+
+        for (let i = 0; i < documentsChatByDocumentId.length; i++){
+            await DocumentsChatsService.deleteByDocumentId(id);
+        }
 
         const { data, error} = await supabase.from("documents").delete().eq("id", id).single();
 

@@ -41,17 +41,26 @@ export const messageService = {
         return data;
     },
 
-
     async create({chatId, role, content}: {chatId:string, role:string, content:string}){
 
-        const {data: chat, error: chatError} = await chatService.getChatById(chatId);
-
-        if (!chat[0].id) throw new Error("This Chat Id doesn't exist.");
-
-        const {data, error} = await supabase.from("messages").insert({chatId,role,content}).select().single();
-
+        const chat = await chatService.getChatById(chatId);
+    
+        if (!chat?.id) {
+            throw new Error("This Chat Id doesn't exist.");
+        }
+    
+        const {data, error} = await supabase
+            .from("messages")
+            .insert({
+                chat_id: chatId,
+                role,
+                content
+            })
+            .select()
+            .single();
+    
         if (error) throw error;
-
+    
         return data;
     },
 

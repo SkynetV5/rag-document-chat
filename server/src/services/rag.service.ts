@@ -29,7 +29,7 @@ export const ragService = {
         message:string;
         context: any[]
     }) {
-        const contextText = context.map((c) => c.context).join("\n");
+        const contextText = context.map((c) => c.content).join("\n");
 
         const response = await groq.chat.completions.create({
             model: "llama-3.1-8b-instant",

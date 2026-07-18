@@ -59,14 +59,25 @@ export const MessageController = {
         }
     },
 
-    async create(req: Request, res:Response){
-        try{
+    async create(req: Request, res: Response){
+        try {
+    
             const {chatId, role, content} = req.body;
-
-            const data = await messageService.create({chatId,role,content})
+    
+    
+            const data = await messageService.create({
+                chatId,
+                role,
+                content
+            });
+    
             res.status(201).json(data);
-        } catch (error){
-            return res.status(500).json({error: `Failed to create message. Error: ${error}`});
+    
+        } catch(error:any){
+    
+            res.status(500).json({
+                error: error.message ?? error
+            });
         }
     },
 

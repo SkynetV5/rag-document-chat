@@ -8,15 +8,48 @@ import {
 } from "@mui/material";
 import ChatBox from "../components/chat/ChatBox";
 import InputBar from "../components/chat/InputBar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { Document } from "../types/types";
+import { useGetMessageGetMessagesByChatIdChatId } from "../api/messages/messages";
 
 type ChatPageProps = {
   documents: Document[];
+  isNewChat: boolean;
+  setIsNewChat: (value: boolean) => void;
+  activeConversationId?: string;
+  onSelectConversation?: (id: string) => void;
+  refetchConversations: () => void;
 };
 
-export default function ChatPage({ documents }: ChatPageProps) {
+export default function ChatPage({
+  documents,
+  isNewChat,
+  setIsNewChat,
+  activeConversationId,
+  onSelectConversation,
+  refetchConversations,
+}: ChatPageProps) {
+  const { data: messagesData, error: errorMessagesData } =
+    useGetMessageGetMessagesByChatIdChatId(activeConversationId || "", {
+      query: {
+        enabled: !!activeConversationId,
+      },
+    });
   const [messages, setMessages] = useState<any[]>([]);
+
+  useEffect(() => {
+    if (messagesData) {
+      setMessages(messagesData);
+    }
+  }, [messagesData]);
+
+  useEffect(() => {
+    if (isNewChat) {
+      setMessages([]);
+      setSelectedDocumentId(null);
+    }
+  }, [isNewChat]);
+
   const [selectedDocumentId, setSelectedDocumentId] = useState<string | null>(
     null,
   );
@@ -70,6 +103,11 @@ export default function ChatPage({ documents }: ChatPageProps) {
           setMessages={setMessages}
           documentId={selectedDocumentId}
           disabled={!selectedDocumentId}
+          activeConversationId={activeConversationId}
+          onSelectConversation={onSelectConversation}
+          isNewChat={isNewChat}
+          setIsNewChat={setIsNewChat}
+          refetchConversations={refetchConversations}
         />
       </Box>
     </Box>

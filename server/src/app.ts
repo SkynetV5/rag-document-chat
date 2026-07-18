@@ -9,6 +9,7 @@ import documentsChatsRoutes from "./routes/documents-chats.route";
 
 import swaggerUi from "swagger-ui-express";
 import { swaggerSpec } from "./config/swagger";
+import { errorHandler, notFoundHandler } from './middleware/error-handler';
 
 const app = express();
 
@@ -159,6 +160,9 @@ app.use("/message", messageRouters)
 app.use("/document", documentRoutes);
 app.use("/document-chunks", documentChunksRoutes);
 app.use("/document-chats", documentsChatsRoutes)
+
+app.use(notFoundHandler);
+app.use(errorHandler);
 
 
 

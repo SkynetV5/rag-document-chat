@@ -1,18 +1,14 @@
 import { Request, Response } from "express";
 import { documentChunksService } from "../services/document-chunks.service";
+import { asyncHandler, validateId } from "../utils/validation";
 
 export const DocumentChunksController = {
 
-    async indexDocumentChunks(req:Request<{documentId:string}>, res:Response){
+    indexDocumentChunks: asyncHandler(async (req:Request<{documentId:string}>, res:Response) => {
         const { documentId } = req.params;
-        try{
-            
-            const data = await documentChunksService.indexDocumentChunks(documentId);
+      
+        const data = await documentChunksService.indexDocumentChunks(validateId(documentId,"documentId"));
 
-            return res.status(201).json(`Created document chunks on document Id: ${documentId}`);
-        } catch (error){
-
-            return res.status(500).json(`Failed document chunks on document Id: ${documentId}, Error: ${error}`);
-        }
-    }
+        return res.status(201).json(`Created document chunks on document Id: ${documentId}`);
+    })
 }

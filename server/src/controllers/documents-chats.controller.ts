@@ -1,71 +1,57 @@
 import { Request, Response } from "express";
 import { DocumentsChatsService } from "../services/documents-chats.service";
+import { asyncHandler, validateId, validateRequiredString } from "../utils/validation";
 
 export const DocumentsChatsController = {
 
-    async create(req: Request, res: Response){
+    create: asyncHandler(async (req: Request, res: Response) => {
 
-        try{
+        const {documentId, chatId} = req.body;
 
-            const {documentId, chatId} = req.body;
+        const validatedDocumentId = validateId(documentId,"documentId")
+        const validatedChatId = validateId(chatId,"chatId")
 
-            const data = await DocumentsChatsService.create({documentId,chatId});
+        const data = await DocumentsChatsService.create({documentId: validatedDocumentId,chatId: validatedChatId});
 
-            return res.status(201).json(data);
-        } catch(error){
-            return res.status(500).json({error: `Failed to create documentsChats. Error: ${error}`});
-        }
-    },
+        return res.status(201).json(data);
+        
+    }),
 
-    async deleteByDocumentId(req: Request<{documentId:string}>, res: Response){
-        try{
+    deleteByDocumentId: asyncHandler(async (req: Request<{documentId:string}>, res: Response) => {
+        
+        const {documentId} = req.params;
 
-            const {documentId} = req.params;
+        const data = await DocumentsChatsService.deleteByDocumentId(validateId(documentId,"documentId"));
 
-            const data = await DocumentsChatsService.deleteByDocumentId(documentId);
+        res.status(204).json({message: "Deleted successfully."});
+    }),
 
-            res.status(204).json({message: "Deleted successfully."});
-        } catch(error){
-            return res.status(500).json({error: `Failed to delete. Error: ${error}`});
-        }
-    },
+    deleteByChatId: asyncHandler(async (req: Request<{chatId:string}>, res: Response) => {
+    
+        const {chatId} = req.params;
 
-    async deleteByChatId(req: Request<{chatId:string}>, res: Response){
-        try{
+        const data = await DocumentsChatsService.deleteByDocumentId(validateId(chatId,"chatId"));
 
-            const {chatId} = req.params;
+        res.status(204).json({message: "Deleted successfully."});
+    }),
 
-            const data = await DocumentsChatsService.deleteByDocumentId(chatId);
+    getByChatId: asyncHandler(async (req: Request<{chatId:string}>, res: Response) => {
+       
+        const {chatId} = req.params;
 
-            res.status(204).json({message: "Deleted successfully."});
-        } catch(error){
-            return res.status(500).json({error: `Failed to delete. Error: ${error}`});
-        }
-    },
+        const data = await DocumentsChatsService.getByChatId(validateId(chatId,"chatId"));
 
-    async getByChatId(req: Request<{chatId:string}>, res: Response){
-        try{
+        res.status(200).json(data);
 
-            const {chatId} = req.params;
+    }),
 
-            const data = await DocumentsChatsService.getByChatId(chatId);
+    getByDocumentId: asyncHandler(async (req: Request<{documentId:string}>, res: Response) => {
+        
+        const {documentId} = req.params;
 
-            res.status(200).json(data);
-        } catch(error){
-            return res.status(500).json({error: `Failed to get data. Error: ${error}`});
-        }
-    },
+        const data = await DocumentsChatsService.getByChatId(validateId(documentId, "documentId"));
 
-    async getByDocumentId(req: Request<{documentId:string}>, res: Response){
-        try{
-
-            const {documentId} = req.params;
-
-            const data = await DocumentsChatsService.getByChatId(documentId);
-
-            res.status(200).json(data);
-        } catch(error){
-            return res.status(500).json({error: `Failed to get data. Error: ${error}`});
-        }
-    }
+        res.status(200).json(data);
+        
+    })
 }

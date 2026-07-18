@@ -1,71 +1,68 @@
 import { Request, Response } from "express";
 import { documentService } from "../services/document.service";
 import { documentChunksService } from "../services/document-chunks.service";
+import { asyncHandler, validateId, validateRequiredString } from "../utils/validation";
+import { Multer } from "multer";
+
+
+type UploadedFile = {
+    originalname: string;
+    mimetype: string;
+    size: number;
+    buffer: Buffer;
+  };
+
+type UploadRequest = Request & { file?: UploadedFile };
 
 export const DocumentController = {
 
-    async create(req: Request, res: Response){
-        try{
-            const file = req.file;
+    create: asyncHandler(async (req: UploadRequest, res: Response) => {
+       
+        const file = req.file;
 
-            if (!file){
-                return res.status(400).json({error: "Not file uploaded."});
-            }
-
-            const data = await documentService.create(file);
-
-            await documentChunksService.indexDocumentChunks(
-                data.id
-            );
-            
-            return res.status(201).json({message: "Document created successfully."});
-        } catch (error){
-            return res.status(500).json({error: `Failed to create document. Error: ${error}`});
+        if (!file){
+            return res.status(400).json({error: "Not file uploaded."});
         }
-    },
 
-    async delete(req: Request<{id: string}>, res: Response){
-        try{
-            const { id } = req.params;
-            const data = await documentService.delete(id);
+        const data = await documentService.create(file);
 
-            return res.status(204).json({message: "Document deleted successfully."});
-        } catch (error){
-            return res.status(500).json({error: `Failed to delete document. Error: ${error}`});
-        }
-    },
+        await documentChunksService.indexDocumentChunks(validateId(
+            data.id, "documentId"));
+        
+        return res.status(201).json({message: "Document created successfully."});
+    }),
+
+    delete: asyncHandler(async (req: Request<{id: string}>, res: Response) => {
+       
+        const { id } = req.params;
+        const data = await documentService.delete(validateId(id,"id"));
+
+        return res.status(204).json({message: "Document deleted successfully."});
+    }),
     
-    async getAllDocuments(req: Request, res: Response){
-        try{
-            const data = await documentService.getAllDocuments();
-            
-            return res.status(200).json(data);
-        }
-        catch (error){
-            return res.status(500).json({error: "Failed to get all documents."});
-        }
-    },
+    getAllDocuments: asyncHandler(async (req: Request, res: Response) => {
+       
+        const data = await documentService.getAllDocuments();
+        
+        return res.status(200).json(data);
+        
+    }),
 
-    async getDocumentById(req: Request<{id: string}>, res: Response){
-        try{
-            const { id } = req.params;
-            const data = await documentService.getDocumentById(id);
+    getDocumentById: asyncHandler(async (req: Request<{id: string}>, res: Response) => {
+       
+        const { id } = req.params;
+        const data = await documentService.getDocumentById(validateId(id, "id"));
 
-            return res.status(200).json(data);
-        }
-        catch (error){
-            return res.status(500).json({error: `Failed to get document by id. Error: ${error}`});
-        }
-    },
+        return res.status(200).json(data);
+        
+    }),
 
-    async getDocumentsByName(req: Request<{name: string}>, res: Response){
-        try{
-            const { name } = req.params;
-            const data = await documentService.getDocumentsByName(name);
+    getDocumentsByName: asyncHandler(async(req: Request<{name: string}>, res: Response) => {
+       
+        const { name } = req.params;
+        const data = await documentService.getDocumentsByName(validateRequiredString(name,"name"));
 
-            return res.status(200).json(data);
-        } catch (error){
-            return res.status(500).json({error: `Failed to get documents by name. Error: ${error}`});
-        }
-    }
+        return res.status(200).json(data);
+        
+    })
 }

@@ -102,6 +102,8 @@ The frontend lives in the client folder and provides a modern UI for uploading d
 - /upload – document upload screen
 - /documents – list of uploaded documents
 
+## Backend overview
+
 ## Project structure
 
 - server/src/app.ts – app configuration, middleware, routing, Swagger

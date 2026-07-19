@@ -200,11 +200,11 @@ export default function UploadDropzone() {
         </Box>
 
         <Stack spacing={0.75} alignItems="center" textAlign="center">
-          <Typography variant="h6">
-            {isDragging ? "Upuść plik tutaj" : "Przeciągnij i upuść plik"}
+          <Typography variant="h6" sx={{ textAlign: "center" }}>
+            {isDragging ? "Drop file here" : "Drag and drop file"}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            lub kliknij, aby wybrać z dysku
+            or click to choose file from disk
           </Typography>
           <Typography
             variant="caption"
@@ -236,7 +236,7 @@ export default function UploadDropzone() {
           textAlign="center"
           sx={{ textAlign: "center" }}
         >
-          Dokument został przesłany.
+          Document has been uploaded.
         </Typography>
       )}
 
@@ -288,7 +288,7 @@ export default function UploadDropzone() {
         startIcon={<CloudUploadOutlinedIcon />}
         sx={{ minWidth: 220 }}
       >
-        {isUploading ? "Przesyłanie…" : "Prześlij dokument"}
+        {isUploading ? "Uploading…" : "Upload Document"}
       </Button>
     </Stack>
   );

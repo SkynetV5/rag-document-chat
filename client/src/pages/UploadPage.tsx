@@ -9,7 +9,7 @@ export default function UploadPage() {
         <AppBar position="fixed">
           <Toolbar sx={{ justifyContent: "space-between" }}>
             <Typography variant="h6" noWrap>
-              Prześlij dokument
+              Upload Document
             </Typography>
             <Box sx={{ display: "flex", gap: 5 }}>
               <Link
@@ -42,7 +42,7 @@ export default function UploadPage() {
                 }}
                 href="/documents"
               >
-                Lista Dokumentów
+                Documents List
               </Link>
             </Box>
           </Toolbar>
@@ -69,8 +69,8 @@ export default function UploadPage() {
               textAlign: "center",
             }}
           >
-            Dodaj dokument do bazy wiedzy. Po przetworzeniu będziesz mógł
-            zadawać pytania w czacie.
+            Add the document to the knowledge base. Once processed, you'll be
+            able to ask questions in the chat
           </Typography>
           <UploadDropzone />
         </Container>

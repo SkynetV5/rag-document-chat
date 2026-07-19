@@ -68,7 +68,7 @@ export default function DocumentsListPage() {
         <AppBar position="fixed">
           <Toolbar sx={{ justifyContent: "space-between" }}>
             <Typography variant="h6" noWrap>
-              Prześlij dokument
+              Documents List
             </Typography>
             <Box sx={{ display: "flex", gap: 5 }}>
               <Link
@@ -101,7 +101,7 @@ export default function DocumentsListPage() {
                 }}
                 href="/upload"
               >
-                Prześlij Dokument
+                Upload Document
               </Link>
             </Box>
           </Toolbar>
@@ -135,16 +135,16 @@ export default function DocumentsListPage() {
             />
           ) : documentsDataError ? (
             <Typography variant="h5" fontWeight="bold" mb={1} color="error">
-              Nie udało sie pobrać danych!
+              Error in fetch data!
             </Typography>
           ) : (
             <>
               <Typography variant="h4" fontWeight="bold" mb={1}>
-                Twoje dokumenty
+                Your documents
               </Typography>
 
               <Typography color="text.secondary" mb={4}>
-                Zarządzaj przesłanymi dokumentami.
+                Manage your uploaded documents.
               </Typography>
 
               <Paper
@@ -182,7 +182,7 @@ export default function DocumentsListPage() {
                           primary={
                             <Typography fontWeight={600}>{doc.name}</Typography>
                           }
-                          secondary={`Dodano: ${new Date(Number(doc.file_path.split("-")[0]) * 1000)}`}
+                          secondary={`Uploaded: ${new Date(Number(doc.file_path.split("-")[0]) * 1000)}`}
                         />
 
                         <Chip

@@ -116,10 +116,10 @@ export default function InputBar({
         fullWidth
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Zadaj pytanie..."
+        placeholder="Ask a question..."
       />
       <Button variant="contained" onClick={sendMessage}>
-        Wyślij
+        Send
       </Button>
     </Box>
   );

@@ -79,7 +79,7 @@ export default function ChatPage({
           </Alert>
         )}
         <FormControl fullWidth size="small">
-          <InputLabel id="document-select-label">Dokument</InputLabel>
+          <InputLabel id="document-select-label">Document</InputLabel>
           <Select
             labelId="document-select-label"
             label="Dokument"
@@ -88,7 +88,7 @@ export default function ChatPage({
           >
             {documents?.length === 0 ? (
               <MenuItem disabled value="">
-                Brak dostępnych dokumentów
+                No available documents
               </MenuItem>
             ) : (
               documents?.map((doc) => (

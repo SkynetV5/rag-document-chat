@@ -98,7 +98,7 @@ export default function Sidebar({
               onSelectConversation?.("");
             }}
           >
-            Nowa rozmowa
+            New chat
           </Button>
         </Box>
       )}
@@ -106,7 +106,7 @@ export default function Sidebar({
 
       <Box sx={{ px: 2, pt: 2, pb: 1 }}>
         <Typography variant="overline" color="text.secondary">
-          Konwersacje
+          Conversations
         </Typography>
       </Box>
 
@@ -118,7 +118,7 @@ export default function Sidebar({
               color="text.secondary"
               sx={{ fontSize: 15, mb: 2, textAlign: "center" }}
             >
-              Brak konwersacji
+              None Conversation
             </Typography>
             <Button
               fullWidth
@@ -126,7 +126,7 @@ export default function Sidebar({
               startIcon={<AddIcon />}
               onClick={onNewChat}
             >
-              Rozpocznij nowy chat
+              Create New Chat
             </Button>
           </Box>
         ) : (
@@ -202,7 +202,7 @@ export default function Sidebar({
               width: 40,
             }}
           />{" "}
-          Lista Dokumentów
+          Documents List
         </Link>
         <Link
           variant="overline"
@@ -217,7 +217,7 @@ export default function Sidebar({
           }}
           href="/upload"
         >
-          <UploadFileIcon sx={{ width: 40 }} /> Prześlij Dokument
+          <UploadFileIcon sx={{ width: 40 }} /> Upload Document
         </Link>
       </Box>
     </Drawer>

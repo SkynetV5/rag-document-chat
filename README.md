@@ -5,6 +5,7 @@ AI-powered RAG system that allows users to chat with PDF documents using vector 
 ## Requirements
 
 - Node.js 18+
+- Docker and Docker Compose
 - Supabase account
 - Groq API key
 - PostgreSQL database with the pgvector extension enabled in Supabase
@@ -52,6 +53,11 @@ VITE_AXIOS_BASE_URL_API=your_base_url
 - Axios
 - Orval (API client generation)
 
+### Infrastructure
+
+- Docker
+- Docker Compose
+
 ## Installation
 
 Frontend:
@@ -68,6 +74,31 @@ cd server
 npm install
 ```
 
+
+## Docker
+
+The application can be run using Docker Compose.
+
+The project consists of two containers:
+
+- `server` – Node.js + Express backend
+- `client` – React + Vite frontend
+
+The backend container uses Node.js with the required native dependencies for ONNX Runtime.
+
+### Build and run with Docker Compose
+
+From the project root:
+
+```bash
+docker compose up --build
+```
+
+To stop the containers:
+
+```bash
+docker compose down
+```
 ## Running the app
 
 Frontend:

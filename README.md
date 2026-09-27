@@ -126,6 +126,84 @@ The frontend lives in the client folder and provides a modern UI for uploading d
    - the retrieved context is passed to the LLM,
    - the model responds based on those chunks.
 
+## Evaluation
+
+The `evaluation/` folder contains scripts for measuring RAG quality on a fixed question set. Both scripts reuse the same backend services as the application (`ragService`, Supabase, Groq) and load environment variables from `server/.env`.
+
+### Prerequisites
+
+1. Configure `server/.env` (see [Environment configuration](#environment-configuration)).
+2. Upload the PDF documents referenced in the dataset through the app.
+3. Map each document filename to its chat UUID in `evaluation/chats.json`:
+
+```json
+{
+  "auchan.pdf": "your-chat-uuid",
+  "decathlon.pdf": "your-chat-uuid"
+}
+```
+
+### Dataset format
+
+Questions are stored in `evaluation/dataset.json`. Each entry contains:
+
+- `id` – question identifier
+- `question` – user question
+- `expected_answer` – reference answer used for LLM-based evaluation
+- `expected_document` – PDF filename (must exist in `chats.json`)
+- `expected_pages` – page numbers where the correct answer should be found
+
+### Retrieval evaluation
+
+Measures how well the vector search retrieves the right document chunks.
+
+```bash
+npx tsx evaluation/evaluate.ts
+```
+
+**Metrics:**
+
+- **Hit@K** – share of questions where at least one chunk from an expected page appears in the top K results (K = 1, 3, 5, 10)
+- **MRR** (Mean Reciprocal Rank) – average of `1 / rank` for the first relevant chunk; `0` if none is found
+
+**Output:** `evaluation/results/retrieval-results.json` (per-question results + summary table in the console)
+
+**Sample results** (18 questions from `dataset.json`):
+
+| Metric  | Score  |
+|---------|--------|
+| Hit@1   | 33.3%  |
+| Hit@3   | 72.2%  |
+| Hit@5   | 83.3%  |
+| Hit@10  | 94.4%  |
+| MRR     | 0.529  |
+
+### Answer evaluation
+
+Runs the full RAG pipeline: retrieval → answer generation (`askLLM`) → LLM-as-judge scoring.
+
+```bash
+npx tsx evaluation/evaluate-answers.ts
+```
+
+Each generated answer is scored from 1 to 5 by a separate LLM call on:
+
+- **Correctness** – is the information correct?
+- **Groundedness** – is the answer supported by retrieved context?
+- **Relevance** – does it address the question?
+- **Completeness** – does it include all important details?
+
+**Output:** `evaluation/results/answer-results.json` (question, generated answer, retrieved pages, scores, and reasoning)
+
+### Evaluation folder structure
+
+- `evaluation/evaluate.ts` – retrieval metrics (Hit@K, MRR)
+- `evaluation/evaluate-answers.ts` – end-to-end answer quality evaluation
+- `evaluation/metrics.ts` – Hit@K and MRR helpers
+- `evaluation/dataset.json` – test questions and expected answers
+- `evaluation/chats.json` – document filename → chat UUID mapping
+- `evaluation/results/` – generated result files
+
 ## SQL schema
 
 ```sql

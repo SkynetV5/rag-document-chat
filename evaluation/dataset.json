@@ -1,0 +1,128 @@
+[
+    {
+      "id": "q001",
+      "question": "Kto jest operatorem Aplikacji Mobilnej Auchan i jaki jest jego numer KRS?",
+      "expected_answer": "Operator Aplikacji Mobilnej Auchan jest firmą Auchan Polska sp. z o.o. Jej numer KRS to 0000032892.",
+      "expected_document": "auchan.pdf",
+      "expected_pages": [1]
+    },
+    {
+      "id": "q002",
+      "question": "W jaki sposób można skontaktować się z Auchan Polska (adres, e-mail, infolinia)?",
+      "expected_answer": "Można skontaktować się z Auchan Polska drogą mailową pod adresem kontakt@auchan.pl oraz odwiedzić biuro pod adresem Auchan Polska sp. z o.o., ul. Puławska 46, 05‑500 Piaseczno. W kontekście przedstawionym w regulaminie nie podano numeru infolinii, więc nie jest dostępny w tej dokumentacji.",
+      "expected_document": "auchan.pdf",
+      "expected_pages": [1]
+    },
+    {
+      "id": "q003",
+      "question": "Czy pobranie Aplikacji i korzystanie z niej jest płatne?",
+      "expected_answer": "Pobranie i samodzielne korzystanie z aplikacji nie jest płatne – dostęp do niej jest bezpłatny. Jednak w aplikacji mogą być dostępne płatne funkcje lub zakupy, które użytkownik może wykonać na własną rękę.",
+      "expected_document": "auchan.pdf",
+      "expected_pages": [1]
+    },
+    {
+      "id": "q004",
+      "question": "Kto pokrywa koszty transmisji danych potrzebnych do korzystania z Aplikacji?",
+      "expected_answer": "Koszty transmisji danych ponosi Użytkownik.",
+      "expected_document": "auchan.pdf",
+      "expected_pages": [1]
+    },
+    {
+      "id": "q005",
+      "question": "Jakie są minimalne wymagania systemowe (iOS/Android) do uruchomienia Aplikacji?",
+      "expected_answer": "Minimalne wymagania systemowe to iOS w wersji 13.0 lub nowszej oraz Android w wersji 5.0 lub nowszej.",
+      "expected_document": "auchan.pdf",
+      "expected_pages": [1, 2]
+    },
+    {
+      "id": "q006",
+      "question": "Czy Aplikacja działa w trybie offline?",
+      "expected_answer": "Aplikacja działa głównie w trybie online; niektóre funkcje, takie jak przeglądanie promocji czy dostęp do danych o lokalizacji, mogą być używane w trybie offline, lecz ich aktualność i poprawność nie są gwarantowane.",
+      "expected_document": "auchan.pdf",
+      "expected_pages": [2]
+    },
+    {
+      "id": "q007",
+      "question": "Jakie funkcjonalności udostępnia Aplikacja Użytkownikowi?",
+      "expected_answer": "Aplikacja umożliwia wyświetlanie ofert i kuponów dostępnych w aplikacji, w tym ofert skierowanych do konkretnych grup użytkowników, takich jak uczestnicy programu lojalnościowego „Skarbonka” czy subskrybenci newslettera Auchan Polska. Dostarcza także możliwość korzystania z dodatkowych funkcji, które są dostępne wyłącznie po zalogowaniu do Cyfrowego Konta Auchan, oraz po podpięciu karty Skarbonka do tego konta. Użytkownik ma dostęp do zarządzania swoim kontem cyfrowym, przeglądania historii transakcji, oraz korzystania z usług i promocji dostępnych w aplikacji. Ponadto aplikacja obsługuje powiadomienia push oraz inne interaktywne elementy, które są integralną częścią oferty. Wszystkie powyższe funkcjonalności są regulowane warunkami korzystania z aplikacji i mogą być zmieniane zgodnie z obowiązującym regulaminem.",
+      "expected_document": "auchan.pdf",
+      "expected_pages": [2]
+    },
+    {
+      "id": "q008",
+      "question": "Czym jest program lojalnościowy „Skarbonka” i gdzie znaleźć jego regulamin?",
+      "expected_answer": "Program lojalnościowy „Skarbonka” to system nagród dla klientów Auchan, w którym uczestnicy po podpięciu karty Skarbonka do Cyfrowego Konta Auchan otrzymują spersonalizowane oferty i kupony promocyjne. Regulamin programu znajduje się na stronie internetowej Auchan pod adresem www.auchan.pl w sekcji regulaminów oraz w aplikacji Auchan, gdzie dostępny jest również regulamin kuponów promocyjnych w aplikacji mobilnej.",
+      "expected_document": "auchan.pdf",
+      "expected_pages": [2]
+    },
+    {
+      "id": "q009",
+      "question": "Jakie obowiązki mają Użytkownicy podczas korzystania z Aplikacji?",
+      "expected_answer": "Użytkownicy muszą korzystać z aplikacji w sposób zgodny z prawem, regulaminem oraz regulaminami sklepów, z których aplikacja została pobrana, a także przestrzegać zasad współżycia społecznego, unikając działań zakłócających jej funkcjonowanie. Ponadto muszą respektować prawa własności intelektualnej, nie udostępniać treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje oraz nie naruszać praw osób trzecich.",
+      "expected_document": "auchan.pdf",
+      "expected_pages": [2, 3]
+    },
+    {
+        "id": "q010",
+        "question": "Kto jest usługodawcą i sprzedawcą w ramach serwisu decathlon.pl oraz jakie są pełne dane rejestrowe spółki Decathlon?",
+        "expected_answer": "Usługodawcą w serwisie decathlon.pl jest Decathlon Sportwear Poland S.A., a sprzedawcą jest ta sama spółka. Pełne dane rejestrowe Decathlon Sportwear Poland S.A. to: nazwa Decathlon Sportwear Poland S.A., forma prawna spółka akcyjna, siedziba ul. Młynarska 12, 01 245 Warszawa, KRS 0000612782, NIP 526 01 00 400, REGON 019428772.",
+        "expected_document": "decathlon.pdf",
+        "expected_pages": [2, 3]
+    },
+    {
+    "id": "q011",
+    "question": "W jaki sposób można skontaktować się z Decathlon w sprawach dotyczących zamówienia lub Konta?",
+    "expected_answer": "Możesz skontaktować się z Decathlon telefonicznie, wysyłając e‑mail, korzystając z czatu online na stronie internetowej lub wypełniając formularz kontaktowy w sekcji „Kontakt”; odpowiedź otrzymasz w ciągu 24 godzin.",
+    "expected_document": "decathlon.pdf",
+    "expected_pages": [3]
+    },
+    {
+    "id": "q012",
+    "question": "Czym różni się rola Decathlon jako sprzedawcy od roli Decathlon jako pośrednika technologicznego (Marketplace)?",
+    "expected_answer": "Decathlon, jako sprzedawca, jest właścicielem towarów, zleca ich dostawę i odpowiada za sprzedaż, wysyłkę oraz obsługę zwrotów – w praktyce wszystko odbywa się bezpośrednio z jego magazynów. W roli pośrednika technologicznego natomiast Decathlon udostępnia platformę Marketplace, po której kupujący kupują produkty od innych sprzedawców; w tym przypadku Decathlon nie jest właścicielem towarów, nie wykonuje wysyłki ani nie przejmuje odpowiedzialności za produkt, lecz zapewnia tylko techniczną infrastrukturę, system płatności i częściową obsługę klienta.",
+    "expected_document": "decathlon.pdf",
+    "expected_pages": [2, 3]
+    },
+    {
+    "id": "q013",
+    "question": "Co daje założenie Konta Decathlon i z czym automatycznie wiąże się jego utworzenie?",
+    "expected_answer": "Założenie Konta Decathlon daje dostęp do historii zakupów, możliwość zapisywania ulubionych towarów oraz zakupów w aplikacji – bez konta można kupować wyłącznie jako gość na stronie internetowej. Automatycznie do konta przyłączany jest program lojalnościowy Decathlon Active, w którym zbierasz punkty, korzystasz z przywilejów i możesz w każdej chwili zrezygnować, nie usuwając przy tym samego konta.",
+    "expected_document": "decathlon.pdf",
+    "expected_pages": [4]
+    },
+    {
+    "id": "q014",
+    "question": "Jak można usunąć Konto Decathlon?",
+    "expected_answer": "Aby usunąć konto Decathlon, zaloguj się na stronie www.decathlon.pl lub w aplikacji, przejdź do sekcji „Moje konto” lub „Profil”, znajdź opcję „Usuń konto” (często umieszczoną w ustawieniach prywatności) i potwierdź żądanie. Jeśli takiej opcji nie widzisz, wyślij prośbę o usunięcie konta na adres support@decathlon.pl lub skontaktuj się z obsługą klienta, podając swój numer klienta i dane identyfikacyjne. W ciągu kilku dni po otrzymaniu zgłoszenia konto zostanie usunięte, a wszystkie powiązane z nim dane zostaną wyczyszczone zgodnie z polityką prywatności Decathlon.",
+    "expected_document": "decathlon.pdf",
+    "expected_pages": [5]
+    },
+    {
+    "id": "q015",
+    "question": "Czy można robić zakupy bez zakładania Konta Decathlon i jakie są tego ograniczenia?",
+    "expected_answer": "Tak, można robić zakupy bez zakładania Konta Decathlon, ale tylko na stronie internetowej. W trybie gościa podczas składania zamówienia zostaniesz poproszony o podanie danych wymaganych do dostawy, a sam proces zakupowy jest ograniczony do jednej transakcji. Nie będziesz miał dostępu do historii zakupów, nie będziesz mógł zapisywać ulubionych towarów ani korzystać z programu lojalnościowego Decathlon. Ponadto zakupy jako gość są niemożliwe w aplikacji – do korzystania z niej musisz założyć konto. Ograniczenia dotyczą także braku możliwości korzystania z niektórych promocji czy udogodnień, które są dostępne wyłącznie dla posiadaczy konta.",
+    "expected_document": "decathlon.pdf",
+    "expected_pages": [5]
+    },
+    {
+    "id": "q016",
+    "question": "Jak założyć konto firmowe i jakie korzyści z niego wynikają, np. w zakresie faktur?",
+    "expected_answer": "Aby założyć konto firmowe, przejdź na stronę Decathlon, kliknij „Moje Konto” i wybierz opcję logowania. Następnie w menu wybierz „Zaloguj się”, a potem „Stwórz konto firmowe”. Podczas rejestracji podaj dane firmy oraz NIP. Po aktywacji konta możesz dokonywać zakupów, a do każdego zamówienia wystawiane będą faktury z NIP, co ułatwia rozliczenia podatkowe i księgowość. Konto firmowe daje też dostęp do specjalnych metod płatności oraz ofert dedykowanych dla przedsiębiorców.",
+    "expected_document": "decathlon.pdf",
+    "expected_pages": [6]
+    },
+    {
+    "id": "q017",
+    "question": "Kiedy przedsiębiorca prowadzący jednoosobową działalność gospodarczą jest traktowany jak konsument, a kiedy jak przedsiębiorca?",
+    "expected_answer": "Jeżeli przedsiębiorca kupuje towary wyłącznie w celu własnego użytku osobistego, bez zamierzonej dalszej odsprzedaży ani wykorzystania w działalności gospodarczą, jest traktowany jako konsument. Natomiast gdy zakup jest dokonywany w ramach prowadzonej działalności, wykorzystuje się firmowe dane, wystawia faktury, a towar ma być wykorzystany w działalności gospodarczej lub odsprzedany, wtedy jest postrzegany jako przedsiębiorca.",
+    "expected_document": "decathlon.pdf",
+    "expected_pages": [7]
+    },
+    {
+    "id": "q018",
+    "question": "Jakie metody płatności odroczonej oferowane są dla firm i instytucji?",
+    "expected_answer": "Dla firm i instytucji dostępne są dwie opcje płatności odroczonej: 30‑dniowy termin płatności przy zamówieniach przekraczających 1000 zł skierowany do szkół, urzędów i jednostek budżetowych oraz płatność na fakturę proforma w ciągu 14 dni przed wysyłką towaru.",
+    "expected_document": "decathlon.pdf",
+    "expected_pages": [7]
+    }
+]

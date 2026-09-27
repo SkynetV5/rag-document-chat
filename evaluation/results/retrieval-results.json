@@ -1,0 +1,1546 @@
+{
+  "summary": {
+    "totalQuestions": 18,
+    "hitAt1": 0.3333333333333333,
+    "hitAt3": 0.7222222222222222,
+    "hitAt5": 0.8333333333333334,
+    "hitAt10": 0.9444444444444444,
+    "MRR": 0.528858024691358
+  },
+  "results": [
+    {
+      "id": "q001",
+      "question": "Kto jest operatorem Aplikacji Mobilnej Auchan i jaki jest jego numer KRS?",
+      "expectedDocument": "auchan.pdf",
+      "expectedPages": [
+        1
+      ],
+      "retrieved": [
+        {
+          "id": "56d3447d-158f-4e8b-8dd9-c8a4a05ad911",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "iem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników urządzeń mobilnych spełniających wskazane poniżej wymagania techniczne, którzy pobiorą ją z odpowiedniego sklepu i prawidłowo uruchomią na urządzeniu  mobilnym.  2.   Urządzenie mobilne, na którym ma zostać uruchomiona Aplikacja, spełniać musi następujące wymagania techniczne dotyczące systemu operacyjnego:  2.1.   dla wersji aplikacji pobranej z App Store   –   iOS w wersji minimum 13.0;  2.2.   dla wersji aplikacji pobranej z Google Play   –   Android w wersji minimum 5.0.",
+          "page_number": 1,
+          "similarity": 0.460916239537353
+        },
+        {
+          "id": "9b76435d-f9b8-4790-85a1-4be411388940",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ji do sklepów Administratora oraz prowadzenia analiz marketingowych, dane",
+          "page_number": 5,
+          "similarity": 0.426508793054975
+        },
+        {
+          "id": "72fb5c69-2918-40d1-8be4-6e5ccfdb6485",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "uchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.417777560551996
+        },
+        {
+          "id": "f5a42646-1abf-4a72-9d4f-759cf71f8522",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   1   z   6  Regulamin obowiązujący od   04 lipca 2024 r.  Regulamin Aplikacji Mobilnej Auchan  § 1.   Postanowienia ogólne  1.   Niniejszy Regulamin (dalej „ Regulamin ”) określa zasady i warunki:  1.1.   korzystania   z   Aplikacji   Mobilnej   Auchan   (dalej   „ Aplikacja ”),   będącej   oprogramowaniem  działającym na urządzeniach mobilnych (np. smartfonach) z systemem operacyjnym iOS lub Android, posiadających dostęp do Internetu;  1.2.   świadczenia usług drogą elektroniczną za pomocą Aplikacji przez jej operatora, o którym mowa  w   ust. 2 poniżej.  2.   Operatorem Aplikacji jest Auchan Polska sp. z o.o. z siedzibą w Piasecznie, ul. Puławska 46, 05 -500  Piaseczno, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla m.st. Warszawy w Warszawie, XIV Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem KRS 0000032892, o kapitale zakładowym 906   928   900,00 zł, NIP: 5260309174, REGON:  010001888, numer BDO: 000013917 ",
+          "page_number": 1,
+          "similarity": 0.410110576100078
+        },
+        {
+          "id": "bcb9a3dc-5288-48ae-a70a-50b4b42ad6b0",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   2   z   6  3.   Aplikacja jest przeznaczona do działania w trybie online, tj. kiedy w urządzeniu mobilnym Użytkownika jest włączony dostęp do Internetu. Z niektórych funkcjonalności dostępnych w Aplikacji można korzystać także w trybie offline. Auchan Polska nie gwarantuje jednak aktualności i poprawności działania tych funkcjonalności podczas działania ich w trybie offline.  4.   Aplikacja daje możliwość Użytkownikowi w szczególności:  4.1.   przeglądania lokalizacji i informacji o sklepach Auchan Polska oraz –   po wyrażeniu zgody na dostęp do danych o lokalizacji urządzenia mobilnego –   z funkcji wskazania danych do nawigacji do tych  sklepów (nawigacja jest możliwa za pomocą zewnętrznych aplikac ji);  4.2.   przeglądania aktualnych promocji oraz gazetek Auchan Polska;  4.3.   założenia   Cyfrowego   Konta   Auchan,   o   którym   mowa   w   odrębnym   „Regulaminie   sklepu internetowego i Cyfrowego Konta Auchan” dostępnym w sklepie internetowym Auchan oraz  w Aplikacji (p",
+          "page_number": 2,
+          "similarity": 0.403534494987849
+        },
+        {
+          "id": "d2859674-166f-4c66-898e-07e6cfe91548",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " Polska poinformuje z wyprzedzeniem nie mniejszym niż 14 dni przed ich wejściem w życie –   co najmniej poprzez zamieszczenie komunikatu o zmianie Regulaminu w Aplikacji  wraz z udostępnieniem zmienionego Regulaminu w sposób, o którym mowa w ust. 3 poniżej. Jeśli Użytkownik nie zaprzestanie korzystania z   Aplikacji, zmieniony Regulamin będzie się do niego stosować. Niezależnie od powyższego, Użytkownik może zaprzestać korzystania z Aplikacji w każdym czasie na  zasadach przewidzian ych w § 4 Regulaminu.",
+          "page_number": 4,
+          "similarity": 0.386978964693917
+        },
+        {
+          "id": "10d59392-cc65-42a5-aa3e-a1f74e8779a1",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "czanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w dowolnym czasie zaprzestać korzystania z Aplikacji, w szczególności wówczas, gdy nie zaakceptują zmian wprowadzonych w Regulaminie lub modyfikacji Aplikacji. Zaprzestanie korzystania z Aplikacji wymaga jej usunięcia z urządzenia mobilneg o.  2.   Samo odinstalowanie Aplikacji z urządzenia mobilnego Użytkownika nie jest równoznaczne z usunięciem Cyfrowego Konta Auchan (jeżeli Użytkownik posiada takie konto) ani z zakończeniem uczestnictwa  w   programie   lojalnościowym   „Skarbonka”   (jeżeli   Użytkownik   je st   uczestnikiem   tego   programu).  Użytkownik może zrezygnować z Cyfrowego Konta Auchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.372902789346873
+        },
+        {
+          "id": "29e63d7f-ddd0-49b0-9998-f6e3f6645da1",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ch oraz plików  cookies   znajduje się w Polityce prywatności dostępnej pod adresem:   https://www.auchan.pl/pl/dla- klienta/polityka-prywatnosci .  § 8.   Postanowienia końcowe  1.   Regulamin podlega przepisom prawa powszechnie obowiązującego w Polsce.",
+          "page_number": 6,
+          "similarity": 0.371487155975453
+        },
+        {
+          "id": "a5ff0e04-c24e-4c00-a75f-0a8c6b6c77f2",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "plikacji biorącym udział w programie lojalnościowym „Skarbonka” w zakładce „Kupony” będą wyświetlane spersonalizowane oferty, które przyznawane są Użytkownikom biorącym udział w programie lojalnościowym „Skarbonka”, których Cyfrowe Konto Auchan jest powiązane z kontem uczestnika programu lojalnościowego „Skarbonka” („podpięcie” karty Skarbonka  pod Cyfrowe Konto Auchan). Informacje na temat przyznawania k uponów znajdują się w „Regulaminie  programu l ojalnościowego „Skarbonka”” dostępnym   na stronie   www.auchan.pl   oraz w Aplikacji,   a także  w r egulaminie „Kupony promocyjne w Aplikacji Mobilnej Auchan” dostępnym na stronie internetowej  www.auchan.pl   w zakładce „Regulaminy akcji promocyjnych”.  13.   Szczegółowe informacje na temat przetwarzania przez Administratora danych osobowych oraz plików  cookies   znajduje się w Polityce prywatności dostępnej pod adresem:   https://www.auchan.pl/pl/dla- klienta/polityka-prywatnosci .  § 8.   Postanowienia końcowe  1.   Regulamin podleg",
+          "page_number": 6,
+          "similarity": 0.368534757916344
+        },
+        {
+          "id": "aad2e6c4-fbea-47ac-ae29-e250f08dc19d",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "które posiadają pełną zdolność do czynności prawnych (dalej „ Użytkownicy ”).  5.   Aplikację można pobrać korzystając z internetowego   sklepu:  5.1.   App Store   –   dla systemu iOS;  5.2.   Google Play   –   dla systemu Android.  6.   Pobranie Aplikacji ze sklepów, o których mowa powyżej, jak również korzystanie z oferowanych za jej pośrednictwem przez Auchan Polska usług jest bezpłatne.  7.   Koszty transmisji danych wymaganych do pobrania, instalacji, uruchomienia i korzystania z Aplikacji  pokrywają jej Użytkownicy we własnym zakresie na podstawie umów zawartych z ich operatorami telekomunikacyjnymi lub innym dostawcą Internetu.  8.   Regulamin jest dostępny na stronie internetowej   www.auchan.pl , w sklepach App Store i Google Play oraz  w Aplikacji. Przed pobraniem i zainstalowaniem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników ur",
+          "page_number": 1,
+          "similarity": 0.368385950211898
+        }
+      ],
+      "hitAt1": true,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 1
+    },
+    {
+      "id": "q002",
+      "question": "W jaki sposób można skontaktować się z Auchan Polska (adres, e-mail, infolinia)?",
+      "expectedDocument": "auchan.pdf",
+      "expectedPages": [
+        1
+      ],
+      "retrieved": [
+        {
+          "id": "5e897560-d5cb-43d2-af82-a244440ecc7c",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   5   z   6  3.   Auchan Polska   zapewnia dostęp do Regulaminu za pośrednictwem linku zamieszczonego na stronie  internetowej   www.auchan.pl   lub jej podstronach oraz bezpośrednio w Aplikacji, a także w sklepach   App Store i Google Play.  § 7.   Dane osobowe  1.   Administratorem danych osobowych przetwarzanych w Aplikacji jest Auchan Polska sp. z o.o. z siedzibą  w Piasecznie, ul. Puławska 46, 05 - 500 Piaseczno (dalej „ Administrator ”).  2.   Administrator wyznaczył Inspektora ochrony danych, z którym można skontaktować się na adres  e-mail:   daneosobowe@auchan.pl   lub pisemnie na adres siedziby Administratora z dopiskiem „Inspektor ochrony danych”.  3.   Dane osobowe Użytkowników będą przetwarzane w celu:  3.1.   wykonania   umowy   o   świadczenie   usług   drogą   elektroniczną   na   zasadach   określonych  w Regulaminie, w tym w celu założenia Cyfrowego Konta Auchan oraz dokonywania zakupów  w sklepie internetowym   –   podstawą prawną przetwarzania jest niezbędnoś",
+          "page_number": 5,
+          "similarity": 0.595682423148807
+        },
+        {
+          "id": "29e63d7f-ddd0-49b0-9998-f6e3f6645da1",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ch oraz plików  cookies   znajduje się w Polityce prywatności dostępnej pod adresem:   https://www.auchan.pl/pl/dla- klienta/polityka-prywatnosci .  § 8.   Postanowienia końcowe  1.   Regulamin podlega przepisom prawa powszechnie obowiązującego w Polsce.",
+          "page_number": 6,
+          "similarity": 0.593284456921288
+        },
+        {
+          "id": "78fd9b45-7d81-476c-8faa-7f560ba23b1e",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   4   z   6  10.   Auchan Polska nie odpowiada za skutki uzyskania przez inne (nieuprawnione) osoby dostępu do Aplikacji (w tym do konta dostępnego za pomocą Aplikacji), jeśli do takiego dostępu doszło z winy Użytkownika (np. na skutek udostępnienia przez niego danych do logowania innej osobie lub niezachowania środków ostrożności, jakich można rozsądnie wymagać od Internauty) lub z przyczyn, za które zgodnie z prawem Auchan Polska nie ponosi odpowiedzialności.  § 5.   Reklamacje  1.   Wszelkie reklamacje związane z działaniem Aplikacji oraz ze świadczeniem za jej pośrednictwem usług można kierować do Auchan Polska w dowolny sposób umożliwiający Auchan Polska zapoznanie się z nimi,  np. na adres e-mail:   kontakt@auchan.pl   lub korespondencyjnie na adres: Auchan Polska sp. z o.o., ul.   Puławska 46, 05 - 500 Piaseczno (z zalecanym dopiskiem „Reklamacja –   aplikacja”).  2.   Reklamacja powinna zawierać w swej treści dane osoby składającej reklamację (imię i nazwisko, adres  kor",
+          "page_number": 4,
+          "similarity": 0.572160669975507
+        },
+        {
+          "id": "72fb5c69-2918-40d1-8be4-6e5ccfdb6485",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "uchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.571493429808634
+        },
+        {
+          "id": "bcb9a3dc-5288-48ae-a70a-50b4b42ad6b0",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   2   z   6  3.   Aplikacja jest przeznaczona do działania w trybie online, tj. kiedy w urządzeniu mobilnym Użytkownika jest włączony dostęp do Internetu. Z niektórych funkcjonalności dostępnych w Aplikacji można korzystać także w trybie offline. Auchan Polska nie gwarantuje jednak aktualności i poprawności działania tych funkcjonalności podczas działania ich w trybie offline.  4.   Aplikacja daje możliwość Użytkownikowi w szczególności:  4.1.   przeglądania lokalizacji i informacji o sklepach Auchan Polska oraz –   po wyrażeniu zgody na dostęp do danych o lokalizacji urządzenia mobilnego –   z funkcji wskazania danych do nawigacji do tych  sklepów (nawigacja jest możliwa za pomocą zewnętrznych aplikac ji);  4.2.   przeglądania aktualnych promocji oraz gazetek Auchan Polska;  4.3.   założenia   Cyfrowego   Konta   Auchan,   o   którym   mowa   w   odrębnym   „Regulaminie   sklepu internetowego i Cyfrowego Konta Auchan” dostępnym w sklepie internetowym Auchan oraz  w Aplikacji (p",
+          "page_number": 2,
+          "similarity": 0.565791444951047
+        },
+        {
+          "id": "68f280dc-ec82-4281-ad89-55bc78d2352b",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ślonych w odrębnych regulaminach,  dokumentach lub komunikatach widocznych w Aplikacji   –   z ofert (w tym ofert kuponowych),  skierowanych do Użytkowników (w tym wybranych grup Użytkowników, takich j ak np. uczestnicy  programu lojalnościowego „Skarbonka”, subskrybenci newslettera Auchan Polska);  4.6.   korzystania z innych funkcjonalności udostępnionych w Aplikacji.  5.   Niektóre funkcjonalności Aplikacji są dostępne wyłącznie dla Użytkowników zalogowanych do swojego Cyfrowego Konta Auchan lub będących uczestnikami programu lojalnościowego „Skarbonka” (po powiązaniu Cyfrowego Konta Auchan z kontem uczestnika programu lojalnościowego „Skarbonka” –   tj.  po „podpięciu” karty Skarbonka pod Cyfrowe Konto Auchan).  6.   Aplikacja oraz zawarte w niej materiały i informacje, rozwiązania, wybór i układ prezentowanych  w ramach Aplikacji treści, logotypy, elementy graficzne, znaki towarowe, stanowią przedmiot praw wyłącznych Auchan Polska lub jej partnerów biznesowych.  § 3.   Ogólne zasa",
+          "page_number": 2,
+          "similarity": 0.548764966244246
+        },
+        {
+          "id": "d2859674-166f-4c66-898e-07e6cfe91548",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " Polska poinformuje z wyprzedzeniem nie mniejszym niż 14 dni przed ich wejściem w życie –   co najmniej poprzez zamieszczenie komunikatu o zmianie Regulaminu w Aplikacji  wraz z udostępnieniem zmienionego Regulaminu w sposób, o którym mowa w ust. 3 poniżej. Jeśli Użytkownik nie zaprzestanie korzystania z   Aplikacji, zmieniony Regulamin będzie się do niego stosować. Niezależnie od powyższego, Użytkownik może zaprzestać korzystania z Aplikacji w każdym czasie na  zasadach przewidzian ych w § 4 Regulaminu.",
+          "page_number": 4,
+          "similarity": 0.544897447982678
+        },
+        {
+          "id": "63643cb6-dccd-480e-8870-afb7861d3461",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "awy w Warszawie, XIV Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem KRS 0000032892, o kapitale zakładowym 906   928   900,00 zł, NIP: 5260309174, REGON:  010001888, numer BDO: 000013917   (dalej „ Auchan Polska ”).  3.   Kontakt z Auchan Polska jest możliwy pod adresem siedziby wskazanym powyżej, e -mailowo na adres: kontakt@auchan.pl , przez formularz kontaktowy dostępny na stronie internetowej   www.auchan.pl , a   także pod numerem infolinii 22 444 02 22 (informacje o godzinach pracy infolinii są dostępne na stronie  internetowej   www.auchan.pl ; opłata za połączenie –   jak za zwykłe połączenie telefoniczne według taryfy operatora osoby nawiązującej połączenie).  4.   Aplikacja jest przeznaczona dla konsumentów. Użytkownikami Aplikacji mogą być wyłącznie osoby fizyczne, które posiadają pełną zdolność do czynności prawnych (dalej „ Użytkownicy ”).  5.   Aplikację można pobrać korzystając z internetowego   sklepu:  5.1.   App Store   –   dla systemu iOS;  5.2.   Google",
+          "page_number": 1,
+          "similarity": 0.541666712611928
+        },
+        {
+          "id": "9b76435d-f9b8-4790-85a1-4be411388940",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ji do sklepów Administratora oraz prowadzenia analiz marketingowych, dane",
+          "page_number": 5,
+          "similarity": 0.533848484433962
+        },
+        {
+          "id": "614feac8-95a9-4ee7-b68e-5663d91d75f9",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "oniczną   na   zasadach   określonych  w Regulaminie, w tym w celu założenia Cyfrowego Konta Auchan oraz dokonywania zakupów  w sklepie internetowym   –   podstawą prawną przetwarzania jest niezbędność przetwarzania dan ych w celu wykonania umowy (art. 6 ust. 1 lit. b RODO);  3.2.   wykonania   obowiązków   wynikających   z   przepisów   prawa   ciążących   na   Administratorze,  w   szczególności   w   zakresie   obowiązków   wynikających   z   przepisów   podatkowo - księgowych  –   podstawą prawną jest niezbędność przetwarzania danych w celu wypełnienia obowiązku  pra wnego ciążącego na Administratorze (art. 6 ust. 1 lit. c RODO);  3.3.   wysyłania przez Administratora komunikacji marketingowej na podany w Aplikacji numer telefonu  i adres e-mail   –   podstawą prawną przetwarzania jest dobrowolna zgoda Użytkowników na otrzymywanie treści marketingowych (art. 6 ust. 1 lit. a RODO);  3.4.   ustalenia lub dochodzenia ewentualnych roszczeń lub obrony przed takimi roszczeniami przez  Ad",
+          "page_number": 5,
+          "similarity": 0.528980919633356
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": false,
+      "hitAt5": false,
+      "hitAt10": true,
+      "reciprocalRank": 0.125
+    },
+    {
+      "id": "q003",
+      "question": "Czy pobranie Aplikacji i korzystanie z niej jest płatne?",
+      "expectedDocument": "auchan.pdf",
+      "expectedPages": [
+        1
+      ],
+      "retrieved": [
+        {
+          "id": "d2859674-166f-4c66-898e-07e6cfe91548",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " Polska poinformuje z wyprzedzeniem nie mniejszym niż 14 dni przed ich wejściem w życie –   co najmniej poprzez zamieszczenie komunikatu o zmianie Regulaminu w Aplikacji  wraz z udostępnieniem zmienionego Regulaminu w sposób, o którym mowa w ust. 3 poniżej. Jeśli Użytkownik nie zaprzestanie korzystania z   Aplikacji, zmieniony Regulamin będzie się do niego stosować. Niezależnie od powyższego, Użytkownik może zaprzestać korzystania z Aplikacji w każdym czasie na  zasadach przewidzian ych w § 4 Regulaminu.",
+          "page_number": 4,
+          "similarity": 0.650325955421416
+        },
+        {
+          "id": "56d3447d-158f-4e8b-8dd9-c8a4a05ad911",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "iem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników urządzeń mobilnych spełniających wskazane poniżej wymagania techniczne, którzy pobiorą ją z odpowiedniego sklepu i prawidłowo uruchomią na urządzeniu  mobilnym.  2.   Urządzenie mobilne, na którym ma zostać uruchomiona Aplikacja, spełniać musi następujące wymagania techniczne dotyczące systemu operacyjnego:  2.1.   dla wersji aplikacji pobranej z App Store   –   iOS w wersji minimum 13.0;  2.2.   dla wersji aplikacji pobranej z Google Play   –   Android w wersji minimum 5.0.",
+          "page_number": 1,
+          "similarity": 0.594417857125614
+        },
+        {
+          "id": "a2182b38-9d10-44d9-828a-fff3ab915a65",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "bór i układ prezentowanych  w ramach Aplikacji treści, logotypy, elementy graficzne, znaki towarowe, stanowią przedmiot praw wyłącznych Auchan Polska lub jej partnerów biznesowych.  § 3.   Ogólne zasady korzystania z Aplikacji  1.   Użytkownicy są zobowiązani do:  1.1.   korzystania z Aplikacji w sposób zgodny z obowiązującym prawem, Regulaminem i regulaminami sklepów, z których Aplikacja została pobrana, a także z zasadami współżycia społecznego  (w   szczególności   zaś   korzystania   z   Aplikacji   w   sposób   niemający   na   celu   zakłócenia   jej  funkcjonowania);  1.2.   korzystania   z   informacji   i   materiałów   udostępnionych   za   pośrednictwem   Aplikacji  z   poszanowaniem dla praw własności intelektualnej.  2.   Zabronione jest w ramach korzystania z Aplikacji dostarczanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w do",
+          "page_number": 2,
+          "similarity": 0.591172944447154
+        },
+        {
+          "id": "4a9decd2-cafd-442c-a0f5-b98e1ccea1b6",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " może również od czasu do czasu wydawać komunikaty dla Użytkowników zawierające zalecenia dotyczące zasad bezpieczeństwa związanych  z korzystaniem z Aplikacji.  9.   Bez   uszczerbku dla zobowiązań Auchan Polska dotyczących zapewnienia prawidłowego i bezpiecznego działania Aplikacji, Użytkownik jest zobowiązany we własnym zakresie do:  9.1.   zabezpieczenia przed dostępem nieuprawnionych osób trzecich loginu i hasła używanych do  logowania w Aplikacji,  9.2.   instalowania aktualizacji Aplikacji,  9.3.   zapewnienia bezpieczeństwa urządzeń, na których korzysta z Aplikacji, w szczególności poprzez instalowanie aktualizacji bezpieczeństwa systemu operacyjnego, korzystanie z oprogramowania antywirusowego i zachowanie ostrożności podczas korzystania z Internet u.",
+          "page_number": 3,
+          "similarity": 0.536779130429394
+        },
+        {
+          "id": "10d59392-cc65-42a5-aa3e-a1f74e8779a1",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "czanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w dowolnym czasie zaprzestać korzystania z Aplikacji, w szczególności wówczas, gdy nie zaakceptują zmian wprowadzonych w Regulaminie lub modyfikacji Aplikacji. Zaprzestanie korzystania z Aplikacji wymaga jej usunięcia z urządzenia mobilneg o.  2.   Samo odinstalowanie Aplikacji z urządzenia mobilnego Użytkownika nie jest równoznaczne z usunięciem Cyfrowego Konta Auchan (jeżeli Użytkownik posiada takie konto) ani z zakończeniem uczestnictwa  w   programie   lojalnościowym   „Skarbonka”   (jeżeli   Użytkownik   je st   uczestnikiem   tego   programu).  Użytkownik może zrezygnować z Cyfrowego Konta Auchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.524900593635333
+        },
+        {
+          "id": "aad2e6c4-fbea-47ac-ae29-e250f08dc19d",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "które posiadają pełną zdolność do czynności prawnych (dalej „ Użytkownicy ”).  5.   Aplikację można pobrać korzystając z internetowego   sklepu:  5.1.   App Store   –   dla systemu iOS;  5.2.   Google Play   –   dla systemu Android.  6.   Pobranie Aplikacji ze sklepów, o których mowa powyżej, jak również korzystanie z oferowanych za jej pośrednictwem przez Auchan Polska usług jest bezpłatne.  7.   Koszty transmisji danych wymaganych do pobrania, instalacji, uruchomienia i korzystania z Aplikacji  pokrywają jej Użytkownicy we własnym zakresie na podstawie umów zawartych z ich operatorami telekomunikacyjnymi lub innym dostawcą Internetu.  8.   Regulamin jest dostępny na stronie internetowej   www.auchan.pl , w sklepach App Store i Google Play oraz  w Aplikacji. Przed pobraniem i zainstalowaniem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników ur",
+          "page_number": 1,
+          "similarity": 0.516093357917876
+        },
+        {
+          "id": "78fd9b45-7d81-476c-8faa-7f560ba23b1e",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   4   z   6  10.   Auchan Polska nie odpowiada za skutki uzyskania przez inne (nieuprawnione) osoby dostępu do Aplikacji (w tym do konta dostępnego za pomocą Aplikacji), jeśli do takiego dostępu doszło z winy Użytkownika (np. na skutek udostępnienia przez niego danych do logowania innej osobie lub niezachowania środków ostrożności, jakich można rozsądnie wymagać od Internauty) lub z przyczyn, za które zgodnie z prawem Auchan Polska nie ponosi odpowiedzialności.  § 5.   Reklamacje  1.   Wszelkie reklamacje związane z działaniem Aplikacji oraz ze świadczeniem za jej pośrednictwem usług można kierować do Auchan Polska w dowolny sposób umożliwiający Auchan Polska zapoznanie się z nimi,  np. na adres e-mail:   kontakt@auchan.pl   lub korespondencyjnie na adres: Auchan Polska sp. z o.o., ul.   Puławska 46, 05 - 500 Piaseczno (z zalecanym dopiskiem „Reklamacja –   aplikacja”).  2.   Reklamacja powinna zawierać w swej treści dane osoby składającej reklamację (imię i nazwisko, adres  kor",
+          "page_number": 4,
+          "similarity": 0.511843074270308
+        },
+        {
+          "id": "c97f85db-66b7-4a7e-aa71-d88fb3b956ad",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Aplikacji (w tym działania zewnętrznych dostawców, na które Auchan Polska nie ma wpływu);  5.4.   zmiana powszechnie obowiązujących przepisów prawa lub ich interpretacji stosowanej przez sądy lub organy władzy publicznej, mająca bezpośredni, istotny wpływ na Aplikację i uzasadniająca jej  wycofanie.  O wycofaniu Aplikacji Auchan Polska powiadomi Użytkowników z odpowiednim wyprzedzeniem, nie krótszym niż 14 dni.  6.   Informację (powiadomienie) w zakresie, o którym mowa w ust. 5 powyżej, Auchan Polska zamieści co  najmniej na stronie   www.auchan.pl   oraz w samej Aplikacji.  7.   Użytkownicy powinni instalować aktualizacje Aplikacji, które są okresowo udostępniane przez Auchan Polska. Aktualizacje pozwalają na utrzymanie bezpieczeństwa Aplikacji, zapewnienie jej prawidłowego działania oraz korzystanie z nowych lub zmodyfikowanych funkcjonalności, jakie mogą być udostępniane przez   Auchan   Polska   w   Aplikacji   w   związku   z   jej   rozwojem   i   zmieniającymi   się   standardam",
+          "page_number": 3,
+          "similarity": 0.508990630239539
+        },
+        {
+          "id": "e0e19c92-0fab-4d10-b437-7cb9216278e5",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " korzystanie z nowych lub zmodyfikowanych funkcjonalności, jakie mogą być udostępniane przez   Auchan   Polska   w   Aplikacji   w   związku   z   jej   rozwojem   i   zmieniającymi   się   standardami technologicznymi. Informacje o dostępności aktualizacji będą widoczne w Aplikacji. W zależności od parametrów i konfiguracji urządzenia mobilnego Użytkownika, aktualizacje mogą być instalowane automatycznie lub wymagać działania Użytkownika.  8.   Auchan Polska jest zobowiązana dołożyć należytej staranności w celu zapewnienia prawidłowego  i bezpiecznego działania Aplikacji. Ze względów bezpieczeństwa, a także z uwagi na prace techniczne dotyczące rozwoju lub aktualizacji Aplikacji, Aplikacja może automatycznie wylogowywać Użytkowników lub mogą wystąpić przerwy w jej działaniu. Auchan Polska może również od czasu do czasu wydawać komunikaty dla Użytkowników zawierające zalecenia dotyczące zasad bezpieczeństwa związanych  z korzystaniem z Aplikacji.  9.   Bez   uszczerbku dla zobowiązań A",
+          "page_number": 3,
+          "similarity": 0.504779383967466
+        },
+        {
+          "id": "68f280dc-ec82-4281-ad89-55bc78d2352b",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ślonych w odrębnych regulaminach,  dokumentach lub komunikatach widocznych w Aplikacji   –   z ofert (w tym ofert kuponowych),  skierowanych do Użytkowników (w tym wybranych grup Użytkowników, takich j ak np. uczestnicy  programu lojalnościowego „Skarbonka”, subskrybenci newslettera Auchan Polska);  4.6.   korzystania z innych funkcjonalności udostępnionych w Aplikacji.  5.   Niektóre funkcjonalności Aplikacji są dostępne wyłącznie dla Użytkowników zalogowanych do swojego Cyfrowego Konta Auchan lub będących uczestnikami programu lojalnościowego „Skarbonka” (po powiązaniu Cyfrowego Konta Auchan z kontem uczestnika programu lojalnościowego „Skarbonka” –   tj.  po „podpięciu” karty Skarbonka pod Cyfrowe Konto Auchan).  6.   Aplikacja oraz zawarte w niej materiały i informacje, rozwiązania, wybór i układ prezentowanych  w ramach Aplikacji treści, logotypy, elementy graficzne, znaki towarowe, stanowią przedmiot praw wyłącznych Auchan Polska lub jej partnerów biznesowych.  § 3.   Ogólne zasa",
+          "page_number": 2,
+          "similarity": 0.502164557898724
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 0.5
+    },
+    {
+      "id": "q004",
+      "question": "Kto pokrywa koszty transmisji danych potrzebnych do korzystania z Aplikacji?",
+      "expectedDocument": "auchan.pdf",
+      "expectedPages": [
+        1
+      ],
+      "retrieved": [
+        {
+          "id": "d2859674-166f-4c66-898e-07e6cfe91548",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " Polska poinformuje z wyprzedzeniem nie mniejszym niż 14 dni przed ich wejściem w życie –   co najmniej poprzez zamieszczenie komunikatu o zmianie Regulaminu w Aplikacji  wraz z udostępnieniem zmienionego Regulaminu w sposób, o którym mowa w ust. 3 poniżej. Jeśli Użytkownik nie zaprzestanie korzystania z   Aplikacji, zmieniony Regulamin będzie się do niego stosować. Niezależnie od powyższego, Użytkownik może zaprzestać korzystania z Aplikacji w każdym czasie na  zasadach przewidzian ych w § 4 Regulaminu.",
+          "page_number": 4,
+          "similarity": 0.629554610563711
+        },
+        {
+          "id": "a2182b38-9d10-44d9-828a-fff3ab915a65",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "bór i układ prezentowanych  w ramach Aplikacji treści, logotypy, elementy graficzne, znaki towarowe, stanowią przedmiot praw wyłącznych Auchan Polska lub jej partnerów biznesowych.  § 3.   Ogólne zasady korzystania z Aplikacji  1.   Użytkownicy są zobowiązani do:  1.1.   korzystania z Aplikacji w sposób zgodny z obowiązującym prawem, Regulaminem i regulaminami sklepów, z których Aplikacja została pobrana, a także z zasadami współżycia społecznego  (w   szczególności   zaś   korzystania   z   Aplikacji   w   sposób   niemający   na   celu   zakłócenia   jej  funkcjonowania);  1.2.   korzystania   z   informacji   i   materiałów   udostępnionych   za   pośrednictwem   Aplikacji  z   poszanowaniem dla praw własności intelektualnej.  2.   Zabronione jest w ramach korzystania z Aplikacji dostarczanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w do",
+          "page_number": 2,
+          "similarity": 0.612206032074581
+        },
+        {
+          "id": "56d3447d-158f-4e8b-8dd9-c8a4a05ad911",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "iem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników urządzeń mobilnych spełniających wskazane poniżej wymagania techniczne, którzy pobiorą ją z odpowiedniego sklepu i prawidłowo uruchomią na urządzeniu  mobilnym.  2.   Urządzenie mobilne, na którym ma zostać uruchomiona Aplikacja, spełniać musi następujące wymagania techniczne dotyczące systemu operacyjnego:  2.1.   dla wersji aplikacji pobranej z App Store   –   iOS w wersji minimum 13.0;  2.2.   dla wersji aplikacji pobranej z Google Play   –   Android w wersji minimum 5.0.",
+          "page_number": 1,
+          "similarity": 0.611583259483162
+        },
+        {
+          "id": "72fb5c69-2918-40d1-8be4-6e5ccfdb6485",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "uchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.560961499443413
+        },
+        {
+          "id": "4a9decd2-cafd-442c-a0f5-b98e1ccea1b6",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " może również od czasu do czasu wydawać komunikaty dla Użytkowników zawierające zalecenia dotyczące zasad bezpieczeństwa związanych  z korzystaniem z Aplikacji.  9.   Bez   uszczerbku dla zobowiązań Auchan Polska dotyczących zapewnienia prawidłowego i bezpiecznego działania Aplikacji, Użytkownik jest zobowiązany we własnym zakresie do:  9.1.   zabezpieczenia przed dostępem nieuprawnionych osób trzecich loginu i hasła używanych do  logowania w Aplikacji,  9.2.   instalowania aktualizacji Aplikacji,  9.3.   zapewnienia bezpieczeństwa urządzeń, na których korzysta z Aplikacji, w szczególności poprzez instalowanie aktualizacji bezpieczeństwa systemu operacyjnego, korzystanie z oprogramowania antywirusowego i zachowanie ostrożności podczas korzystania z Internet u.",
+          "page_number": 3,
+          "similarity": 0.54720509109664
+        },
+        {
+          "id": "e0e19c92-0fab-4d10-b437-7cb9216278e5",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " korzystanie z nowych lub zmodyfikowanych funkcjonalności, jakie mogą być udostępniane przez   Auchan   Polska   w   Aplikacji   w   związku   z   jej   rozwojem   i   zmieniającymi   się   standardami technologicznymi. Informacje o dostępności aktualizacji będą widoczne w Aplikacji. W zależności od parametrów i konfiguracji urządzenia mobilnego Użytkownika, aktualizacje mogą być instalowane automatycznie lub wymagać działania Użytkownika.  8.   Auchan Polska jest zobowiązana dołożyć należytej staranności w celu zapewnienia prawidłowego  i bezpiecznego działania Aplikacji. Ze względów bezpieczeństwa, a także z uwagi na prace techniczne dotyczące rozwoju lub aktualizacji Aplikacji, Aplikacja może automatycznie wylogowywać Użytkowników lub mogą wystąpić przerwy w jej działaniu. Auchan Polska może również od czasu do czasu wydawać komunikaty dla Użytkowników zawierające zalecenia dotyczące zasad bezpieczeństwa związanych  z korzystaniem z Aplikacji.  9.   Bez   uszczerbku dla zobowiązań A",
+          "page_number": 3,
+          "similarity": 0.545562944645134
+        },
+        {
+          "id": "10d59392-cc65-42a5-aa3e-a1f74e8779a1",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "czanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w dowolnym czasie zaprzestać korzystania z Aplikacji, w szczególności wówczas, gdy nie zaakceptują zmian wprowadzonych w Regulaminie lub modyfikacji Aplikacji. Zaprzestanie korzystania z Aplikacji wymaga jej usunięcia z urządzenia mobilneg o.  2.   Samo odinstalowanie Aplikacji z urządzenia mobilnego Użytkownika nie jest równoznaczne z usunięciem Cyfrowego Konta Auchan (jeżeli Użytkownik posiada takie konto) ani z zakończeniem uczestnictwa  w   programie   lojalnościowym   „Skarbonka”   (jeżeli   Użytkownik   je st   uczestnikiem   tego   programu).  Użytkownik może zrezygnować z Cyfrowego Konta Auchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.543620949824324
+        },
+        {
+          "id": "aad2e6c4-fbea-47ac-ae29-e250f08dc19d",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "które posiadają pełną zdolność do czynności prawnych (dalej „ Użytkownicy ”).  5.   Aplikację można pobrać korzystając z internetowego   sklepu:  5.1.   App Store   –   dla systemu iOS;  5.2.   Google Play   –   dla systemu Android.  6.   Pobranie Aplikacji ze sklepów, o których mowa powyżej, jak również korzystanie z oferowanych za jej pośrednictwem przez Auchan Polska usług jest bezpłatne.  7.   Koszty transmisji danych wymaganych do pobrania, instalacji, uruchomienia i korzystania z Aplikacji  pokrywają jej Użytkownicy we własnym zakresie na podstawie umów zawartych z ich operatorami telekomunikacyjnymi lub innym dostawcą Internetu.  8.   Regulamin jest dostępny na stronie internetowej   www.auchan.pl , w sklepach App Store i Google Play oraz  w Aplikacji. Przed pobraniem i zainstalowaniem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników ur",
+          "page_number": 1,
+          "similarity": 0.54108084860687
+        },
+        {
+          "id": "68f280dc-ec82-4281-ad89-55bc78d2352b",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ślonych w odrębnych regulaminach,  dokumentach lub komunikatach widocznych w Aplikacji   –   z ofert (w tym ofert kuponowych),  skierowanych do Użytkowników (w tym wybranych grup Użytkowników, takich j ak np. uczestnicy  programu lojalnościowego „Skarbonka”, subskrybenci newslettera Auchan Polska);  4.6.   korzystania z innych funkcjonalności udostępnionych w Aplikacji.  5.   Niektóre funkcjonalności Aplikacji są dostępne wyłącznie dla Użytkowników zalogowanych do swojego Cyfrowego Konta Auchan lub będących uczestnikami programu lojalnościowego „Skarbonka” (po powiązaniu Cyfrowego Konta Auchan z kontem uczestnika programu lojalnościowego „Skarbonka” –   tj.  po „podpięciu” karty Skarbonka pod Cyfrowe Konto Auchan).  6.   Aplikacja oraz zawarte w niej materiały i informacje, rozwiązania, wybór i układ prezentowanych  w ramach Aplikacji treści, logotypy, elementy graficzne, znaki towarowe, stanowią przedmiot praw wyłącznych Auchan Polska lub jej partnerów biznesowych.  § 3.   Ogólne zasa",
+          "page_number": 2,
+          "similarity": 0.538903229603847
+        },
+        {
+          "id": "614feac8-95a9-4ee7-b68e-5663d91d75f9",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "oniczną   na   zasadach   określonych  w Regulaminie, w tym w celu założenia Cyfrowego Konta Auchan oraz dokonywania zakupów  w sklepie internetowym   –   podstawą prawną przetwarzania jest niezbędność przetwarzania dan ych w celu wykonania umowy (art. 6 ust. 1 lit. b RODO);  3.2.   wykonania   obowiązków   wynikających   z   przepisów   prawa   ciążących   na   Administratorze,  w   szczególności   w   zakresie   obowiązków   wynikających   z   przepisów   podatkowo - księgowych  –   podstawą prawną jest niezbędność przetwarzania danych w celu wypełnienia obowiązku  pra wnego ciążącego na Administratorze (art. 6 ust. 1 lit. c RODO);  3.3.   wysyłania przez Administratora komunikacji marketingowej na podany w Aplikacji numer telefonu  i adres e-mail   –   podstawą prawną przetwarzania jest dobrowolna zgoda Użytkowników na otrzymywanie treści marketingowych (art. 6 ust. 1 lit. a RODO);  3.4.   ustalenia lub dochodzenia ewentualnych roszczeń lub obrony przed takimi roszczeniami przez  Ad",
+          "page_number": 5,
+          "similarity": 0.538805523692792
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 0.3333333333333333
+    },
+    {
+      "id": "q005",
+      "question": "Jakie są minimalne wymagania systemowe (iOS/Android) do uruchomienia Aplikacji?",
+      "expectedDocument": "auchan.pdf",
+      "expectedPages": [
+        1,
+        2
+      ],
+      "retrieved": [
+        {
+          "id": "56d3447d-158f-4e8b-8dd9-c8a4a05ad911",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "iem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników urządzeń mobilnych spełniających wskazane poniżej wymagania techniczne, którzy pobiorą ją z odpowiedniego sklepu i prawidłowo uruchomią na urządzeniu  mobilnym.  2.   Urządzenie mobilne, na którym ma zostać uruchomiona Aplikacja, spełniać musi następujące wymagania techniczne dotyczące systemu operacyjnego:  2.1.   dla wersji aplikacji pobranej z App Store   –   iOS w wersji minimum 13.0;  2.2.   dla wersji aplikacji pobranej z Google Play   –   Android w wersji minimum 5.0.",
+          "page_number": 1,
+          "similarity": 0.682808742251885
+        },
+        {
+          "id": "aad2e6c4-fbea-47ac-ae29-e250f08dc19d",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "które posiadają pełną zdolność do czynności prawnych (dalej „ Użytkownicy ”).  5.   Aplikację można pobrać korzystając z internetowego   sklepu:  5.1.   App Store   –   dla systemu iOS;  5.2.   Google Play   –   dla systemu Android.  6.   Pobranie Aplikacji ze sklepów, o których mowa powyżej, jak również korzystanie z oferowanych za jej pośrednictwem przez Auchan Polska usług jest bezpłatne.  7.   Koszty transmisji danych wymaganych do pobrania, instalacji, uruchomienia i korzystania z Aplikacji  pokrywają jej Użytkownicy we własnym zakresie na podstawie umów zawartych z ich operatorami telekomunikacyjnymi lub innym dostawcą Internetu.  8.   Regulamin jest dostępny na stronie internetowej   www.auchan.pl , w sklepach App Store i Google Play oraz  w Aplikacji. Przed pobraniem i zainstalowaniem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników ur",
+          "page_number": 1,
+          "similarity": 0.548118060602946
+        },
+        {
+          "id": "4a9decd2-cafd-442c-a0f5-b98e1ccea1b6",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " może również od czasu do czasu wydawać komunikaty dla Użytkowników zawierające zalecenia dotyczące zasad bezpieczeństwa związanych  z korzystaniem z Aplikacji.  9.   Bez   uszczerbku dla zobowiązań Auchan Polska dotyczących zapewnienia prawidłowego i bezpiecznego działania Aplikacji, Użytkownik jest zobowiązany we własnym zakresie do:  9.1.   zabezpieczenia przed dostępem nieuprawnionych osób trzecich loginu i hasła używanych do  logowania w Aplikacji,  9.2.   instalowania aktualizacji Aplikacji,  9.3.   zapewnienia bezpieczeństwa urządzeń, na których korzysta z Aplikacji, w szczególności poprzez instalowanie aktualizacji bezpieczeństwa systemu operacyjnego, korzystanie z oprogramowania antywirusowego i zachowanie ostrożności podczas korzystania z Internet u.",
+          "page_number": 3,
+          "similarity": 0.538714633643773
+        },
+        {
+          "id": "bcb9a3dc-5288-48ae-a70a-50b4b42ad6b0",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   2   z   6  3.   Aplikacja jest przeznaczona do działania w trybie online, tj. kiedy w urządzeniu mobilnym Użytkownika jest włączony dostęp do Internetu. Z niektórych funkcjonalności dostępnych w Aplikacji można korzystać także w trybie offline. Auchan Polska nie gwarantuje jednak aktualności i poprawności działania tych funkcjonalności podczas działania ich w trybie offline.  4.   Aplikacja daje możliwość Użytkownikowi w szczególności:  4.1.   przeglądania lokalizacji i informacji o sklepach Auchan Polska oraz –   po wyrażeniu zgody na dostęp do danych o lokalizacji urządzenia mobilnego –   z funkcji wskazania danych do nawigacji do tych  sklepów (nawigacja jest możliwa za pomocą zewnętrznych aplikac ji);  4.2.   przeglądania aktualnych promocji oraz gazetek Auchan Polska;  4.3.   założenia   Cyfrowego   Konta   Auchan,   o   którym   mowa   w   odrębnym   „Regulaminie   sklepu internetowego i Cyfrowego Konta Auchan” dostępnym w sklepie internetowym Auchan oraz  w Aplikacji (p",
+          "page_number": 2,
+          "similarity": 0.497261225687507
+        },
+        {
+          "id": "f5a42646-1abf-4a72-9d4f-759cf71f8522",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   1   z   6  Regulamin obowiązujący od   04 lipca 2024 r.  Regulamin Aplikacji Mobilnej Auchan  § 1.   Postanowienia ogólne  1.   Niniejszy Regulamin (dalej „ Regulamin ”) określa zasady i warunki:  1.1.   korzystania   z   Aplikacji   Mobilnej   Auchan   (dalej   „ Aplikacja ”),   będącej   oprogramowaniem  działającym na urządzeniach mobilnych (np. smartfonach) z systemem operacyjnym iOS lub Android, posiadających dostęp do Internetu;  1.2.   świadczenia usług drogą elektroniczną za pomocą Aplikacji przez jej operatora, o którym mowa  w   ust. 2 poniżej.  2.   Operatorem Aplikacji jest Auchan Polska sp. z o.o. z siedzibą w Piasecznie, ul. Puławska 46, 05 -500  Piaseczno, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla m.st. Warszawy w Warszawie, XIV Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem KRS 0000032892, o kapitale zakładowym 906   928   900,00 zł, NIP: 5260309174, REGON:  010001888, numer BDO: 000013917 ",
+          "page_number": 1,
+          "similarity": 0.486621291242831
+        },
+        {
+          "id": "5e897560-d5cb-43d2-af82-a244440ecc7c",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   5   z   6  3.   Auchan Polska   zapewnia dostęp do Regulaminu za pośrednictwem linku zamieszczonego na stronie  internetowej   www.auchan.pl   lub jej podstronach oraz bezpośrednio w Aplikacji, a także w sklepach   App Store i Google Play.  § 7.   Dane osobowe  1.   Administratorem danych osobowych przetwarzanych w Aplikacji jest Auchan Polska sp. z o.o. z siedzibą  w Piasecznie, ul. Puławska 46, 05 - 500 Piaseczno (dalej „ Administrator ”).  2.   Administrator wyznaczył Inspektora ochrony danych, z którym można skontaktować się na adres  e-mail:   daneosobowe@auchan.pl   lub pisemnie na adres siedziby Administratora z dopiskiem „Inspektor ochrony danych”.  3.   Dane osobowe Użytkowników będą przetwarzane w celu:  3.1.   wykonania   umowy   o   świadczenie   usług   drogą   elektroniczną   na   zasadach   określonych  w Regulaminie, w tym w celu założenia Cyfrowego Konta Auchan oraz dokonywania zakupów  w sklepie internetowym   –   podstawą prawną przetwarzania jest niezbędnoś",
+          "page_number": 5,
+          "similarity": 0.480688385058565
+        },
+        {
+          "id": "a5ff0e04-c24e-4c00-a75f-0a8c6b6c77f2",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "plikacji biorącym udział w programie lojalnościowym „Skarbonka” w zakładce „Kupony” będą wyświetlane spersonalizowane oferty, które przyznawane są Użytkownikom biorącym udział w programie lojalnościowym „Skarbonka”, których Cyfrowe Konto Auchan jest powiązane z kontem uczestnika programu lojalnościowego „Skarbonka” („podpięcie” karty Skarbonka  pod Cyfrowe Konto Auchan). Informacje na temat przyznawania k uponów znajdują się w „Regulaminie  programu l ojalnościowego „Skarbonka”” dostępnym   na stronie   www.auchan.pl   oraz w Aplikacji,   a także  w r egulaminie „Kupony promocyjne w Aplikacji Mobilnej Auchan” dostępnym na stronie internetowej  www.auchan.pl   w zakładce „Regulaminy akcji promocyjnych”.  13.   Szczegółowe informacje na temat przetwarzania przez Administratora danych osobowych oraz plików  cookies   znajduje się w Polityce prywatności dostępnej pod adresem:   https://www.auchan.pl/pl/dla- klienta/polityka-prywatnosci .  § 8.   Postanowienia końcowe  1.   Regulamin podleg",
+          "page_number": 6,
+          "similarity": 0.479354996335207
+        },
+        {
+          "id": "10d59392-cc65-42a5-aa3e-a1f74e8779a1",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "czanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w dowolnym czasie zaprzestać korzystania z Aplikacji, w szczególności wówczas, gdy nie zaakceptują zmian wprowadzonych w Regulaminie lub modyfikacji Aplikacji. Zaprzestanie korzystania z Aplikacji wymaga jej usunięcia z urządzenia mobilneg o.  2.   Samo odinstalowanie Aplikacji z urządzenia mobilnego Użytkownika nie jest równoznaczne z usunięciem Cyfrowego Konta Auchan (jeżeli Użytkownik posiada takie konto) ani z zakończeniem uczestnictwa  w   programie   lojalnościowym   „Skarbonka”   (jeżeli   Użytkownik   je st   uczestnikiem   tego   programu).  Użytkownik może zrezygnować z Cyfrowego Konta Auchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.469514254389578
+        },
+        {
+          "id": "c97f85db-66b7-4a7e-aa71-d88fb3b956ad",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Aplikacji (w tym działania zewnętrznych dostawców, na które Auchan Polska nie ma wpływu);  5.4.   zmiana powszechnie obowiązujących przepisów prawa lub ich interpretacji stosowanej przez sądy lub organy władzy publicznej, mająca bezpośredni, istotny wpływ na Aplikację i uzasadniająca jej  wycofanie.  O wycofaniu Aplikacji Auchan Polska powiadomi Użytkowników z odpowiednim wyprzedzeniem, nie krótszym niż 14 dni.  6.   Informację (powiadomienie) w zakresie, o którym mowa w ust. 5 powyżej, Auchan Polska zamieści co  najmniej na stronie   www.auchan.pl   oraz w samej Aplikacji.  7.   Użytkownicy powinni instalować aktualizacje Aplikacji, które są okresowo udostępniane przez Auchan Polska. Aktualizacje pozwalają na utrzymanie bezpieczeństwa Aplikacji, zapewnienie jej prawidłowego działania oraz korzystanie z nowych lub zmodyfikowanych funkcjonalności, jakie mogą być udostępniane przez   Auchan   Polska   w   Aplikacji   w   związku   z   jej   rozwojem   i   zmieniającymi   się   standardam",
+          "page_number": 3,
+          "similarity": 0.46803554511497
+        },
+        {
+          "id": "63643cb6-dccd-480e-8870-afb7861d3461",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "awy w Warszawie, XIV Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem KRS 0000032892, o kapitale zakładowym 906   928   900,00 zł, NIP: 5260309174, REGON:  010001888, numer BDO: 000013917   (dalej „ Auchan Polska ”).  3.   Kontakt z Auchan Polska jest możliwy pod adresem siedziby wskazanym powyżej, e -mailowo na adres: kontakt@auchan.pl , przez formularz kontaktowy dostępny na stronie internetowej   www.auchan.pl , a   także pod numerem infolinii 22 444 02 22 (informacje o godzinach pracy infolinii są dostępne na stronie  internetowej   www.auchan.pl ; opłata za połączenie –   jak za zwykłe połączenie telefoniczne według taryfy operatora osoby nawiązującej połączenie).  4.   Aplikacja jest przeznaczona dla konsumentów. Użytkownikami Aplikacji mogą być wyłącznie osoby fizyczne, które posiadają pełną zdolność do czynności prawnych (dalej „ Użytkownicy ”).  5.   Aplikację można pobrać korzystając z internetowego   sklepu:  5.1.   App Store   –   dla systemu iOS;  5.2.   Google",
+          "page_number": 1,
+          "similarity": 0.455052863679532
+        }
+      ],
+      "hitAt1": true,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 1
+    },
+    {
+      "id": "q006",
+      "question": "Czy Aplikacja działa w trybie offline?",
+      "expectedDocument": "auchan.pdf",
+      "expectedPages": [
+        2
+      ],
+      "retrieved": [
+        {
+          "id": "bcb9a3dc-5288-48ae-a70a-50b4b42ad6b0",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   2   z   6  3.   Aplikacja jest przeznaczona do działania w trybie online, tj. kiedy w urządzeniu mobilnym Użytkownika jest włączony dostęp do Internetu. Z niektórych funkcjonalności dostępnych w Aplikacji można korzystać także w trybie offline. Auchan Polska nie gwarantuje jednak aktualności i poprawności działania tych funkcjonalności podczas działania ich w trybie offline.  4.   Aplikacja daje możliwość Użytkownikowi w szczególności:  4.1.   przeglądania lokalizacji i informacji o sklepach Auchan Polska oraz –   po wyrażeniu zgody na dostęp do danych o lokalizacji urządzenia mobilnego –   z funkcji wskazania danych do nawigacji do tych  sklepów (nawigacja jest możliwa za pomocą zewnętrznych aplikac ji);  4.2.   przeglądania aktualnych promocji oraz gazetek Auchan Polska;  4.3.   założenia   Cyfrowego   Konta   Auchan,   o   którym   mowa   w   odrębnym   „Regulaminie   sklepu internetowego i Cyfrowego Konta Auchan” dostępnym w sklepie internetowym Auchan oraz  w Aplikacji (p",
+          "page_number": 2,
+          "similarity": 0.599094617744572
+        },
+        {
+          "id": "56d3447d-158f-4e8b-8dd9-c8a4a05ad911",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "iem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników urządzeń mobilnych spełniających wskazane poniżej wymagania techniczne, którzy pobiorą ją z odpowiedniego sklepu i prawidłowo uruchomią na urządzeniu  mobilnym.  2.   Urządzenie mobilne, na którym ma zostać uruchomiona Aplikacja, spełniać musi następujące wymagania techniczne dotyczące systemu operacyjnego:  2.1.   dla wersji aplikacji pobranej z App Store   –   iOS w wersji minimum 13.0;  2.2.   dla wersji aplikacji pobranej z Google Play   –   Android w wersji minimum 5.0.",
+          "page_number": 1,
+          "similarity": 0.562179176222959
+        },
+        {
+          "id": "4a9decd2-cafd-442c-a0f5-b98e1ccea1b6",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " może również od czasu do czasu wydawać komunikaty dla Użytkowników zawierające zalecenia dotyczące zasad bezpieczeństwa związanych  z korzystaniem z Aplikacji.  9.   Bez   uszczerbku dla zobowiązań Auchan Polska dotyczących zapewnienia prawidłowego i bezpiecznego działania Aplikacji, Użytkownik jest zobowiązany we własnym zakresie do:  9.1.   zabezpieczenia przed dostępem nieuprawnionych osób trzecich loginu i hasła używanych do  logowania w Aplikacji,  9.2.   instalowania aktualizacji Aplikacji,  9.3.   zapewnienia bezpieczeństwa urządzeń, na których korzysta z Aplikacji, w szczególności poprzez instalowanie aktualizacji bezpieczeństwa systemu operacyjnego, korzystanie z oprogramowania antywirusowego i zachowanie ostrożności podczas korzystania z Internet u.",
+          "page_number": 3,
+          "similarity": 0.560103197079406
+        },
+        {
+          "id": "aad2e6c4-fbea-47ac-ae29-e250f08dc19d",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "które posiadają pełną zdolność do czynności prawnych (dalej „ Użytkownicy ”).  5.   Aplikację można pobrać korzystając z internetowego   sklepu:  5.1.   App Store   –   dla systemu iOS;  5.2.   Google Play   –   dla systemu Android.  6.   Pobranie Aplikacji ze sklepów, o których mowa powyżej, jak również korzystanie z oferowanych za jej pośrednictwem przez Auchan Polska usług jest bezpłatne.  7.   Koszty transmisji danych wymaganych do pobrania, instalacji, uruchomienia i korzystania z Aplikacji  pokrywają jej Użytkownicy we własnym zakresie na podstawie umów zawartych z ich operatorami telekomunikacyjnymi lub innym dostawcą Internetu.  8.   Regulamin jest dostępny na stronie internetowej   www.auchan.pl , w sklepach App Store i Google Play oraz  w Aplikacji. Przed pobraniem i zainstalowaniem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników ur",
+          "page_number": 1,
+          "similarity": 0.514220350160446
+        },
+        {
+          "id": "d2859674-166f-4c66-898e-07e6cfe91548",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " Polska poinformuje z wyprzedzeniem nie mniejszym niż 14 dni przed ich wejściem w życie –   co najmniej poprzez zamieszczenie komunikatu o zmianie Regulaminu w Aplikacji  wraz z udostępnieniem zmienionego Regulaminu w sposób, o którym mowa w ust. 3 poniżej. Jeśli Użytkownik nie zaprzestanie korzystania z   Aplikacji, zmieniony Regulamin będzie się do niego stosować. Niezależnie od powyższego, Użytkownik może zaprzestać korzystania z Aplikacji w każdym czasie na  zasadach przewidzian ych w § 4 Regulaminu.",
+          "page_number": 4,
+          "similarity": 0.513179146134128
+        },
+        {
+          "id": "f5a42646-1abf-4a72-9d4f-759cf71f8522",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   1   z   6  Regulamin obowiązujący od   04 lipca 2024 r.  Regulamin Aplikacji Mobilnej Auchan  § 1.   Postanowienia ogólne  1.   Niniejszy Regulamin (dalej „ Regulamin ”) określa zasady i warunki:  1.1.   korzystania   z   Aplikacji   Mobilnej   Auchan   (dalej   „ Aplikacja ”),   będącej   oprogramowaniem  działającym na urządzeniach mobilnych (np. smartfonach) z systemem operacyjnym iOS lub Android, posiadających dostęp do Internetu;  1.2.   świadczenia usług drogą elektroniczną za pomocą Aplikacji przez jej operatora, o którym mowa  w   ust. 2 poniżej.  2.   Operatorem Aplikacji jest Auchan Polska sp. z o.o. z siedzibą w Piasecznie, ul. Puławska 46, 05 -500  Piaseczno, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla m.st. Warszawy w Warszawie, XIV Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem KRS 0000032892, o kapitale zakładowym 906   928   900,00 zł, NIP: 5260309174, REGON:  010001888, numer BDO: 000013917 ",
+          "page_number": 1,
+          "similarity": 0.499180496276293
+        },
+        {
+          "id": "5e897560-d5cb-43d2-af82-a244440ecc7c",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   5   z   6  3.   Auchan Polska   zapewnia dostęp do Regulaminu za pośrednictwem linku zamieszczonego na stronie  internetowej   www.auchan.pl   lub jej podstronach oraz bezpośrednio w Aplikacji, a także w sklepach   App Store i Google Play.  § 7.   Dane osobowe  1.   Administratorem danych osobowych przetwarzanych w Aplikacji jest Auchan Polska sp. z o.o. z siedzibą  w Piasecznie, ul. Puławska 46, 05 - 500 Piaseczno (dalej „ Administrator ”).  2.   Administrator wyznaczył Inspektora ochrony danych, z którym można skontaktować się na adres  e-mail:   daneosobowe@auchan.pl   lub pisemnie na adres siedziby Administratora z dopiskiem „Inspektor ochrony danych”.  3.   Dane osobowe Użytkowników będą przetwarzane w celu:  3.1.   wykonania   umowy   o   świadczenie   usług   drogą   elektroniczną   na   zasadach   określonych  w Regulaminie, w tym w celu założenia Cyfrowego Konta Auchan oraz dokonywania zakupów  w sklepie internetowym   –   podstawą prawną przetwarzania jest niezbędnoś",
+          "page_number": 5,
+          "similarity": 0.492010833261531
+        },
+        {
+          "id": "78fd9b45-7d81-476c-8faa-7f560ba23b1e",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   4   z   6  10.   Auchan Polska nie odpowiada za skutki uzyskania przez inne (nieuprawnione) osoby dostępu do Aplikacji (w tym do konta dostępnego za pomocą Aplikacji), jeśli do takiego dostępu doszło z winy Użytkownika (np. na skutek udostępnienia przez niego danych do logowania innej osobie lub niezachowania środków ostrożności, jakich można rozsądnie wymagać od Internauty) lub z przyczyn, za które zgodnie z prawem Auchan Polska nie ponosi odpowiedzialności.  § 5.   Reklamacje  1.   Wszelkie reklamacje związane z działaniem Aplikacji oraz ze świadczeniem za jej pośrednictwem usług można kierować do Auchan Polska w dowolny sposób umożliwiający Auchan Polska zapoznanie się z nimi,  np. na adres e-mail:   kontakt@auchan.pl   lub korespondencyjnie na adres: Auchan Polska sp. z o.o., ul.   Puławska 46, 05 - 500 Piaseczno (z zalecanym dopiskiem „Reklamacja –   aplikacja”).  2.   Reklamacja powinna zawierać w swej treści dane osoby składającej reklamację (imię i nazwisko, adres  kor",
+          "page_number": 4,
+          "similarity": 0.475576433470759
+        },
+        {
+          "id": "614feac8-95a9-4ee7-b68e-5663d91d75f9",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "oniczną   na   zasadach   określonych  w Regulaminie, w tym w celu założenia Cyfrowego Konta Auchan oraz dokonywania zakupów  w sklepie internetowym   –   podstawą prawną przetwarzania jest niezbędność przetwarzania dan ych w celu wykonania umowy (art. 6 ust. 1 lit. b RODO);  3.2.   wykonania   obowiązków   wynikających   z   przepisów   prawa   ciążących   na   Administratorze,  w   szczególności   w   zakresie   obowiązków   wynikających   z   przepisów   podatkowo - księgowych  –   podstawą prawną jest niezbędność przetwarzania danych w celu wypełnienia obowiązku  pra wnego ciążącego na Administratorze (art. 6 ust. 1 lit. c RODO);  3.3.   wysyłania przez Administratora komunikacji marketingowej na podany w Aplikacji numer telefonu  i adres e-mail   –   podstawą prawną przetwarzania jest dobrowolna zgoda Użytkowników na otrzymywanie treści marketingowych (art. 6 ust. 1 lit. a RODO);  3.4.   ustalenia lub dochodzenia ewentualnych roszczeń lub obrony przed takimi roszczeniami przez  Ad",
+          "page_number": 5,
+          "similarity": 0.473693388067052
+        },
+        {
+          "id": "a2182b38-9d10-44d9-828a-fff3ab915a65",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "bór i układ prezentowanych  w ramach Aplikacji treści, logotypy, elementy graficzne, znaki towarowe, stanowią przedmiot praw wyłącznych Auchan Polska lub jej partnerów biznesowych.  § 3.   Ogólne zasady korzystania z Aplikacji  1.   Użytkownicy są zobowiązani do:  1.1.   korzystania z Aplikacji w sposób zgodny z obowiązującym prawem, Regulaminem i regulaminami sklepów, z których Aplikacja została pobrana, a także z zasadami współżycia społecznego  (w   szczególności   zaś   korzystania   z   Aplikacji   w   sposób   niemający   na   celu   zakłócenia   jej  funkcjonowania);  1.2.   korzystania   z   informacji   i   materiałów   udostępnionych   za   pośrednictwem   Aplikacji  z   poszanowaniem dla praw własności intelektualnej.  2.   Zabronione jest w ramach korzystania z Aplikacji dostarczanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w do",
+          "page_number": 2,
+          "similarity": 0.473262005869124
+        }
+      ],
+      "hitAt1": true,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 1
+    },
+    {
+      "id": "q007",
+      "question": "Jakie funkcjonalności udostępnia Aplikacja Użytkownikowi?",
+      "expectedDocument": "auchan.pdf",
+      "expectedPages": [
+        2
+      ],
+      "retrieved": [
+        {
+          "id": "72fb5c69-2918-40d1-8be4-6e5ccfdb6485",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "uchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.691021167161605
+        },
+        {
+          "id": "68f280dc-ec82-4281-ad89-55bc78d2352b",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ślonych w odrębnych regulaminach,  dokumentach lub komunikatach widocznych w Aplikacji   –   z ofert (w tym ofert kuponowych),  skierowanych do Użytkowników (w tym wybranych grup Użytkowników, takich j ak np. uczestnicy  programu lojalnościowego „Skarbonka”, subskrybenci newslettera Auchan Polska);  4.6.   korzystania z innych funkcjonalności udostępnionych w Aplikacji.  5.   Niektóre funkcjonalności Aplikacji są dostępne wyłącznie dla Użytkowników zalogowanych do swojego Cyfrowego Konta Auchan lub będących uczestnikami programu lojalnościowego „Skarbonka” (po powiązaniu Cyfrowego Konta Auchan z kontem uczestnika programu lojalnościowego „Skarbonka” –   tj.  po „podpięciu” karty Skarbonka pod Cyfrowe Konto Auchan).  6.   Aplikacja oraz zawarte w niej materiały i informacje, rozwiązania, wybór i układ prezentowanych  w ramach Aplikacji treści, logotypy, elementy graficzne, znaki towarowe, stanowią przedmiot praw wyłącznych Auchan Polska lub jej partnerów biznesowych.  § 3.   Ogólne zasa",
+          "page_number": 2,
+          "similarity": 0.565720906769119
+        },
+        {
+          "id": "29e63d7f-ddd0-49b0-9998-f6e3f6645da1",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ch oraz plików  cookies   znajduje się w Polityce prywatności dostępnej pod adresem:   https://www.auchan.pl/pl/dla- klienta/polityka-prywatnosci .  § 8.   Postanowienia końcowe  1.   Regulamin podlega przepisom prawa powszechnie obowiązującego w Polsce.",
+          "page_number": 6,
+          "similarity": 0.560100963124719
+        },
+        {
+          "id": "d2859674-166f-4c66-898e-07e6cfe91548",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " Polska poinformuje z wyprzedzeniem nie mniejszym niż 14 dni przed ich wejściem w życie –   co najmniej poprzez zamieszczenie komunikatu o zmianie Regulaminu w Aplikacji  wraz z udostępnieniem zmienionego Regulaminu w sposób, o którym mowa w ust. 3 poniżej. Jeśli Użytkownik nie zaprzestanie korzystania z   Aplikacji, zmieniony Regulamin będzie się do niego stosować. Niezależnie od powyższego, Użytkownik może zaprzestać korzystania z Aplikacji w każdym czasie na  zasadach przewidzian ych w § 4 Regulaminu.",
+          "page_number": 4,
+          "similarity": 0.527622978743478
+        },
+        {
+          "id": "56d3447d-158f-4e8b-8dd9-c8a4a05ad911",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "iem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników urządzeń mobilnych spełniających wskazane poniżej wymagania techniczne, którzy pobiorą ją z odpowiedniego sklepu i prawidłowo uruchomią na urządzeniu  mobilnym.  2.   Urządzenie mobilne, na którym ma zostać uruchomiona Aplikacja, spełniać musi następujące wymagania techniczne dotyczące systemu operacyjnego:  2.1.   dla wersji aplikacji pobranej z App Store   –   iOS w wersji minimum 13.0;  2.2.   dla wersji aplikacji pobranej z Google Play   –   Android w wersji minimum 5.0.",
+          "page_number": 1,
+          "similarity": 0.493788032983308
+        },
+        {
+          "id": "c7e780f8-1710-4d83-b4b0-5c2b1e3a622d",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " dobrowolna zgoda Użytkowników na otrzymywanie treści marketingowych (art. 6 ust. 1 lit. a RODO);  3.4.   ustalenia lub dochodzenia ewentualnych roszczeń lub obrony przed takimi roszczeniami przez  Administratora   –   podstawą prawną przetwarzania danych jest prawnie uzasadniony interes administratora polegający na ustaleniu, dochodzeniu i egzekucji ewentualnych roszczeń oraz obrony   przed   tego   typu   roszczeniami   w   postępowaniu   przed   sądami   i   innymi   organami państwowymi (art. 6 ust. 1 lit. f RODO);  3.5.   analitycznym i statystycznym, który polega na analizie aktywności Użytkowników w Aplikacji,  a   także   badaniu   satysfakcji   Użytkowników   z   korzystania   z   Aplikacji   –   podstawą   prawną przetwarzania   jest   uzasadniony   interes   Administratora   polegający   na   prowadzeni u   analiz  preferencji Użytkowników w celu poprawy funkcjonalności Aplikacji (art. 6 ust. 1 lit. f RODO);  3.6.   wskazania danych do nawigacji do sklepów Administratora –  ",
+          "page_number": 5,
+          "similarity": 0.489493308572768
+        },
+        {
+          "id": "b41c53ca-0588-4cdb-8eed-ef53144c1bef",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "do działań promocyjnych  i marketingowych   podejmowanych   przez   Auchan   Polska,   Auchan   P olska   może zmieniać   (w tym rozbudowywać, dodawać nowe lub wycofywać dotychczasowe) funkcjonalności Aplikacji. Takie zmiany będą dokonywane po powiadomieniu Użytkowników z odpowiednim wyprzedzeniem, co najmniej  poprzez zamieszczenie informacji w Aplikacji.  5.   Auchan Polska może zakończyć świadczenie usług za pośrednictwem Aplikacji i wycofać do niej dostęp (wycofanie Aplikacji) z ważnych przyczyn, jakimi są:  5.1.   ekonomiczna nieopłacalność udostępniania Aplikacji;  5.2.   uruchomienie w miejsce Aplikacji nowej platformy lub narzędzia realizującego dotychczasowe funkcjonalności Aplikacji;  5.3.   okoliczności zewnętrzne, niezależne od Auchan Polska, uniemożliwiające dalsze oferowanie Aplikacji (w tym działania zewnętrznych dostawców, na które Auchan Polska nie ma wpływu);  5.4.   zmiana powszechnie obowiązujących przepisów prawa lub ich interpretacji stosowanej przez sądy lub orga",
+          "page_number": 3,
+          "similarity": 0.486468154034719
+        },
+        {
+          "id": "10d59392-cc65-42a5-aa3e-a1f74e8779a1",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "czanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w dowolnym czasie zaprzestać korzystania z Aplikacji, w szczególności wówczas, gdy nie zaakceptują zmian wprowadzonych w Regulaminie lub modyfikacji Aplikacji. Zaprzestanie korzystania z Aplikacji wymaga jej usunięcia z urządzenia mobilneg o.  2.   Samo odinstalowanie Aplikacji z urządzenia mobilnego Użytkownika nie jest równoznaczne z usunięciem Cyfrowego Konta Auchan (jeżeli Użytkownik posiada takie konto) ani z zakończeniem uczestnictwa  w   programie   lojalnościowym   „Skarbonka”   (jeżeli   Użytkownik   je st   uczestnikiem   tego   programu).  Użytkownik może zrezygnować z Cyfrowego Konta Auchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.481352171454648
+        },
+        {
+          "id": "bcb9a3dc-5288-48ae-a70a-50b4b42ad6b0",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   2   z   6  3.   Aplikacja jest przeznaczona do działania w trybie online, tj. kiedy w urządzeniu mobilnym Użytkownika jest włączony dostęp do Internetu. Z niektórych funkcjonalności dostępnych w Aplikacji można korzystać także w trybie offline. Auchan Polska nie gwarantuje jednak aktualności i poprawności działania tych funkcjonalności podczas działania ich w trybie offline.  4.   Aplikacja daje możliwość Użytkownikowi w szczególności:  4.1.   przeglądania lokalizacji i informacji o sklepach Auchan Polska oraz –   po wyrażeniu zgody na dostęp do danych o lokalizacji urządzenia mobilnego –   z funkcji wskazania danych do nawigacji do tych  sklepów (nawigacja jest możliwa za pomocą zewnętrznych aplikac ji);  4.2.   przeglądania aktualnych promocji oraz gazetek Auchan Polska;  4.3.   założenia   Cyfrowego   Konta   Auchan,   o   którym   mowa   w   odrębnym   „Regulaminie   sklepu internetowego i Cyfrowego Konta Auchan” dostępnym w sklepie internetowym Auchan oraz  w Aplikacji (p",
+          "page_number": 2,
+          "similarity": 0.475338683267277
+        },
+        {
+          "id": "c97f85db-66b7-4a7e-aa71-d88fb3b956ad",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Aplikacji (w tym działania zewnętrznych dostawców, na które Auchan Polska nie ma wpływu);  5.4.   zmiana powszechnie obowiązujących przepisów prawa lub ich interpretacji stosowanej przez sądy lub organy władzy publicznej, mająca bezpośredni, istotny wpływ na Aplikację i uzasadniająca jej  wycofanie.  O wycofaniu Aplikacji Auchan Polska powiadomi Użytkowników z odpowiednim wyprzedzeniem, nie krótszym niż 14 dni.  6.   Informację (powiadomienie) w zakresie, o którym mowa w ust. 5 powyżej, Auchan Polska zamieści co  najmniej na stronie   www.auchan.pl   oraz w samej Aplikacji.  7.   Użytkownicy powinni instalować aktualizacje Aplikacji, które są okresowo udostępniane przez Auchan Polska. Aktualizacje pozwalają na utrzymanie bezpieczeństwa Aplikacji, zapewnienie jej prawidłowego działania oraz korzystanie z nowych lub zmodyfikowanych funkcjonalności, jakie mogą być udostępniane przez   Auchan   Polska   w   Aplikacji   w   związku   z   jej   rozwojem   i   zmieniającymi   się   standardam",
+          "page_number": 3,
+          "similarity": 0.474921243644847
+        }
+      ],
+      "hitAt1": true,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 1
+    },
+    {
+      "id": "q008",
+      "question": "Czym jest program lojalnościowy „Skarbonka” i gdzie znaleźć jego regulamin?",
+      "expectedDocument": "auchan.pdf",
+      "expectedPages": [
+        2
+      ],
+      "retrieved": [
+        {
+          "id": "a5ff0e04-c24e-4c00-a75f-0a8c6b6c77f2",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "plikacji biorącym udział w programie lojalnościowym „Skarbonka” w zakładce „Kupony” będą wyświetlane spersonalizowane oferty, które przyznawane są Użytkownikom biorącym udział w programie lojalnościowym „Skarbonka”, których Cyfrowe Konto Auchan jest powiązane z kontem uczestnika programu lojalnościowego „Skarbonka” („podpięcie” karty Skarbonka  pod Cyfrowe Konto Auchan). Informacje na temat przyznawania k uponów znajdują się w „Regulaminie  programu l ojalnościowego „Skarbonka”” dostępnym   na stronie   www.auchan.pl   oraz w Aplikacji,   a także  w r egulaminie „Kupony promocyjne w Aplikacji Mobilnej Auchan” dostępnym na stronie internetowej  www.auchan.pl   w zakładce „Regulaminy akcji promocyjnych”.  13.   Szczegółowe informacje na temat przetwarzania przez Administratora danych osobowych oraz plików  cookies   znajduje się w Polityce prywatności dostępnej pod adresem:   https://www.auchan.pl/pl/dla- klienta/polityka-prywatnosci .  § 8.   Postanowienia końcowe  1.   Regulamin podleg",
+          "page_number": 6,
+          "similarity": 0.628223352710663
+        },
+        {
+          "id": "68f280dc-ec82-4281-ad89-55bc78d2352b",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ślonych w odrębnych regulaminach,  dokumentach lub komunikatach widocznych w Aplikacji   –   z ofert (w tym ofert kuponowych),  skierowanych do Użytkowników (w tym wybranych grup Użytkowników, takich j ak np. uczestnicy  programu lojalnościowego „Skarbonka”, subskrybenci newslettera Auchan Polska);  4.6.   korzystania z innych funkcjonalności udostępnionych w Aplikacji.  5.   Niektóre funkcjonalności Aplikacji są dostępne wyłącznie dla Użytkowników zalogowanych do swojego Cyfrowego Konta Auchan lub będących uczestnikami programu lojalnościowego „Skarbonka” (po powiązaniu Cyfrowego Konta Auchan z kontem uczestnika programu lojalnościowego „Skarbonka” –   tj.  po „podpięciu” karty Skarbonka pod Cyfrowe Konto Auchan).  6.   Aplikacja oraz zawarte w niej materiały i informacje, rozwiązania, wybór i układ prezentowanych  w ramach Aplikacji treści, logotypy, elementy graficzne, znaki towarowe, stanowią przedmiot praw wyłącznych Auchan Polska lub jej partnerów biznesowych.  § 3.   Ogólne zasa",
+          "page_number": 2,
+          "similarity": 0.614260338886966
+        },
+        {
+          "id": "9521462c-370c-4b91-9254-2d3d6ffa0584",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   3   z   6  a także z programu lojalnościowego „Skarbonka” i powiązanych z nim funkcjonalności zgodnie z zasadami  opisanymi w „Regulaminie Sklepu Internetowego i Cyfrowego Konta Auchan” lub –   odpowiednio   –  „Regulaminie Programu Lojalnościowego „Skarbonka””.  3.   W przypadku stwierdzenia przez Auchan Polska, że Użytkownik w związku z korzystaniem z Aplikacji dopuszcza się działań zabronionych prawem lub Regulaminem, Auchan Polska może podjąć prawem dozwolone   działania,   w   tym   ograniczyć   możliwość   korzystania   przez   Użytkownika   z   Aplikacji  i   świadczonych za jej pośrednictwem usług.  4.   W związku ze stałym rozwojem technologii, zmianami przepisów prawa mającymi wpływ na Aplikację lub dostosowaniem Aplikacji do asortymentu oferowanych towarów i usług oraz do działań promocyjnych  i marketingowych   podejmowanych   przez   Auchan   Polska,   Auchan   P olska   może zmieniać   (w tym rozbudowywać, dodawać nowe lub wycofywać dotychczasowe) funkcjonalności",
+          "page_number": 3,
+          "similarity": 0.57514270537249
+        },
+        {
+          "id": "10d59392-cc65-42a5-aa3e-a1f74e8779a1",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "czanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w dowolnym czasie zaprzestać korzystania z Aplikacji, w szczególności wówczas, gdy nie zaakceptują zmian wprowadzonych w Regulaminie lub modyfikacji Aplikacji. Zaprzestanie korzystania z Aplikacji wymaga jej usunięcia z urządzenia mobilneg o.  2.   Samo odinstalowanie Aplikacji z urządzenia mobilnego Użytkownika nie jest równoznaczne z usunięciem Cyfrowego Konta Auchan (jeżeli Użytkownik posiada takie konto) ani z zakończeniem uczestnictwa  w   programie   lojalnościowym   „Skarbonka”   (jeżeli   Użytkownik   je st   uczestnikiem   tego   programu).  Użytkownik może zrezygnować z Cyfrowego Konta Auchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.530647978473689
+        },
+        {
+          "id": "d2859674-166f-4c66-898e-07e6cfe91548",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " Polska poinformuje z wyprzedzeniem nie mniejszym niż 14 dni przed ich wejściem w życie –   co najmniej poprzez zamieszczenie komunikatu o zmianie Regulaminu w Aplikacji  wraz z udostępnieniem zmienionego Regulaminu w sposób, o którym mowa w ust. 3 poniżej. Jeśli Użytkownik nie zaprzestanie korzystania z   Aplikacji, zmieniony Regulamin będzie się do niego stosować. Niezależnie od powyższego, Użytkownik może zaprzestać korzystania z Aplikacji w każdym czasie na  zasadach przewidzian ych w § 4 Regulaminu.",
+          "page_number": 4,
+          "similarity": 0.529975256331189
+        },
+        {
+          "id": "f981357a-b8a0-4c86-b9a0-e3c75b7c568b",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " założenia   Cyfrowego   Konta   Auchan,   o   którym   mowa   w   odrębnym   „Regulaminie   sklepu internetowego i Cyfrowego Konta Auchan” dostępnym w sklepie internetowym Auchan oraz  w Aplikacji (po zaakceptowaniu tego regulaminu), logowania do Cyfrowego Konta Auchan  i korzystania z dostępnych tam funkcjonalności oraz zapoznawania się z danymi Użytkownika  przypisanymi do jego Cyfrowego Konta Auchan;  4.4.   korzystania   z   funkcjonalności   związanych   z   uczestnictwem   Użytkownika   w   programie lojalnościowym „Skarbonka”, organizowanym przez Auchan Polska, na zasadach określonych  w odrębnym „Regulaminie   programu   lojalnościowego   „Skarbonka””   dostępnym na   stronie  www.auchan.pl   oraz w Aplikacji;  4.5.   zapoznawania się i korzystania –   na zasadach i warunkach określonych w odrębnych regulaminach,  dokumentach lub komunikatach widocznych w Aplikacji   –   z ofert (w tym ofert kuponowych),  skierowanych do Użytkowników (w tym wybranych grup Użytkowników, takich ",
+          "page_number": 2,
+          "similarity": 0.52521931223179
+        },
+        {
+          "id": "5e897560-d5cb-43d2-af82-a244440ecc7c",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   5   z   6  3.   Auchan Polska   zapewnia dostęp do Regulaminu za pośrednictwem linku zamieszczonego na stronie  internetowej   www.auchan.pl   lub jej podstronach oraz bezpośrednio w Aplikacji, a także w sklepach   App Store i Google Play.  § 7.   Dane osobowe  1.   Administratorem danych osobowych przetwarzanych w Aplikacji jest Auchan Polska sp. z o.o. z siedzibą  w Piasecznie, ul. Puławska 46, 05 - 500 Piaseczno (dalej „ Administrator ”).  2.   Administrator wyznaczył Inspektora ochrony danych, z którym można skontaktować się na adres  e-mail:   daneosobowe@auchan.pl   lub pisemnie na adres siedziby Administratora z dopiskiem „Inspektor ochrony danych”.  3.   Dane osobowe Użytkowników będą przetwarzane w celu:  3.1.   wykonania   umowy   o   świadczenie   usług   drogą   elektroniczną   na   zasadach   określonych  w Regulaminie, w tym w celu założenia Cyfrowego Konta Auchan oraz dokonywania zakupów  w sklepie internetowym   –   podstawą prawną przetwarzania jest niezbędnoś",
+          "page_number": 5,
+          "similarity": 0.481357185921523
+        },
+        {
+          "id": "72fb5c69-2918-40d1-8be4-6e5ccfdb6485",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "uchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.475983784318464
+        },
+        {
+          "id": "e0e19c92-0fab-4d10-b437-7cb9216278e5",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " korzystanie z nowych lub zmodyfikowanych funkcjonalności, jakie mogą być udostępniane przez   Auchan   Polska   w   Aplikacji   w   związku   z   jej   rozwojem   i   zmieniającymi   się   standardami technologicznymi. Informacje o dostępności aktualizacji będą widoczne w Aplikacji. W zależności od parametrów i konfiguracji urządzenia mobilnego Użytkownika, aktualizacje mogą być instalowane automatycznie lub wymagać działania Użytkownika.  8.   Auchan Polska jest zobowiązana dołożyć należytej staranności w celu zapewnienia prawidłowego  i bezpiecznego działania Aplikacji. Ze względów bezpieczeństwa, a także z uwagi na prace techniczne dotyczące rozwoju lub aktualizacji Aplikacji, Aplikacja może automatycznie wylogowywać Użytkowników lub mogą wystąpić przerwy w jej działaniu. Auchan Polska może również od czasu do czasu wydawać komunikaty dla Użytkowników zawierające zalecenia dotyczące zasad bezpieczeństwa związanych  z korzystaniem z Aplikacji.  9.   Bez   uszczerbku dla zobowiązań A",
+          "page_number": 3,
+          "similarity": 0.473125252351138
+        },
+        {
+          "id": "bcb9a3dc-5288-48ae-a70a-50b4b42ad6b0",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Strona   2   z   6  3.   Aplikacja jest przeznaczona do działania w trybie online, tj. kiedy w urządzeniu mobilnym Użytkownika jest włączony dostęp do Internetu. Z niektórych funkcjonalności dostępnych w Aplikacji można korzystać także w trybie offline. Auchan Polska nie gwarantuje jednak aktualności i poprawności działania tych funkcjonalności podczas działania ich w trybie offline.  4.   Aplikacja daje możliwość Użytkownikowi w szczególności:  4.1.   przeglądania lokalizacji i informacji o sklepach Auchan Polska oraz –   po wyrażeniu zgody na dostęp do danych o lokalizacji urządzenia mobilnego –   z funkcji wskazania danych do nawigacji do tych  sklepów (nawigacja jest możliwa za pomocą zewnętrznych aplikac ji);  4.2.   przeglądania aktualnych promocji oraz gazetek Auchan Polska;  4.3.   założenia   Cyfrowego   Konta   Auchan,   o   którym   mowa   w   odrębnym   „Regulaminie   sklepu internetowego i Cyfrowego Konta Auchan” dostępnym w sklepie internetowym Auchan oraz  w Aplikacji (p",
+          "page_number": 2,
+          "similarity": 0.472047602168155
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 0.5
+    },
+    {
+      "id": "q009",
+      "question": "Jakie obowiązki mają Użytkownicy podczas korzystania z Aplikacji?",
+      "expectedDocument": "auchan.pdf",
+      "expectedPages": [
+        2,
+        3
+      ],
+      "retrieved": [
+        {
+          "id": "d2859674-166f-4c66-898e-07e6cfe91548",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " Polska poinformuje z wyprzedzeniem nie mniejszym niż 14 dni przed ich wejściem w życie –   co najmniej poprzez zamieszczenie komunikatu o zmianie Regulaminu w Aplikacji  wraz z udostępnieniem zmienionego Regulaminu w sposób, o którym mowa w ust. 3 poniżej. Jeśli Użytkownik nie zaprzestanie korzystania z   Aplikacji, zmieniony Regulamin będzie się do niego stosować. Niezależnie od powyższego, Użytkownik może zaprzestać korzystania z Aplikacji w każdym czasie na  zasadach przewidzian ych w § 4 Regulaminu.",
+          "page_number": 4,
+          "similarity": 0.646437687106427
+        },
+        {
+          "id": "72fb5c69-2918-40d1-8be4-6e5ccfdb6485",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "uchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.623057577469584
+        },
+        {
+          "id": "56d3447d-158f-4e8b-8dd9-c8a4a05ad911",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "iem Aplikacji, Użytkownik zobowiązany jest do zapoznania się z treścią Regulaminu.  § 2.   Wymagania techniczne i funkcjonalności Aplikacji  1.   Aplikacja dostępna jest dla wszystkich użytkowników urządzeń mobilnych spełniających wskazane poniżej wymagania techniczne, którzy pobiorą ją z odpowiedniego sklepu i prawidłowo uruchomią na urządzeniu  mobilnym.  2.   Urządzenie mobilne, na którym ma zostać uruchomiona Aplikacja, spełniać musi następujące wymagania techniczne dotyczące systemu operacyjnego:  2.1.   dla wersji aplikacji pobranej z App Store   –   iOS w wersji minimum 13.0;  2.2.   dla wersji aplikacji pobranej z Google Play   –   Android w wersji minimum 5.0.",
+          "page_number": 1,
+          "similarity": 0.606258959510768
+        },
+        {
+          "id": "a2182b38-9d10-44d9-828a-fff3ab915a65",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "bór i układ prezentowanych  w ramach Aplikacji treści, logotypy, elementy graficzne, znaki towarowe, stanowią przedmiot praw wyłącznych Auchan Polska lub jej partnerów biznesowych.  § 3.   Ogólne zasady korzystania z Aplikacji  1.   Użytkownicy są zobowiązani do:  1.1.   korzystania z Aplikacji w sposób zgodny z obowiązującym prawem, Regulaminem i regulaminami sklepów, z których Aplikacja została pobrana, a także z zasadami współżycia społecznego  (w   szczególności   zaś   korzystania   z   Aplikacji   w   sposób   niemający   na   celu   zakłócenia   jej  funkcjonowania);  1.2.   korzystania   z   informacji   i   materiałów   udostępnionych   za   pośrednictwem   Aplikacji  z   poszanowaniem dla praw własności intelektualnej.  2.   Zabronione jest w ramach korzystania z Aplikacji dostarczanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w do",
+          "page_number": 2,
+          "similarity": 0.60571425608226
+        },
+        {
+          "id": "10d59392-cc65-42a5-aa3e-a1f74e8779a1",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "czanie przez   Użytkowników treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje.  § 4.   Zakończenie korzystania z Aplikacji, modyfikacje i aktualizacje  1.   Użytkownicy mogą w dowolnym czasie zaprzestać korzystania z Aplikacji, w szczególności wówczas, gdy nie zaakceptują zmian wprowadzonych w Regulaminie lub modyfikacji Aplikacji. Zaprzestanie korzystania z Aplikacji wymaga jej usunięcia z urządzenia mobilneg o.  2.   Samo odinstalowanie Aplikacji z urządzenia mobilnego Użytkownika nie jest równoznaczne z usunięciem Cyfrowego Konta Auchan (jeżeli Użytkownik posiada takie konto) ani z zakończeniem uczestnictwa  w   programie   lojalnościowym   „Skarbonka”   (jeżeli   Użytkownik   je st   uczestnikiem   tego   programu).  Użytkownik może zrezygnować z Cyfrowego Konta Auchan i powiązanych z tym kontem funkcjonalności,",
+          "page_number": 2,
+          "similarity": 0.577197498918375
+        },
+        {
+          "id": "4a9decd2-cafd-442c-a0f5-b98e1ccea1b6",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " może również od czasu do czasu wydawać komunikaty dla Użytkowników zawierające zalecenia dotyczące zasad bezpieczeństwa związanych  z korzystaniem z Aplikacji.  9.   Bez   uszczerbku dla zobowiązań Auchan Polska dotyczących zapewnienia prawidłowego i bezpiecznego działania Aplikacji, Użytkownik jest zobowiązany we własnym zakresie do:  9.1.   zabezpieczenia przed dostępem nieuprawnionych osób trzecich loginu i hasła używanych do  logowania w Aplikacji,  9.2.   instalowania aktualizacji Aplikacji,  9.3.   zapewnienia bezpieczeństwa urządzeń, na których korzysta z Aplikacji, w szczególności poprzez instalowanie aktualizacji bezpieczeństwa systemu operacyjnego, korzystanie z oprogramowania antywirusowego i zachowanie ostrożności podczas korzystania z Internet u.",
+          "page_number": 3,
+          "similarity": 0.571865456549042
+        },
+        {
+          "id": "68f280dc-ec82-4281-ad89-55bc78d2352b",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "ślonych w odrębnych regulaminach,  dokumentach lub komunikatach widocznych w Aplikacji   –   z ofert (w tym ofert kuponowych),  skierowanych do Użytkowników (w tym wybranych grup Użytkowników, takich j ak np. uczestnicy  programu lojalnościowego „Skarbonka”, subskrybenci newslettera Auchan Polska);  4.6.   korzystania z innych funkcjonalności udostępnionych w Aplikacji.  5.   Niektóre funkcjonalności Aplikacji są dostępne wyłącznie dla Użytkowników zalogowanych do swojego Cyfrowego Konta Auchan lub będących uczestnikami programu lojalnościowego „Skarbonka” (po powiązaniu Cyfrowego Konta Auchan z kontem uczestnika programu lojalnościowego „Skarbonka” –   tj.  po „podpięciu” karty Skarbonka pod Cyfrowe Konto Auchan).  6.   Aplikacja oraz zawarte w niej materiały i informacje, rozwiązania, wybór i układ prezentowanych  w ramach Aplikacji treści, logotypy, elementy graficzne, znaki towarowe, stanowią przedmiot praw wyłącznych Auchan Polska lub jej partnerów biznesowych.  § 3.   Ogólne zasa",
+          "page_number": 2,
+          "similarity": 0.560630567148992
+        },
+        {
+          "id": "e0e19c92-0fab-4d10-b437-7cb9216278e5",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": " korzystanie z nowych lub zmodyfikowanych funkcjonalności, jakie mogą być udostępniane przez   Auchan   Polska   w   Aplikacji   w   związku   z   jej   rozwojem   i   zmieniającymi   się   standardami technologicznymi. Informacje o dostępności aktualizacji będą widoczne w Aplikacji. W zależności od parametrów i konfiguracji urządzenia mobilnego Użytkownika, aktualizacje mogą być instalowane automatycznie lub wymagać działania Użytkownika.  8.   Auchan Polska jest zobowiązana dołożyć należytej staranności w celu zapewnienia prawidłowego  i bezpiecznego działania Aplikacji. Ze względów bezpieczeństwa, a także z uwagi na prace techniczne dotyczące rozwoju lub aktualizacji Aplikacji, Aplikacja może automatycznie wylogowywać Użytkowników lub mogą wystąpić przerwy w jej działaniu. Auchan Polska może również od czasu do czasu wydawać komunikaty dla Użytkowników zawierające zalecenia dotyczące zasad bezpieczeństwa związanych  z korzystaniem z Aplikacji.  9.   Bez   uszczerbku dla zobowiązań A",
+          "page_number": 3,
+          "similarity": 0.552304241198555
+        },
+        {
+          "id": "c97f85db-66b7-4a7e-aa71-d88fb3b956ad",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "Aplikacji (w tym działania zewnętrznych dostawców, na które Auchan Polska nie ma wpływu);  5.4.   zmiana powszechnie obowiązujących przepisów prawa lub ich interpretacji stosowanej przez sądy lub organy władzy publicznej, mająca bezpośredni, istotny wpływ na Aplikację i uzasadniająca jej  wycofanie.  O wycofaniu Aplikacji Auchan Polska powiadomi Użytkowników z odpowiednim wyprzedzeniem, nie krótszym niż 14 dni.  6.   Informację (powiadomienie) w zakresie, o którym mowa w ust. 5 powyżej, Auchan Polska zamieści co  najmniej na stronie   www.auchan.pl   oraz w samej Aplikacji.  7.   Użytkownicy powinni instalować aktualizacje Aplikacji, które są okresowo udostępniane przez Auchan Polska. Aktualizacje pozwalają na utrzymanie bezpieczeństwa Aplikacji, zapewnienie jej prawidłowego działania oraz korzystanie z nowych lub zmodyfikowanych funkcjonalności, jakie mogą być udostępniane przez   Auchan   Polska   w   Aplikacji   w   związku   z   jej   rozwojem   i   zmieniającymi   się   standardam",
+          "page_number": 3,
+          "similarity": 0.538922933404279
+        },
+        {
+          "id": "b41c53ca-0588-4cdb-8eed-ef53144c1bef",
+          "document_id": "5bee9265-975f-4b6e-ac95-08cfe475c7fd",
+          "content": "do działań promocyjnych  i marketingowych   podejmowanych   przez   Auchan   Polska,   Auchan   P olska   może zmieniać   (w tym rozbudowywać, dodawać nowe lub wycofywać dotychczasowe) funkcjonalności Aplikacji. Takie zmiany będą dokonywane po powiadomieniu Użytkowników z odpowiednim wyprzedzeniem, co najmniej  poprzez zamieszczenie informacji w Aplikacji.  5.   Auchan Polska może zakończyć świadczenie usług za pośrednictwem Aplikacji i wycofać do niej dostęp (wycofanie Aplikacji) z ważnych przyczyn, jakimi są:  5.1.   ekonomiczna nieopłacalność udostępniania Aplikacji;  5.2.   uruchomienie w miejsce Aplikacji nowej platformy lub narzędzia realizującego dotychczasowe funkcjonalności Aplikacji;  5.3.   okoliczności zewnętrzne, niezależne od Auchan Polska, uniemożliwiające dalsze oferowanie Aplikacji (w tym działania zewnętrznych dostawców, na które Auchan Polska nie ma wpływu);  5.4.   zmiana powszechnie obowiązujących przepisów prawa lub ich interpretacji stosowanej przez sądy lub orga",
+          "page_number": 3,
+          "similarity": 0.53867348337054
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 0.5
+    },
+    {
+      "id": "q010",
+      "question": "Kto jest usługodawcą i sprzedawcą w ramach serwisu decathlon.pl oraz jakie są pełne dane rejestrowe spółki Decathlon?",
+      "expectedDocument": "decathlon.pdf",
+      "expectedPages": [
+        2,
+        3
+      ],
+      "retrieved": [
+        {
+          "id": "cc36297f-bd31-4535-a46a-b5d4f2eea2c1",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestracyjnego.  5.   Jak założysz Konto w Aplikacji?  4",
+          "page_number": 4,
+          "similarity": 0.738628374583417
+        },
+        {
+          "id": "875ef820-8c90-46ac-8ece-dda572f768a2",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "rasz   ją   ze   Sprzedawcą   Marketplace. Decathlon jedynie pośredniczy w zawarciu tej umowy.  § 12. Jak zwrócić Towar?  1.   Zwrot w ramach prawa odstąpienia  Jeżeli   po   otrzymaniu   Towaru   zmienisz   zdanie,   masz   prawo   go   zwrócić   bez podawania przyczyny. W Decathlon oferujemy Ci znacznie więcej czasu na decyzję, niż przewiduje prawo.  Prawo   odstąpienia   dotyczy   Towarów   kupionych   bezpośrednio   od   nas,   czyli   od Decathlon sp. z o.o. Nie możemy przyjmować zwrotów produktów, które kupiłeś od zagranicznych   spółek   Decathlon,   ponieważ   w   takiej   sytuacji   umowę   zawarłeś   z  22",
+          "page_number": 22,
+          "similarity": 0.738216258936652
+        },
+        {
+          "id": "957de65b-884a-4e79-9b1f-b2389b6dc7cf",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " nie posiadasz).  Jeżeli   zdecydujesz   robić   zakupy   jako   gość,   w   trakcie   składania   zamówienia zostaniesz poproszony o wskazanie danych koniecznych do dostarczenia kupionego Towaru, w zależności od wybranej metody dostawy.  Pamiętaj, że zakupy jako gość są możliwe wyłącznie na Stronie Internetowej. Jeśli chcesz kupować w Aplikacji, musisz założyć Konto Decathlon.  Zakupy bez Konta Decathlon pozbawiają Cię korzyści, które daje Konto Decathlon. Np.   nie   będziesz   mieć   dostępu   do   historii   zakupów,   czy   opcji   zapamiętywania ulubionych towarów.  5",
+          "page_number": 5,
+          "similarity": 0.721057872393897
+        },
+        {
+          "id": "7cf9e524-78ee-4937-9f43-46cbd1e92b73",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " inne usługi, które wymieniasz na bony na kolejne zakupy.  3.   Decathlon Go  Internetowa   platforma   handlowa,   na   której   możesz   zapisać   się   na   udział   w wydarzeniu sportowym lub treningu, kupić bilet na wydarzenie sportowe jako kibic lub samemu zorganizować wydarzenie. Organizatorem wydarzeń sportowych może być Decathlon jak również inne, niepowiązane z nami podmioty.  4.   Decathlon Rent  Internetowa   platforma   handlowa,   na   której   możesz   wypożyczać sprzęt sportowy zarówno od nas jak i od innych wynajmujących.  5.   Decathlon Second Life  W   ramach   tej   usługi   masz   możliwość   kupowania   używanych   Towarów   (np.   ze zwrotów lub poekspozycyjnych) w obniżonych cenach. Przed udostępnieniem do sprzedaży Towary te są sprawdzane przez nasz serwis i objęte gwarancją.  6.   Decathlon Buy Back  28",
+          "page_number": 28,
+          "similarity": 0.686190984987182
+        },
+        {
+          "id": "5b52e8e0-0677-4827-96dd-84e0e440a36b",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "aby wszystko działało sprawnie, bezpiecznie i byś mógł łatwo znaleźć Towary oraz usługi. W tej roli jesteśmy usługodawcą, który świadczy usługi drogą elektroniczną.  b.   Decathlon jako sprzedawca  2",
+          "page_number": 2,
+          "similarity": 0.682395951176655
+        },
+        {
+          "id": "11ff3396-eed3-4138-b679-882ab4e05692",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "na adres naszej siedziby: Decathlon sp. z o.o., ul. Geodezyjna 76, 03  290 Warszawa.  3",
+          "page_number": 3,
+          "similarity": 0.679261664174164
+        },
+        {
+          "id": "dc402175-6ce3-4a45-8e2a-4648f6ca1e31",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "Odkupimy od Ciebie używany sprzęt sportowy w zamian za voucher na zakupy w Decathlon.   Realizacja   tej   usługi   możliwa   jest   w   wybranych   sklepach   dla   osób pełnoletnich. Lista sklepów dostępna jest na podstronie Decathlon Buy Back.  7.   Decathlon Support  Profesjonalna naprawa i konserwacja Twojego sprzętu. Dbamy o to, aby Twój rower czy sprzęt fitness służył Ci jak najdłużej.  8.   Decathlon Outdoor  Aplikacja mobilna, dzięki której odkryjesz tysiące szlaków i tras sportowych w Twojej okolicy. Do aplikacji Decathlon Outdoor zalogujesz się za pomocą Konta Decathlon.  9.   Przechowalnia rowerów  Usługa   bezpiecznego,   płatnego   przechowywania   rowerów   (także   elektrycznych), aktualnie   dostępna   w   wybranych   lokalizacjach.   Lista   lokalizacji,   w   których skorzystasz z usługi dostępna na podstronie Przechowalni rowerów.  29",
+          "page_number": 29,
+          "similarity": 0.673658409874634
+        },
+        {
+          "id": "7e57c219-77c6-4c78-b4bb-252119bee512",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "Część II.  Konto Decathlon jako kluczowa usługa  § 4. Konto Decathlon i jego funkcjonalności  1.   Czym jest Konto Decathlon?  Konto Decathlon to Twoje centrum zarządzania usługami dostępnymi na decathlon.pl. Dzięki niemu możesz korzystać ze wszystkich funkcjonalności jakie oferujemy Ci w ramach naszych serwisów internetowych lub aplikacji mobilnych.  2.   Co daje Ci założenie Konta?  Założenie Konta daje Ci, m.in.:  a.   możliwość logowania do wszystkich serwisów internetowych powiązanych z decathlon.pl (np. Decathlon Go, Decathlon Rent), a także do Aplikacji;  b.   dostęp do historii zakupów;  c.   możliwość szybkich zakupów bez wpisywania swoich danych;  d.   możliwość łatwiejszych zwrotów;  e.   zapamiętywanie ulubionych Towarów.  3.   Konto a Program Lojalnościowy Decathlon Active  Założenie   Konta   Decathlon   jest   jednoznaczne   z   przystąpieniem   do   naszego bezpłatnego programu lojalnościowego Decathlon Active. Oznacza to, że z chwilą utworzenia Konta Decathlon (czyli z",
+          "page_number": 4,
+          "similarity": 0.667101462500688
+        },
+        {
+          "id": "245defcc-85e4-4df8-9ee1-e6f6800dc943",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "firma inna niż Decathlon, która sprzedaje swoje Towary w naszym Serwisie. To z tą firmą zawierasz umowę, gdy kupujesz Towar oznaczony jako „Sprzedawane i wysyłane przez przedsiębiorcę [nazwa firmy] ˮ .  9.   Strona Internetowa   – nasza strona internetowa, dostępna pod adresem   decathlon.pl .  10.   Towar   – każdy przedmiot (rzecz ruchoma), którą możesz kupić w naszym Serwisie – zarówno od Decathlon, jak i od Sprzedawcy Marketplace.  34",
+          "page_number": 34,
+          "similarity": 0.660066227905013
+        },
+        {
+          "id": "08b82823-8f71-4a15-a45b-98707a4bf68d",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "REGULAMIN  serwisu decathlon.pl  obowiązuje od   28.09.2026 r.  Część I.   2  O czym jest Regulamin i jaka jest rola Decathlon?   2  § 1. Regulamin. Czym jest i jak go czytać?   2  § 2. Decathlon jako usługodawca i sprzedawca   2  § 3. Kontakt, czyli jak z nami porozmawiać?   3  Część II.   4  Konto Decathlon jako kluczowa usługa   4  § 4. Konto Decathlon i jego funkcjonalności   4  § 5. Konto dla firm i instytucji   6  Część III.   9  Zasady funkcjonowania Serwisu   9  § 6. Co i jak publikujemy w Serwisie?   9  § 7. Jakie są zasady korzystania z Serwisu?   11  Część IV.   15  Internetowa platforma handlowa   15  § 8. Decathlon Marketplace   15  Część V.   17  Sprzedaż Towarów w Serwisie   17  § 9. Jak kupować w Serwisie?   17  § 10. Metody płatności i dostawy   18  § 11. Zawarcie umowy sprzedaży   21  § 12. Jak zwrócić Towar?   22  § 13. Jak reklamować kupione Towary?   26  Część VI.   28  Usługi towarzyszące   28  § 14. Usługi dodatkowe świadczone przez Decathlon   28  Część VII.   3",
+          "page_number": 1,
+          "similarity": 0.65610772371294
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": false,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 0.2
+    },
+    {
+      "id": "q011",
+      "question": "W jaki sposób można skontaktować się z Decathlon w sprawach dotyczących zamówienia lub Konta?",
+      "expectedDocument": "decathlon.pdf",
+      "expectedPages": [
+        3
+      ],
+      "retrieved": [
+        {
+          "id": "957de65b-884a-4e79-9b1f-b2389b6dc7cf",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " nie posiadasz).  Jeżeli   zdecydujesz   robić   zakupy   jako   gość,   w   trakcie   składania   zamówienia zostaniesz poproszony o wskazanie danych koniecznych do dostarczenia kupionego Towaru, w zależności od wybranej metody dostawy.  Pamiętaj, że zakupy jako gość są możliwe wyłącznie na Stronie Internetowej. Jeśli chcesz kupować w Aplikacji, musisz założyć Konto Decathlon.  Zakupy bez Konta Decathlon pozbawiają Cię korzyści, które daje Konto Decathlon. Np.   nie   będziesz   mieć   dostępu   do   historii   zakupów,   czy   opcji   zapamiętywania ulubionych towarów.  5",
+          "page_number": 5,
+          "similarity": 0.760044654598484
+        },
+        {
+          "id": "875ef820-8c90-46ac-8ece-dda572f768a2",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "rasz   ją   ze   Sprzedawcą   Marketplace. Decathlon jedynie pośredniczy w zawarciu tej umowy.  § 12. Jak zwrócić Towar?  1.   Zwrot w ramach prawa odstąpienia  Jeżeli   po   otrzymaniu   Towaru   zmienisz   zdanie,   masz   prawo   go   zwrócić   bez podawania przyczyny. W Decathlon oferujemy Ci znacznie więcej czasu na decyzję, niż przewiduje prawo.  Prawo   odstąpienia   dotyczy   Towarów   kupionych   bezpośrednio   od   nas,   czyli   od Decathlon sp. z o.o. Nie możemy przyjmować zwrotów produktów, które kupiłeś od zagranicznych   spółek   Decathlon,   ponieważ   w   takiej   sytuacji   umowę   zawarłeś   z  22",
+          "page_number": 22,
+          "similarity": 0.723035898570527
+        },
+        {
+          "id": "cc36297f-bd31-4535-a46a-b5d4f2eea2c1",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestracyjnego.  5.   Jak założysz Konto w Aplikacji?  4",
+          "page_number": 4,
+          "similarity": 0.718793132341116
+        },
+        {
+          "id": "7cf9e524-78ee-4937-9f43-46cbd1e92b73",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " inne usługi, które wymieniasz na bony na kolejne zakupy.  3.   Decathlon Go  Internetowa   platforma   handlowa,   na   której   możesz   zapisać   się   na   udział   w wydarzeniu sportowym lub treningu, kupić bilet na wydarzenie sportowe jako kibic lub samemu zorganizować wydarzenie. Organizatorem wydarzeń sportowych może być Decathlon jak również inne, niepowiązane z nami podmioty.  4.   Decathlon Rent  Internetowa   platforma   handlowa,   na   której   możesz   wypożyczać sprzęt sportowy zarówno od nas jak i od innych wynajmujących.  5.   Decathlon Second Life  W   ramach   tej   usługi   masz   możliwość   kupowania   używanych   Towarów   (np.   ze zwrotów lub poekspozycyjnych) w obniżonych cenach. Przed udostępnieniem do sprzedaży Towary te są sprawdzane przez nasz serwis i objęte gwarancją.  6.   Decathlon Buy Back  28",
+          "page_number": 28,
+          "similarity": 0.699378260803367
+        },
+        {
+          "id": "5b52e8e0-0677-4827-96dd-84e0e440a36b",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "aby wszystko działało sprawnie, bezpiecznie i byś mógł łatwo znaleźć Towary oraz usługi. W tej roli jesteśmy usługodawcą, który świadczy usługi drogą elektroniczną.  b.   Decathlon jako sprzedawca  2",
+          "page_number": 2,
+          "similarity": 0.692186591727748
+        },
+        {
+          "id": "6486a69c-3578-4d2b-ba5b-459a4a871cfa",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "łożenie   Konta   Decathlon   jest   jednoznaczne   z   przystąpieniem   do   naszego bezpłatnego programu lojalnościowego Decathlon Active. Oznacza to, że z chwilą utworzenia Konta Decathlon (czyli zawarcia z nami umowy w zakresie prowadzenia Konta), zostaje również automatycznie zawarta odrębna umowa o świadczenie usług w ramach programu Decathlon Active. Zasady działania programu, w tym korzyści, zasady   zbierania   i   wykorzystywania   punktów   oraz   warunki   rezygnacji,   określa Regulamin   Programu   Lojalnościowego   Decathlon   Active,   dostępny   w   zakładce Regulaminy.  Z   programu   Decathlon   Active możesz w każdej chwili zrezygnować, co nie jest równoznaczne z usunięciem Konta Decathlon.  4.   Jak założysz Konto na Stronie Internetowej?  Kliknij   przycisk   ˮ Moje   Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestrac",
+          "page_number": 4,
+          "similarity": 0.662168603087085
+        },
+        {
+          "id": "93897442-9ae2-4143-a427-077d6afd0f58",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "wać.   Gdy zostaniesz przekierowany na stronę wybranego serwisu, postępuj zgodnie z poleceniami widocznymi na stronie serwisu.  7.   Jak usunąć Konto Decathlon?  a.   Na Stronie Internetowej   usuniesz Konto w ustawieniach swojego profilu, w sekcji “Prywatność i ochrona ˮ , gdy wybierzesz opcję “Usuń moje konto ˮ .  b.   W Aplikacji   usuniesz Konto, gdy wejdziesz w ustawienia swojego Konta i wybierzesz opcję “Usuń moje konto ˮ .  c.   Poprzez kontakt z Biurem Obsługi Klienta Decathlon . Sposoby kontaktu znajdziesz w § 3 Regulaminu.  8.   Zakupy bez zakładania Konta - zakupy jako gość  Na   Stronie   Internetowej   możesz   robić   zakupy   bez   zakładania   Konta   Decathlon. Podczas   składania   zamówienia   będziesz   mógł   zdecydować   o   zalogowaniu   lub założeniu Konta (jeśli go nie posiadasz).  Jeżeli   zdecydujesz   robić   zakupy   jako   gość,   w   trakcie   składania   zamówienia zostaniesz poproszony o wskazanie danych koniecznych do dostarczenia kupionego Towaru, w z",
+          "page_number": 5,
+          "similarity": 0.65880338304063
+        },
+        {
+          "id": "b868a096-8a8c-45e4-919a-8377843c052f",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "j pracownikowi nazwę Towaru;  3.   podaj swój adres email, a jeżeli nie masz Konta Decathlon, pomożemy Ci je założyć, ponieważ dla tego kanału zakupu musisz posiadać Konto;  4.   wybierz preferowaną metodę dostawy oraz płatności;  5.   otrzymasz email z potwierdzeniem zamówienia  W tym kanale zakupu nie możesz kupić Towarów od Sprzedawców Marketplace  17",
+          "page_number": 17,
+          "similarity": 0.650426526380376
+        },
+        {
+          "id": "b3150fc4-a2bb-4d0e-bce4-064d3e391e43",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "Część VI.  Usługi towarzyszące  § 14. Usługi dodatkowe świadczone przez Decathlon  1.   Zakres usług towarzyszących  Założenie   Konta   Decathlon   otwiera   Ci   dostęp   do   całego   pakietu   usług towarzyszących, które są powiązane z Serwisem, ale świadczone są na podstawie oddzielnie zawieranych z nami umów.  Zasady na jakich świadczymy usługi towarzyszące są uregulowane w dedykowanych regulaminach   dostępnych   w   zakładce   Regulaminy   na   Stronie   Internetowej   i   w Aplikacji lub na stronach internetowych odrębnych serwisów. Poniżej przedstawiamy ich syntetyczny opis.  2.   Decathlon Active  Nasz   bezpłatny   program   lojalnościowy,   do   którego   automatycznie   przystępujesz wraz z założeniem Konta Decathlon (zob. § 4 ust. 3 Regulaminu). Zbierasz punkty za zakupy lub inne usługi, które wymieniasz na bony na kolejne zakupy.  3.   Decathlon Go  Internetowa   platforma   handlowa,   na   której   możesz   zapisać   się   na   udział   w wydarzeniu sportowym lub tren",
+          "page_number": 28,
+          "similarity": 0.646969074688022
+        },
+        {
+          "id": "245defcc-85e4-4df8-9ee1-e6f6800dc943",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "firma inna niż Decathlon, która sprzedaje swoje Towary w naszym Serwisie. To z tą firmą zawierasz umowę, gdy kupujesz Towar oznaczony jako „Sprzedawane i wysyłane przez przedsiębiorcę [nazwa firmy] ˮ .  9.   Strona Internetowa   – nasza strona internetowa, dostępna pod adresem   decathlon.pl .  10.   Towar   – każdy przedmiot (rzecz ruchoma), którą możesz kupić w naszym Serwisie – zarówno od Decathlon, jak i od Sprzedawcy Marketplace.  34",
+          "page_number": 34,
+          "similarity": 0.646820862496521
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": false,
+      "hitAt5": false,
+      "hitAt10": false,
+      "reciprocalRank": 0
+    },
+    {
+      "id": "q012",
+      "question": "Czym różni się rola Decathlon jako sprzedawcy od roli Decathlon jako pośrednika technologicznego (Marketplace)?",
+      "expectedDocument": "decathlon.pdf",
+      "expectedPages": [
+        2,
+        3
+      ],
+      "retrieved": [
+        {
+          "id": "245defcc-85e4-4df8-9ee1-e6f6800dc943",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "firma inna niż Decathlon, która sprzedaje swoje Towary w naszym Serwisie. To z tą firmą zawierasz umowę, gdy kupujesz Towar oznaczony jako „Sprzedawane i wysyłane przez przedsiębiorcę [nazwa firmy] ˮ .  9.   Strona Internetowa   – nasza strona internetowa, dostępna pod adresem   decathlon.pl .  10.   Towar   – każdy przedmiot (rzecz ruchoma), którą możesz kupić w naszym Serwisie – zarówno od Decathlon, jak i od Sprzedawcy Marketplace.  34",
+          "page_number": 34,
+          "similarity": 0.736695917046562
+        },
+        {
+          "id": "cc36297f-bd31-4535-a46a-b5d4f2eea2c1",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestracyjnego.  5.   Jak założysz Konto w Aplikacji?  4",
+          "page_number": 4,
+          "similarity": 0.707143239889759
+        },
+        {
+          "id": "11ff3396-eed3-4138-b679-882ab4e05692",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "na adres naszej siedziby: Decathlon sp. z o.o., ul. Geodezyjna 76, 03  290 Warszawa.  3",
+          "page_number": 3,
+          "similarity": 0.696282485238255
+        },
+        {
+          "id": "957de65b-884a-4e79-9b1f-b2389b6dc7cf",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " nie posiadasz).  Jeżeli   zdecydujesz   robić   zakupy   jako   gość,   w   trakcie   składania   zamówienia zostaniesz poproszony o wskazanie danych koniecznych do dostarczenia kupionego Towaru, w zależności od wybranej metody dostawy.  Pamiętaj, że zakupy jako gość są możliwe wyłącznie na Stronie Internetowej. Jeśli chcesz kupować w Aplikacji, musisz założyć Konto Decathlon.  Zakupy bez Konta Decathlon pozbawiają Cię korzyści, które daje Konto Decathlon. Np.   nie   będziesz   mieć   dostępu   do   historii   zakupów,   czy   opcji   zapamiętywania ulubionych towarów.  5",
+          "page_number": 5,
+          "similarity": 0.692991306904092
+        },
+        {
+          "id": "875ef820-8c90-46ac-8ece-dda572f768a2",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "rasz   ją   ze   Sprzedawcą   Marketplace. Decathlon jedynie pośredniczy w zawarciu tej umowy.  § 12. Jak zwrócić Towar?  1.   Zwrot w ramach prawa odstąpienia  Jeżeli   po   otrzymaniu   Towaru   zmienisz   zdanie,   masz   prawo   go   zwrócić   bez podawania przyczyny. W Decathlon oferujemy Ci znacznie więcej czasu na decyzję, niż przewiduje prawo.  Prawo   odstąpienia   dotyczy   Towarów   kupionych   bezpośrednio   od   nas,   czyli   od Decathlon sp. z o.o. Nie możemy przyjmować zwrotów produktów, które kupiłeś od zagranicznych   spółek   Decathlon,   ponieważ   w   takiej   sytuacji   umowę   zawarłeś   z  22",
+          "page_number": 22,
+          "similarity": 0.688319006910369
+        },
+        {
+          "id": "7cf9e524-78ee-4937-9f43-46cbd1e92b73",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " inne usługi, które wymieniasz na bony na kolejne zakupy.  3.   Decathlon Go  Internetowa   platforma   handlowa,   na   której   możesz   zapisać   się   na   udział   w wydarzeniu sportowym lub treningu, kupić bilet na wydarzenie sportowe jako kibic lub samemu zorganizować wydarzenie. Organizatorem wydarzeń sportowych może być Decathlon jak również inne, niepowiązane z nami podmioty.  4.   Decathlon Rent  Internetowa   platforma   handlowa,   na   której   możesz   wypożyczać sprzęt sportowy zarówno od nas jak i od innych wynajmujących.  5.   Decathlon Second Life  W   ramach   tej   usługi   masz   możliwość   kupowania   używanych   Towarów   (np.   ze zwrotów lub poekspozycyjnych) w obniżonych cenach. Przed udostępnieniem do sprzedaży Towary te są sprawdzane przez nasz serwis i objęte gwarancją.  6.   Decathlon Buy Back  28",
+          "page_number": 28,
+          "similarity": 0.675990423678253
+        },
+        {
+          "id": "b868a096-8a8c-45e4-919a-8377843c052f",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "j pracownikowi nazwę Towaru;  3.   podaj swój adres email, a jeżeli nie masz Konta Decathlon, pomożemy Ci je założyć, ponieważ dla tego kanału zakupu musisz posiadać Konto;  4.   wybierz preferowaną metodę dostawy oraz płatności;  5.   otrzymasz email z potwierdzeniem zamówienia  W tym kanale zakupu nie możesz kupić Towarów od Sprzedawców Marketplace  17",
+          "page_number": 17,
+          "similarity": 0.654324811181453
+        },
+        {
+          "id": "5b52e8e0-0677-4827-96dd-84e0e440a36b",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "aby wszystko działało sprawnie, bezpiecznie i byś mógł łatwo znaleźć Towary oraz usługi. W tej roli jesteśmy usługodawcą, który świadczy usługi drogą elektroniczną.  b.   Decathlon jako sprzedawca  2",
+          "page_number": 2,
+          "similarity": 0.647341931499974
+        },
+        {
+          "id": "349dc4e5-c996-4518-aba9-63caecdb4067",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "ę?  Gdy Towary kupujesz od Decathlon, reklamację możesz złożyć:  a.   przez czat dostępny na Stronie Internetowej;  b.   przez formularz kontaktowy:   https://www.decathlon.pl/help/app/ask ;  c.   mailowo:   kontakt@decathlon.pl ;  d.   telefonicznie: 800 808 007;  e.   pisemnie na adres naszej siedziby: Decathlon sp. z o.o., ul. Geodezyjna 76, 03  290 Warszawa.  Gdy   Towary   kupujesz   od   Sprzedawcy   Marketplace,   zasady   składania   reklamacji opisane są w Ogólnych Warunkach Sprzedaży Decathlon Marketplace.  3.   Rozpatrzenie reklamacji  Na   Twoją   reklamację   odpowiemy   w ciągu 14 dni .   W   takim   samym terminie na reklamację ma obowiązek odpowiedzieć Sprzedawca Marketplace.  Jeśli Twoja reklamacja zostanie uznana, możesz liczyć m.in. na:  a.   nieodpłatną naprawę Towaru lub  b.   wymianę Towaru na nowy;  c.   zwrot   ceny   (jeśli   odstąpisz   od   umowy   z powodu niezgodności Towaru z umową), np. gdy naprawa lub wymiana będą niemożliwe;  26",
+          "page_number": 26,
+          "similarity": 0.640667553067422
+        },
+        {
+          "id": "6486a69c-3578-4d2b-ba5b-459a4a871cfa",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "łożenie   Konta   Decathlon   jest   jednoznaczne   z   przystąpieniem   do   naszego bezpłatnego programu lojalnościowego Decathlon Active. Oznacza to, że z chwilą utworzenia Konta Decathlon (czyli zawarcia z nami umowy w zakresie prowadzenia Konta), zostaje również automatycznie zawarta odrębna umowa o świadczenie usług w ramach programu Decathlon Active. Zasady działania programu, w tym korzyści, zasady   zbierania   i   wykorzystywania   punktów   oraz   warunki   rezygnacji,   określa Regulamin   Programu   Lojalnościowego   Decathlon   Active,   dostępny   w   zakładce Regulaminy.  Z   programu   Decathlon   Active możesz w każdej chwili zrezygnować, co nie jest równoznaczne z usunięciem Konta Decathlon.  4.   Jak założysz Konto na Stronie Internetowej?  Kliknij   przycisk   ˮ Moje   Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestrac",
+          "page_number": 4,
+          "similarity": 0.628549351018904
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 0.3333333333333333
+    },
+    {
+      "id": "q013",
+      "question": "Co daje założenie Konta Decathlon i z czym automatycznie wiąże się jego utworzenie?",
+      "expectedDocument": "decathlon.pdf",
+      "expectedPages": [
+        4
+      ],
+      "retrieved": [
+        {
+          "id": "cc36297f-bd31-4535-a46a-b5d4f2eea2c1",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestracyjnego.  5.   Jak założysz Konto w Aplikacji?  4",
+          "page_number": 4,
+          "similarity": 0.765302908966975
+        },
+        {
+          "id": "957de65b-884a-4e79-9b1f-b2389b6dc7cf",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " nie posiadasz).  Jeżeli   zdecydujesz   robić   zakupy   jako   gość,   w   trakcie   składania   zamówienia zostaniesz poproszony o wskazanie danych koniecznych do dostarczenia kupionego Towaru, w zależności od wybranej metody dostawy.  Pamiętaj, że zakupy jako gość są możliwe wyłącznie na Stronie Internetowej. Jeśli chcesz kupować w Aplikacji, musisz założyć Konto Decathlon.  Zakupy bez Konta Decathlon pozbawiają Cię korzyści, które daje Konto Decathlon. Np.   nie   będziesz   mieć   dostępu   do   historii   zakupów,   czy   opcji   zapamiętywania ulubionych towarów.  5",
+          "page_number": 5,
+          "similarity": 0.763835543965779
+        },
+        {
+          "id": "5b52e8e0-0677-4827-96dd-84e0e440a36b",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "aby wszystko działało sprawnie, bezpiecznie i byś mógł łatwo znaleźć Towary oraz usługi. W tej roli jesteśmy usługodawcą, który świadczy usługi drogą elektroniczną.  b.   Decathlon jako sprzedawca  2",
+          "page_number": 2,
+          "similarity": 0.735743541171999
+        },
+        {
+          "id": "11ff3396-eed3-4138-b679-882ab4e05692",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "na adres naszej siedziby: Decathlon sp. z o.o., ul. Geodezyjna 76, 03  290 Warszawa.  3",
+          "page_number": 3,
+          "similarity": 0.72199832057876
+        },
+        {
+          "id": "6486a69c-3578-4d2b-ba5b-459a4a871cfa",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "łożenie   Konta   Decathlon   jest   jednoznaczne   z   przystąpieniem   do   naszego bezpłatnego programu lojalnościowego Decathlon Active. Oznacza to, że z chwilą utworzenia Konta Decathlon (czyli zawarcia z nami umowy w zakresie prowadzenia Konta), zostaje również automatycznie zawarta odrębna umowa o świadczenie usług w ramach programu Decathlon Active. Zasady działania programu, w tym korzyści, zasady   zbierania   i   wykorzystywania   punktów   oraz   warunki   rezygnacji,   określa Regulamin   Programu   Lojalnościowego   Decathlon   Active,   dostępny   w   zakładce Regulaminy.  Z   programu   Decathlon   Active możesz w każdej chwili zrezygnować, co nie jest równoznaczne z usunięciem Konta Decathlon.  4.   Jak założysz Konto na Stronie Internetowej?  Kliknij   przycisk   ˮ Moje   Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestrac",
+          "page_number": 4,
+          "similarity": 0.716406213701838
+        },
+        {
+          "id": "875ef820-8c90-46ac-8ece-dda572f768a2",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "rasz   ją   ze   Sprzedawcą   Marketplace. Decathlon jedynie pośredniczy w zawarciu tej umowy.  § 12. Jak zwrócić Towar?  1.   Zwrot w ramach prawa odstąpienia  Jeżeli   po   otrzymaniu   Towaru   zmienisz   zdanie,   masz   prawo   go   zwrócić   bez podawania przyczyny. W Decathlon oferujemy Ci znacznie więcej czasu na decyzję, niż przewiduje prawo.  Prawo   odstąpienia   dotyczy   Towarów   kupionych   bezpośrednio   od   nas,   czyli   od Decathlon sp. z o.o. Nie możemy przyjmować zwrotów produktów, które kupiłeś od zagranicznych   spółek   Decathlon,   ponieważ   w   takiej   sytuacji   umowę   zawarłeś   z  22",
+          "page_number": 22,
+          "similarity": 0.706637719458478
+        },
+        {
+          "id": "7e57c219-77c6-4c78-b4bb-252119bee512",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "Część II.  Konto Decathlon jako kluczowa usługa  § 4. Konto Decathlon i jego funkcjonalności  1.   Czym jest Konto Decathlon?  Konto Decathlon to Twoje centrum zarządzania usługami dostępnymi na decathlon.pl. Dzięki niemu możesz korzystać ze wszystkich funkcjonalności jakie oferujemy Ci w ramach naszych serwisów internetowych lub aplikacji mobilnych.  2.   Co daje Ci założenie Konta?  Założenie Konta daje Ci, m.in.:  a.   możliwość logowania do wszystkich serwisów internetowych powiązanych z decathlon.pl (np. Decathlon Go, Decathlon Rent), a także do Aplikacji;  b.   dostęp do historii zakupów;  c.   możliwość szybkich zakupów bez wpisywania swoich danych;  d.   możliwość łatwiejszych zwrotów;  e.   zapamiętywanie ulubionych Towarów.  3.   Konto a Program Lojalnościowy Decathlon Active  Założenie   Konta   Decathlon   jest   jednoznaczne   z   przystąpieniem   do   naszego bezpłatnego programu lojalnościowego Decathlon Active. Oznacza to, że z chwilą utworzenia Konta Decathlon (czyli z",
+          "page_number": 4,
+          "similarity": 0.697307887432848
+        },
+        {
+          "id": "a2bb5337-b091-4de9-9e39-42a8821151f2",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " że system nie działa prawidłowo (np. masz problem z zalogowaniem się do Konta lub widzisz błąd w koszyku), możesz złożyć reklamację dotyczącą usług świadczonych drogą elektroniczną.  2.   Jak możesz złożyć nam reklamację w sprawach działania Serwisu?  Jeśli chcesz zareklamować działanie Serwisu, możesz się z nami skontaktować:  a.   przez czat dostępny na Stronie Internetowej;  b.   przez formularz kontaktowy:   https://www.decathlon.pl/help/app/ask ;  c.   mailowo:   kontakt@decathlon.pl ;  d.   telefonicznie: 800 808 007;  e.   pisemnie na adres naszej siedziby: Decathlon sp. z o.o., ul. Geodezyjna 76, 03  290 Warszawa.  3.   Co powinno być w Twojej reklamacji?  31",
+          "page_number": 31,
+          "similarity": 0.668624620634894
+        },
+        {
+          "id": "245defcc-85e4-4df8-9ee1-e6f6800dc943",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "firma inna niż Decathlon, która sprzedaje swoje Towary w naszym Serwisie. To z tą firmą zawierasz umowę, gdy kupujesz Towar oznaczony jako „Sprzedawane i wysyłane przez przedsiębiorcę [nazwa firmy] ˮ .  9.   Strona Internetowa   – nasza strona internetowa, dostępna pod adresem   decathlon.pl .  10.   Towar   – każdy przedmiot (rzecz ruchoma), którą możesz kupić w naszym Serwisie – zarówno od Decathlon, jak i od Sprzedawcy Marketplace.  34",
+          "page_number": 34,
+          "similarity": 0.663104195009357
+        },
+        {
+          "id": "b3150fc4-a2bb-4d0e-bce4-064d3e391e43",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "Część VI.  Usługi towarzyszące  § 14. Usługi dodatkowe świadczone przez Decathlon  1.   Zakres usług towarzyszących  Założenie   Konta   Decathlon   otwiera   Ci   dostęp   do   całego   pakietu   usług towarzyszących, które są powiązane z Serwisem, ale świadczone są na podstawie oddzielnie zawieranych z nami umów.  Zasady na jakich świadczymy usługi towarzyszące są uregulowane w dedykowanych regulaminach   dostępnych   w   zakładce   Regulaminy   na   Stronie   Internetowej   i   w Aplikacji lub na stronach internetowych odrębnych serwisów. Poniżej przedstawiamy ich syntetyczny opis.  2.   Decathlon Active  Nasz   bezpłatny   program   lojalnościowy,   do   którego   automatycznie   przystępujesz wraz z założeniem Konta Decathlon (zob. § 4 ust. 3 Regulaminu). Zbierasz punkty za zakupy lub inne usługi, które wymieniasz na bony na kolejne zakupy.  3.   Decathlon Go  Internetowa   platforma   handlowa,   na   której   możesz   zapisać   się   na   udział   w wydarzeniu sportowym lub tren",
+          "page_number": 28,
+          "similarity": 0.661668595523857
+        }
+      ],
+      "hitAt1": true,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 1
+    },
+    {
+      "id": "q014",
+      "question": "Jak można usunąć Konto Decathlon?",
+      "expectedDocument": "decathlon.pdf",
+      "expectedPages": [
+        5
+      ],
+      "retrieved": [
+        {
+          "id": "11ff3396-eed3-4138-b679-882ab4e05692",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "na adres naszej siedziby: Decathlon sp. z o.o., ul. Geodezyjna 76, 03  290 Warszawa.  3",
+          "page_number": 3,
+          "similarity": 0.717143957359551
+        },
+        {
+          "id": "cc36297f-bd31-4535-a46a-b5d4f2eea2c1",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestracyjnego.  5.   Jak założysz Konto w Aplikacji?  4",
+          "page_number": 4,
+          "similarity": 0.686943370882073
+        },
+        {
+          "id": "957de65b-884a-4e79-9b1f-b2389b6dc7cf",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " nie posiadasz).  Jeżeli   zdecydujesz   robić   zakupy   jako   gość,   w   trakcie   składania   zamówienia zostaniesz poproszony o wskazanie danych koniecznych do dostarczenia kupionego Towaru, w zależności od wybranej metody dostawy.  Pamiętaj, że zakupy jako gość są możliwe wyłącznie na Stronie Internetowej. Jeśli chcesz kupować w Aplikacji, musisz założyć Konto Decathlon.  Zakupy bez Konta Decathlon pozbawiają Cię korzyści, które daje Konto Decathlon. Np.   nie   będziesz   mieć   dostępu   do   historii   zakupów,   czy   opcji   zapamiętywania ulubionych towarów.  5",
+          "page_number": 5,
+          "similarity": 0.661313614532105
+        },
+        {
+          "id": "875ef820-8c90-46ac-8ece-dda572f768a2",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "rasz   ją   ze   Sprzedawcą   Marketplace. Decathlon jedynie pośredniczy w zawarciu tej umowy.  § 12. Jak zwrócić Towar?  1.   Zwrot w ramach prawa odstąpienia  Jeżeli   po   otrzymaniu   Towaru   zmienisz   zdanie,   masz   prawo   go   zwrócić   bez podawania przyczyny. W Decathlon oferujemy Ci znacznie więcej czasu na decyzję, niż przewiduje prawo.  Prawo   odstąpienia   dotyczy   Towarów   kupionych   bezpośrednio   od   nas,   czyli   od Decathlon sp. z o.o. Nie możemy przyjmować zwrotów produktów, które kupiłeś od zagranicznych   spółek   Decathlon,   ponieważ   w   takiej   sytuacji   umowę   zawarłeś   z  22",
+          "page_number": 22,
+          "similarity": 0.643577692828571
+        },
+        {
+          "id": "7cf9e524-78ee-4937-9f43-46cbd1e92b73",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " inne usługi, które wymieniasz na bony na kolejne zakupy.  3.   Decathlon Go  Internetowa   platforma   handlowa,   na   której   możesz   zapisać   się   na   udział   w wydarzeniu sportowym lub treningu, kupić bilet na wydarzenie sportowe jako kibic lub samemu zorganizować wydarzenie. Organizatorem wydarzeń sportowych może być Decathlon jak również inne, niepowiązane z nami podmioty.  4.   Decathlon Rent  Internetowa   platforma   handlowa,   na   której   możesz   wypożyczać sprzęt sportowy zarówno od nas jak i od innych wynajmujących.  5.   Decathlon Second Life  W   ramach   tej   usługi   masz   możliwość   kupowania   używanych   Towarów   (np.   ze zwrotów lub poekspozycyjnych) w obniżonych cenach. Przed udostępnieniem do sprzedaży Towary te są sprawdzane przez nasz serwis i objęte gwarancją.  6.   Decathlon Buy Back  28",
+          "page_number": 28,
+          "similarity": 0.626049310219141
+        },
+        {
+          "id": "08b82823-8f71-4a15-a45b-98707a4bf68d",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "REGULAMIN  serwisu decathlon.pl  obowiązuje od   28.09.2026 r.  Część I.   2  O czym jest Regulamin i jaka jest rola Decathlon?   2  § 1. Regulamin. Czym jest i jak go czytać?   2  § 2. Decathlon jako usługodawca i sprzedawca   2  § 3. Kontakt, czyli jak z nami porozmawiać?   3  Część II.   4  Konto Decathlon jako kluczowa usługa   4  § 4. Konto Decathlon i jego funkcjonalności   4  § 5. Konto dla firm i instytucji   6  Część III.   9  Zasady funkcjonowania Serwisu   9  § 6. Co i jak publikujemy w Serwisie?   9  § 7. Jakie są zasady korzystania z Serwisu?   11  Część IV.   15  Internetowa platforma handlowa   15  § 8. Decathlon Marketplace   15  Część V.   17  Sprzedaż Towarów w Serwisie   17  § 9. Jak kupować w Serwisie?   17  § 10. Metody płatności i dostawy   18  § 11. Zawarcie umowy sprzedaży   21  § 12. Jak zwrócić Towar?   22  § 13. Jak reklamować kupione Towary?   26  Część VI.   28  Usługi towarzyszące   28  § 14. Usługi dodatkowe świadczone przez Decathlon   28  Część VII.   3",
+          "page_number": 1,
+          "similarity": 0.61476237949877
+        },
+        {
+          "id": "245defcc-85e4-4df8-9ee1-e6f6800dc943",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "firma inna niż Decathlon, która sprzedaje swoje Towary w naszym Serwisie. To z tą firmą zawierasz umowę, gdy kupujesz Towar oznaczony jako „Sprzedawane i wysyłane przez przedsiębiorcę [nazwa firmy] ˮ .  9.   Strona Internetowa   – nasza strona internetowa, dostępna pod adresem   decathlon.pl .  10.   Towar   – każdy przedmiot (rzecz ruchoma), którą możesz kupić w naszym Serwisie – zarówno od Decathlon, jak i od Sprzedawcy Marketplace.  34",
+          "page_number": 34,
+          "similarity": 0.61152708530426
+        },
+        {
+          "id": "6486a69c-3578-4d2b-ba5b-459a4a871cfa",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "łożenie   Konta   Decathlon   jest   jednoznaczne   z   przystąpieniem   do   naszego bezpłatnego programu lojalnościowego Decathlon Active. Oznacza to, że z chwilą utworzenia Konta Decathlon (czyli zawarcia z nami umowy w zakresie prowadzenia Konta), zostaje również automatycznie zawarta odrębna umowa o świadczenie usług w ramach programu Decathlon Active. Zasady działania programu, w tym korzyści, zasady   zbierania   i   wykorzystywania   punktów   oraz   warunki   rezygnacji,   określa Regulamin   Programu   Lojalnościowego   Decathlon   Active,   dostępny   w   zakładce Regulaminy.  Z   programu   Decathlon   Active możesz w każdej chwili zrezygnować, co nie jest równoznaczne z usunięciem Konta Decathlon.  4.   Jak założysz Konto na Stronie Internetowej?  Kliknij   przycisk   ˮ Moje   Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestrac",
+          "page_number": 4,
+          "similarity": 0.610832247535664
+        },
+        {
+          "id": "7e57c219-77c6-4c78-b4bb-252119bee512",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "Część II.  Konto Decathlon jako kluczowa usługa  § 4. Konto Decathlon i jego funkcjonalności  1.   Czym jest Konto Decathlon?  Konto Decathlon to Twoje centrum zarządzania usługami dostępnymi na decathlon.pl. Dzięki niemu możesz korzystać ze wszystkich funkcjonalności jakie oferujemy Ci w ramach naszych serwisów internetowych lub aplikacji mobilnych.  2.   Co daje Ci założenie Konta?  Założenie Konta daje Ci, m.in.:  a.   możliwość logowania do wszystkich serwisów internetowych powiązanych z decathlon.pl (np. Decathlon Go, Decathlon Rent), a także do Aplikacji;  b.   dostęp do historii zakupów;  c.   możliwość szybkich zakupów bez wpisywania swoich danych;  d.   możliwość łatwiejszych zwrotów;  e.   zapamiętywanie ulubionych Towarów.  3.   Konto a Program Lojalnościowy Decathlon Active  Założenie   Konta   Decathlon   jest   jednoznaczne   z   przystąpieniem   do   naszego bezpłatnego programu lojalnościowego Decathlon Active. Oznacza to, że z chwilą utworzenia Konta Decathlon (czyli z",
+          "page_number": 4,
+          "similarity": 0.608041164862789
+        },
+        {
+          "id": "dc402175-6ce3-4a45-8e2a-4648f6ca1e31",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "Odkupimy od Ciebie używany sprzęt sportowy w zamian za voucher na zakupy w Decathlon.   Realizacja   tej   usługi   możliwa   jest   w   wybranych   sklepach   dla   osób pełnoletnich. Lista sklepów dostępna jest na podstronie Decathlon Buy Back.  7.   Decathlon Support  Profesjonalna naprawa i konserwacja Twojego sprzętu. Dbamy o to, aby Twój rower czy sprzęt fitness służył Ci jak najdłużej.  8.   Decathlon Outdoor  Aplikacja mobilna, dzięki której odkryjesz tysiące szlaków i tras sportowych w Twojej okolicy. Do aplikacji Decathlon Outdoor zalogujesz się za pomocą Konta Decathlon.  9.   Przechowalnia rowerów  Usługa   bezpiecznego,   płatnego   przechowywania   rowerów   (także   elektrycznych), aktualnie   dostępna   w   wybranych   lokalizacjach.   Lista   lokalizacji,   w   których skorzystasz z usługi dostępna na podstronie Przechowalni rowerów.  29",
+          "page_number": 29,
+          "similarity": 0.600964069366455
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 0.3333333333333333
+    },
+    {
+      "id": "q015",
+      "question": "Czy można robić zakupy bez zakładania Konta Decathlon i jakie są tego ograniczenia?",
+      "expectedDocument": "decathlon.pdf",
+      "expectedPages": [
+        5
+      ],
+      "retrieved": [
+        {
+          "id": "957de65b-884a-4e79-9b1f-b2389b6dc7cf",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " nie posiadasz).  Jeżeli   zdecydujesz   robić   zakupy   jako   gość,   w   trakcie   składania   zamówienia zostaniesz poproszony o wskazanie danych koniecznych do dostarczenia kupionego Towaru, w zależności od wybranej metody dostawy.  Pamiętaj, że zakupy jako gość są możliwe wyłącznie na Stronie Internetowej. Jeśli chcesz kupować w Aplikacji, musisz założyć Konto Decathlon.  Zakupy bez Konta Decathlon pozbawiają Cię korzyści, które daje Konto Decathlon. Np.   nie   będziesz   mieć   dostępu   do   historii   zakupów,   czy   opcji   zapamiętywania ulubionych towarów.  5",
+          "page_number": 5,
+          "similarity": 0.856383059887181
+        },
+        {
+          "id": "cc36297f-bd31-4535-a46a-b5d4f2eea2c1",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestracyjnego.  5.   Jak założysz Konto w Aplikacji?  4",
+          "page_number": 4,
+          "similarity": 0.777269257469819
+        },
+        {
+          "id": "5b52e8e0-0677-4827-96dd-84e0e440a36b",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "aby wszystko działało sprawnie, bezpiecznie i byś mógł łatwo znaleźć Towary oraz usługi. W tej roli jesteśmy usługodawcą, który świadczy usługi drogą elektroniczną.  b.   Decathlon jako sprzedawca  2",
+          "page_number": 2,
+          "similarity": 0.761019794819385
+        },
+        {
+          "id": "875ef820-8c90-46ac-8ece-dda572f768a2",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "rasz   ją   ze   Sprzedawcą   Marketplace. Decathlon jedynie pośredniczy w zawarciu tej umowy.  § 12. Jak zwrócić Towar?  1.   Zwrot w ramach prawa odstąpienia  Jeżeli   po   otrzymaniu   Towaru   zmienisz   zdanie,   masz   prawo   go   zwrócić   bez podawania przyczyny. W Decathlon oferujemy Ci znacznie więcej czasu na decyzję, niż przewiduje prawo.  Prawo   odstąpienia   dotyczy   Towarów   kupionych   bezpośrednio   od   nas,   czyli   od Decathlon sp. z o.o. Nie możemy przyjmować zwrotów produktów, które kupiłeś od zagranicznych   spółek   Decathlon,   ponieważ   w   takiej   sytuacji   umowę   zawarłeś   z  22",
+          "page_number": 22,
+          "similarity": 0.75003195554304
+        },
+        {
+          "id": "245defcc-85e4-4df8-9ee1-e6f6800dc943",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "firma inna niż Decathlon, która sprzedaje swoje Towary w naszym Serwisie. To z tą firmą zawierasz umowę, gdy kupujesz Towar oznaczony jako „Sprzedawane i wysyłane przez przedsiębiorcę [nazwa firmy] ˮ .  9.   Strona Internetowa   – nasza strona internetowa, dostępna pod adresem   decathlon.pl .  10.   Towar   – każdy przedmiot (rzecz ruchoma), którą możesz kupić w naszym Serwisie – zarówno od Decathlon, jak i od Sprzedawcy Marketplace.  34",
+          "page_number": 34,
+          "similarity": 0.739310026168823
+        },
+        {
+          "id": "93897442-9ae2-4143-a427-077d6afd0f58",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "wać.   Gdy zostaniesz przekierowany na stronę wybranego serwisu, postępuj zgodnie z poleceniami widocznymi na stronie serwisu.  7.   Jak usunąć Konto Decathlon?  a.   Na Stronie Internetowej   usuniesz Konto w ustawieniach swojego profilu, w sekcji “Prywatność i ochrona ˮ , gdy wybierzesz opcję “Usuń moje konto ˮ .  b.   W Aplikacji   usuniesz Konto, gdy wejdziesz w ustawienia swojego Konta i wybierzesz opcję “Usuń moje konto ˮ .  c.   Poprzez kontakt z Biurem Obsługi Klienta Decathlon . Sposoby kontaktu znajdziesz w § 3 Regulaminu.  8.   Zakupy bez zakładania Konta - zakupy jako gość  Na   Stronie   Internetowej   możesz   robić   zakupy   bez   zakładania   Konta   Decathlon. Podczas   składania   zamówienia   będziesz   mógł   zdecydować   o   zalogowaniu   lub założeniu Konta (jeśli go nie posiadasz).  Jeżeli   zdecydujesz   robić   zakupy   jako   gość,   w   trakcie   składania   zamówienia zostaniesz poproszony o wskazanie danych koniecznych do dostarczenia kupionego Towaru, w z",
+          "page_number": 5,
+          "similarity": 0.739256761647963
+        },
+        {
+          "id": "6486a69c-3578-4d2b-ba5b-459a4a871cfa",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "łożenie   Konta   Decathlon   jest   jednoznaczne   z   przystąpieniem   do   naszego bezpłatnego programu lojalnościowego Decathlon Active. Oznacza to, że z chwilą utworzenia Konta Decathlon (czyli zawarcia z nami umowy w zakresie prowadzenia Konta), zostaje również automatycznie zawarta odrębna umowa o świadczenie usług w ramach programu Decathlon Active. Zasady działania programu, w tym korzyści, zasady   zbierania   i   wykorzystywania   punktów   oraz   warunki   rezygnacji,   określa Regulamin   Programu   Lojalnościowego   Decathlon   Active,   dostępny   w   zakładce Regulaminy.  Z   programu   Decathlon   Active możesz w każdej chwili zrezygnować, co nie jest równoznaczne z usunięciem Konta Decathlon.  4.   Jak założysz Konto na Stronie Internetowej?  Kliknij   przycisk   ˮ Moje   Konto ˮ .   Zostaniesz   przekierowany   na   stronę   internetową  login.decathlon.net , na której naciśnij “Utwórz konto Decathlon ˮ . Następnie postępuj  zgodnie z poleceniami formularza rejestrac",
+          "page_number": 4,
+          "similarity": 0.725310689136838
+        },
+        {
+          "id": "b868a096-8a8c-45e4-919a-8377843c052f",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "j pracownikowi nazwę Towaru;  3.   podaj swój adres email, a jeżeli nie masz Konta Decathlon, pomożemy Ci je założyć, ponieważ dla tego kanału zakupu musisz posiadać Konto;  4.   wybierz preferowaną metodę dostawy oraz płatności;  5.   otrzymasz email z potwierdzeniem zamówienia  W tym kanale zakupu nie możesz kupić Towarów od Sprzedawców Marketplace  17",
+          "page_number": 17,
+          "similarity": 0.724242925643921
+        },
+        {
+          "id": "7cf9e524-78ee-4937-9f43-46cbd1e92b73",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": " inne usługi, które wymieniasz na bony na kolejne zakupy.  3.   Decathlon Go  Internetowa   platforma   handlowa,   na   której   możesz   zapisać   się   na   udział   w wydarzeniu sportowym lub treningu, kupić bilet na wydarzenie sportowe jako kibic lub samemu zorganizować wydarzenie. Organizatorem wydarzeń sportowych może być Decathlon jak również inne, niepowiązane z nami podmioty.  4.   Decathlon Rent  Internetowa   platforma   handlowa,   na   której   możesz   wypożyczać sprzęt sportowy zarówno od nas jak i od innych wynajmujących.  5.   Decathlon Second Life  W   ramach   tej   usługi   masz   możliwość   kupowania   używanych   Towarów   (np.   ze zwrotów lub poekspozycyjnych) w obniżonych cenach. Przed udostępnieniem do sprzedaży Towary te są sprawdzane przez nasz serwis i objęte gwarancją.  6.   Decathlon Buy Back  28",
+          "page_number": 28,
+          "similarity": 0.721247666179598
+        },
+        {
+          "id": "7e57c219-77c6-4c78-b4bb-252119bee512",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "Część II.  Konto Decathlon jako kluczowa usługa  § 4. Konto Decathlon i jego funkcjonalności  1.   Czym jest Konto Decathlon?  Konto Decathlon to Twoje centrum zarządzania usługami dostępnymi na decathlon.pl. Dzięki niemu możesz korzystać ze wszystkich funkcjonalności jakie oferujemy Ci w ramach naszych serwisów internetowych lub aplikacji mobilnych.  2.   Co daje Ci założenie Konta?  Założenie Konta daje Ci, m.in.:  a.   możliwość logowania do wszystkich serwisów internetowych powiązanych z decathlon.pl (np. Decathlon Go, Decathlon Rent), a także do Aplikacji;  b.   dostęp do historii zakupów;  c.   możliwość szybkich zakupów bez wpisywania swoich danych;  d.   możliwość łatwiejszych zwrotów;  e.   zapamiętywanie ulubionych Towarów.  3.   Konto a Program Lojalnościowy Decathlon Active  Założenie   Konta   Decathlon   jest   jednoznaczne   z   przystąpieniem   do   naszego bezpłatnego programu lojalnościowego Decathlon Active. Oznacza to, że z chwilą utworzenia Konta Decathlon (czyli z",
+          "page_number": 4,
+          "similarity": 0.715029622605587
+        }
+      ],
+      "hitAt1": true,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 1
+    },
+    {
+      "id": "q016",
+      "question": "Jak założyć konto firmowe i jakie korzyści z niego wynikają, np. w zakresie faktur?",
+      "expectedDocument": "decathlon.pdf",
+      "expectedPages": [
+        6
+      ],
+      "retrieved": [
+        {
+          "id": "68e2abce-d6ed-4944-954b-ebd2c0c6899a",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "ń oszukańczych, możemy zablokować Twoje Konto, w tym konto firmowe.  Działanie   to   ma   charakter   prewencyjny,   a   jego   celem   jest   m.in.   zabezpieczenie dowodów   oraz   uniemożliwienie   ponownego   wykorzystania   danych   do   nadużyć. Zablokowanie Konta, w tym konta firmowego może nastąpić w szczególności, gdy:  a.   odnotujemy wysoce nietypową, podejrzaną aktywność, która nosi znamiona oszustwa   (np.   tworzenie   powielonych,   fałszywych   lub   fikcyjnych   kont, masowa rejestracja, omijanie zabezpieczeń systemów płatniczych);  13",
+          "page_number": 13,
+          "similarity": 0.744003566263836
+        },
+        {
+          "id": "8bbcf805-4a0a-4ec3-8a00-1bf130256c64",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "Szczegóły dotyczące tej oferty znajdziesz w zakładce   Oferta dla firm, szkół i klubów ,  a warunki współpracy ustalisz z nami indywidualnie.  8",
+          "page_number": 8,
+          "similarity": 0.737034590597845
+        },
+        {
+          "id": "c823a147-cb5d-463e-a25f-2bebe9306585",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "§ 5. Konto dla firm i instytucji  1.   Dla kogo jest konto firmowe?  Oprócz   klientów   indywidualnych   (konsumentów),   obsługujemy   również   firmy, instytucje   publiczne,   szkoły   i   kluby   sportowe.   Konto   firmowe   pozwala   na otrzymywanie faktur oraz korzystanie z dedykowanych metod płatności oraz ofert specjalnych.  Jeżeli   chcesz   otrzymać   fakturę,   która   dokumentuje   transakcję   pomiędzy przedsiębiorcami i zawiera Twój NIP, musisz zrobić zakupy po zalogowaniu na konto firmowe. Faktury z NIP wystawiamy wyłącznie do zamówień złożonych na koncie firmowym. Jeżeli zrobiłeś zakupy jako konsument z Konta Decathlon lub jako gość, po zawarciu umowy sprzedaży nie będziesz mieć możliwości dodania NIP do faktury.  2.   Jak założyć konto firmowe?  Na   Stronie   Internetowej   kliknij   przycisk   ˮ Moje   Konto ˮ ,   a   w   Aplikacji   po   jej zainstalowaniu naciśnij przycisk “Moje konto ˮ , wybierz przycisk “Zaloguj się ˮ   w celu utworzenia Konta Decathlon.  Nastę",
+          "page_number": 6,
+          "similarity": 0.703768723529241
+        },
+        {
+          "id": "257a1cca-2419-4926-b330-5fcffde415c8",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "  się   z   nami   bezpośrednio   –   pomożemy   Ci skompletować   zamówienie   dopasowane   do   potrzeb   Twojej firmy, organizacji lub instytucji.  4.   Co możesz jako przedsiębiorca?  Gdy kupujesz Towary lub korzystasz z usług Serwisu jako przedsiębiorca, Twoje prawa   i   obowiązki   mogą   zależeć   od   formy,   w   jakiej   prowadzisz   działalność gospodarczą oraz w jakim celu robisz zakupy:  6",
+          "page_number": 6,
+          "similarity": 0.690566255911309
+        },
+        {
+          "id": "cfe9bcdd-9d01-4a32-9357-a84cadcf93b7",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "b.   podasz   niepełne,   błędne   lub   fałszywe   informacje   w celu zatajenia swojej prawdziwej tożsamości;  c.   naruszysz   zasady   tego   Regulaminu,   próbując   wyłudzić Towary lub środki finansowe.  8.   Ścieżka odwoławcza od blokady Konta  Decyzja o zablokowaniu Konta, w tym konta firmowego, nie jest ostateczna. Jeśli Twoje Konto, w tym konto firmowe, zostało zablokowane, poinformujemy Cię o tym. Masz   pełne   prawo   złożyć   odwołanie   i wyjaśnić zaistniałe okoliczności. Wszelkie odwołania oraz korespondencję w sprawie nałożonych blokad bezpieczeństwa kieruj bezpośrednio na dedykowany adres e-mail naszego zespołu ds. bezpieczeństwa: account.security@decathlon.com. Każdą sprawę weryfikujemy indywidualnie.  14",
+          "page_number": 14,
+          "similarity": 0.686451748263439
+        },
+        {
+          "id": "245defcc-85e4-4df8-9ee1-e6f6800dc943",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "firma inna niż Decathlon, która sprzedaje swoje Towary w naszym Serwisie. To z tą firmą zawierasz umowę, gdy kupujesz Towar oznaczony jako „Sprzedawane i wysyłane przez przedsiębiorcę [nazwa firmy] ˮ .  9.   Strona Internetowa   – nasza strona internetowa, dostępna pod adresem   decathlon.pl .  10.   Towar   – każdy przedmiot (rzecz ruchoma), którą możesz kupić w naszym Serwisie – zarówno od Decathlon, jak i od Sprzedawcy Marketplace.  34",
+          "page_number": 34,
+          "similarity": 0.678174453216941
+        },
+        {
+          "id": "f8fd7716-8794-4142-adaf-b110b6cb44c3",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "11.   Użytkownik   – Ty, czyli każda osoba, która odwiedza nasz Serwis, korzysta z Aplikacji lub robi u nas zakupy bądź korzysta z usług dodatkowych.  35",
+          "page_number": 35,
+          "similarity": 0.675512769757222
+        },
+        {
+          "id": "5b52e8e0-0677-4827-96dd-84e0e440a36b",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "aby wszystko działało sprawnie, bezpiecznie i byś mógł łatwo znaleźć Towary oraz usługi. W tej roli jesteśmy usługodawcą, który świadczy usługi drogą elektroniczną.  b.   Decathlon jako sprzedawca  2",
+          "page_number": 2,
+          "similarity": 0.671970425139518
+        },
+        {
+          "id": "21e66fcf-0606-4d44-988f-cdc984dfec1a",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "y, w tym precyzyjny zakres pól eksploatacji, czas trwania licencji    10 lat), zasady weryfikacji opinii   oraz   procedury   moderacji, określa odrębny dokument „ Warunki Publikacji Komentarzy Decathlon ˮ , dostępny w panelu dodawania opinii oraz w Serwisie w zakładce Regulaminy.  Jeżeli zrobiłeś zakup jako gość (klient niezarejestrowany), nie możesz opublikować opinii.  4.   Czego nie wolno publikować?  12",
+          "page_number": 12,
+          "similarity": 0.66800697612598
+        },
+        {
+          "id": "9865eb97-5e76-4192-b124-3e30ff072d68",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "płatność odroczona dla instytucji państwowych - usługa skierowana dla szkół, urzędów i jednostek budżetowych, umożliwia skorzystanie z 30 dniowego terminu płatności przy zamówieniach o wartości powyżej 1000 zł;  c.   płatność na podstawie faktury proforma - umożliwiamy płatność tradycyjnym przelewem w ciągu 14 dni przed wysyłką towaru.  Szczegóły   dotyczące   metod   płatności   oraz   informacje   o   instytucjach finansowych, z którymi aktualnie współpracujemy, znajdziesz na dedykowanej  podstronie w zakładce   Oferta dla firm, szkół i klubów .  7.   Dodatkowe usługi dla biznesu  W ramach współpracy z firmami i instytucjami oferujemy również:  a.   najem rowerów;  b.   sprzedaż kart podarunkowych;  c.   usługę personalizacji odzieży i sprzętu.  7",
+          "page_number": 7,
+          "similarity": 0.656702719520893
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": true,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 0.3333333333333333
+    },
+    {
+      "id": "q017",
+      "question": "Kiedy przedsiębiorca prowadzący jednoosobową działalność gospodarczą jest traktowany jak konsument, a kiedy jak przedsiębiorca?",
+      "expectedDocument": "decathlon.pdf",
+      "expectedPages": [
+        7
+      ],
+      "retrieved": [
+        {
+          "id": "257a1cca-2419-4926-b330-5fcffde415c8",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "  się   z   nami   bezpośrednio   –   pomożemy   Ci skompletować   zamówienie   dopasowane   do   potrzeb   Twojej firmy, organizacji lub instytucji.  4.   Co możesz jako przedsiębiorca?  Gdy kupujesz Towary lub korzystasz z usług Serwisu jako przedsiębiorca, Twoje prawa   i   obowiązki   mogą   zależeć   od   formy,   w   jakiej   prowadzisz   działalność gospodarczą oraz w jakim celu robisz zakupy:  6",
+          "page_number": 6,
+          "similarity": 0.624392792654901
+        },
+        {
+          "id": "3b04f8dd-c41b-4f1e-9ba9-4723f0fde199",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "rzystasz z usługi dostępna na podstronie Przechowalni rowerów.  29",
+          "page_number": 29,
+          "similarity": 0.571110836135053
+        },
+        {
+          "id": "7e9355a6-e1bf-436b-ba51-252e42b2d7b0",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "nych osobowych  Wszystkie   dokładne   informacje   o   zasadach   przetwarzania   Twoich   danych osobowych, w tym jak długo przechowujemy dane, komu możemy je przekazywać oraz jak skontaktować się z naszym Inspektorem Ochrony Danych, znajdziesz na  naszej Stronie Internetowej w zakładce   Dane osobowe i cookies .  30",
+          "page_number": 30,
+          "similarity": 0.56280594135579
+        },
+        {
+          "id": "245defcc-85e4-4df8-9ee1-e6f6800dc943",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "firma inna niż Decathlon, która sprzedaje swoje Towary w naszym Serwisie. To z tą firmą zawierasz umowę, gdy kupujesz Towar oznaczony jako „Sprzedawane i wysyłane przez przedsiębiorcę [nazwa firmy] ˮ .  9.   Strona Internetowa   – nasza strona internetowa, dostępna pod adresem   decathlon.pl .  10.   Towar   – każdy przedmiot (rzecz ruchoma), którą możesz kupić w naszym Serwisie – zarówno od Decathlon, jak i od Sprzedawcy Marketplace.  34",
+          "page_number": 34,
+          "similarity": 0.561075262895199
+        },
+        {
+          "id": "5b52e8e0-0677-4827-96dd-84e0e440a36b",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "aby wszystko działało sprawnie, bezpiecznie i byś mógł łatwo znaleźć Towary oraz usługi. W tej roli jesteśmy usługodawcą, który świadczy usługi drogą elektroniczną.  b.   Decathlon jako sprzedawca  2",
+          "page_number": 2,
+          "similarity": 0.532281987123016
+        },
+        {
+          "id": "bf581259-2fc8-4aa0-b9b9-9eb7ced66dac",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "e Cię Regulamin aktualny na dzień, w którym przeglądasz Stronę Internetową.  5.   Co jeśli nie zgadzasz się ze zmianami?  Jeżeli nie akceptujesz planowanych zmian, masz prawo zrezygnować z naszych usług przed ich wejściem w życie. Możesz to zrobić bez żadnych kosztów, po prostu usuwając swoje Konto Decathlon (samodzielnie w ustawieniach Konta) lub wysyłając do nas taką prośbę.  33",
+          "page_number": 33,
+          "similarity": 0.52295856846861
+        },
+        {
+          "id": "e352321c-0c36-41aa-93c7-e2832223df5b",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "ący Regulamin, który możesz pobrać na swoje urządzenie (trwały nośnik).  21",
+          "page_number": 21,
+          "similarity": 0.514565493295941
+        },
+        {
+          "id": "4410ed51-1e86-442b-b129-2d9597259694",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "ochrony prawnej, jaka Ci przysługuje, gdy robisz zakupy jako konsument.  Zanim Sprzedawca Marketplace zacznie oferować swoje Towary do sprzedaży na Decathlon Marketplace, przeprowadzamy odpowiednią weryfikację, aby potwierdzić jego wiarygodność.  Na karcie produktu informujemy Cię o tym, kto konkretnie sprzedaje Towar, który oglądasz oraz jakie są nasze obowiązki i obowiązki Sprzedawcy Marketplace.  16",
+          "page_number": 16,
+          "similarity": 0.506901725920994
+        },
+        {
+          "id": "ce7215c6-93bd-4ebe-8c2c-a1c531318388",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "a.   jeśli kupujesz w imieniu spółki, instytucji lub organizacji (np. stowarzyszenia, fundacji), co wynika z podanego NIPu - stosujemy wobec Ciebie przepisy prawa dotyczące relacji pomiędzy przedsiębiorcami;  b.   jeśli   kupujesz   jako   przedsiębiorca   prowadzący   jednoosobową   działalność gospodarczą    JDG    wpisaną do CEIDG, traktujemy Cię jak konsumenta, ale jeśli   zakup   ma   dla   Ciebie   charakter   zawodowy,   traktujemy   Cię   jak przedsiębiorcę.  5.   Czym jest zawodowy charakter zakupu?  Gdy prowadzisz jednoosobową działalność gospodarczą, w zależności od charakteru Twojego   zakupu,   tj.   czy   ma   dla   Ciebie   charakter   zawodowy   czy   nie,   możemy traktować Cię jako konsumenta lub jako przedsiębiorcę. Wobec tego masz prawo poinformować nas przed zawarciem umowy sprzedaży w jakim celu robisz zakupy. Możesz   oświadczyć   (np.   poprzez   formularz   kontaktowy   Biura   Obsługi   Klienta Decathlon),   że   dany   zakup   będzie   mieć   dla   Ciebie  ",
+          "page_number": 7,
+          "similarity": 0.504914536632794
+        },
+        {
+          "id": "9865eb97-5e76-4192-b124-3e30ff072d68",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "płatność odroczona dla instytucji państwowych - usługa skierowana dla szkół, urzędów i jednostek budżetowych, umożliwia skorzystanie z 30 dniowego terminu płatności przy zamówieniach o wartości powyżej 1000 zł;  c.   płatność na podstawie faktury proforma - umożliwiamy płatność tradycyjnym przelewem w ciągu 14 dni przed wysyłką towaru.  Szczegóły   dotyczące   metod   płatności   oraz   informacje   o   instytucjach finansowych, z którymi aktualnie współpracujemy, znajdziesz na dedykowanej  podstronie w zakładce   Oferta dla firm, szkół i klubów .  7.   Dodatkowe usługi dla biznesu  W ramach współpracy z firmami i instytucjami oferujemy również:  a.   najem rowerów;  b.   sprzedaż kart podarunkowych;  c.   usługę personalizacji odzieży i sprzętu.  7",
+          "page_number": 7,
+          "similarity": 0.490493477524108
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": false,
+      "hitAt5": false,
+      "hitAt10": true,
+      "reciprocalRank": 0.1111111111111111
+    },
+    {
+      "id": "q018",
+      "question": "Jakie metody płatności odroczonej oferowane są dla firm i instytucji?",
+      "expectedDocument": "decathlon.pdf",
+      "expectedPages": [
+        7
+      ],
+      "retrieved": [
+        {
+          "id": "8bbcf805-4a0a-4ec3-8a00-1bf130256c64",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "Szczegóły dotyczące tej oferty znajdziesz w zakładce   Oferta dla firm, szkół i klubów ,  a warunki współpracy ustalisz z nami indywidualnie.  8",
+          "page_number": 8,
+          "similarity": 0.75935208797457
+        },
+        {
+          "id": "68e2abce-d6ed-4944-954b-ebd2c0c6899a",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "ń oszukańczych, możemy zablokować Twoje Konto, w tym konto firmowe.  Działanie   to   ma   charakter   prewencyjny,   a   jego   celem   jest   m.in.   zabezpieczenie dowodów   oraz   uniemożliwienie   ponownego   wykorzystania   danych   do   nadużyć. Zablokowanie Konta, w tym konta firmowego może nastąpić w szczególności, gdy:  a.   odnotujemy wysoce nietypową, podejrzaną aktywność, która nosi znamiona oszustwa   (np.   tworzenie   powielonych,   fałszywych   lub   fikcyjnych   kont, masowa rejestracja, omijanie zabezpieczeń systemów płatniczych);  13",
+          "page_number": 13,
+          "similarity": 0.675494748236001
+        },
+        {
+          "id": "257a1cca-2419-4926-b330-5fcffde415c8",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "  się   z   nami   bezpośrednio   –   pomożemy   Ci skompletować   zamówienie   dopasowane   do   potrzeb   Twojej firmy, organizacji lub instytucji.  4.   Co możesz jako przedsiębiorca?  Gdy kupujesz Towary lub korzystasz z usług Serwisu jako przedsiębiorca, Twoje prawa   i   obowiązki   mogą   zależeć   od   formy,   w   jakiej   prowadzisz   działalność gospodarczą oraz w jakim celu robisz zakupy:  6",
+          "page_number": 6,
+          "similarity": 0.661871831193949
+        },
+        {
+          "id": "9865eb97-5e76-4192-b124-3e30ff072d68",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "płatność odroczona dla instytucji państwowych - usługa skierowana dla szkół, urzędów i jednostek budżetowych, umożliwia skorzystanie z 30 dniowego terminu płatności przy zamówieniach o wartości powyżej 1000 zł;  c.   płatność na podstawie faktury proforma - umożliwiamy płatność tradycyjnym przelewem w ciągu 14 dni przed wysyłką towaru.  Szczegóły   dotyczące   metod   płatności   oraz   informacje   o   instytucjach finansowych, z którymi aktualnie współpracujemy, znajdziesz na dedykowanej  podstronie w zakładce   Oferta dla firm, szkół i klubów .  7.   Dodatkowe usługi dla biznesu  W ramach współpracy z firmami i instytucjami oferujemy również:  a.   najem rowerów;  b.   sprzedaż kart podarunkowych;  c.   usługę personalizacji odzieży i sprzętu.  7",
+          "page_number": 7,
+          "similarity": 0.653549712473193
+        },
+        {
+          "id": "245defcc-85e4-4df8-9ee1-e6f6800dc943",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "firma inna niż Decathlon, która sprzedaje swoje Towary w naszym Serwisie. To z tą firmą zawierasz umowę, gdy kupujesz Towar oznaczony jako „Sprzedawane i wysyłane przez przedsiębiorcę [nazwa firmy] ˮ .  9.   Strona Internetowa   – nasza strona internetowa, dostępna pod adresem   decathlon.pl .  10.   Towar   – każdy przedmiot (rzecz ruchoma), którą możesz kupić w naszym Serwisie – zarówno od Decathlon, jak i od Sprzedawcy Marketplace.  34",
+          "page_number": 34,
+          "similarity": 0.641759438304973
+        },
+        {
+          "id": "cfe9bcdd-9d01-4a32-9357-a84cadcf93b7",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "b.   podasz   niepełne,   błędne   lub   fałszywe   informacje   w celu zatajenia swojej prawdziwej tożsamości;  c.   naruszysz   zasady   tego   Regulaminu,   próbując   wyłudzić Towary lub środki finansowe.  8.   Ścieżka odwoławcza od blokady Konta  Decyzja o zablokowaniu Konta, w tym konta firmowego, nie jest ostateczna. Jeśli Twoje Konto, w tym konto firmowe, zostało zablokowane, poinformujemy Cię o tym. Masz   pełne   prawo   złożyć   odwołanie   i wyjaśnić zaistniałe okoliczności. Wszelkie odwołania oraz korespondencję w sprawie nałożonych blokad bezpieczeństwa kieruj bezpośrednio na dedykowany adres e-mail naszego zespołu ds. bezpieczeństwa: account.security@decathlon.com. Każdą sprawę weryfikujemy indywidualnie.  14",
+          "page_number": 14,
+          "similarity": 0.618254945486199
+        },
+        {
+          "id": "c823a147-cb5d-463e-a25f-2bebe9306585",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "§ 5. Konto dla firm i instytucji  1.   Dla kogo jest konto firmowe?  Oprócz   klientów   indywidualnych   (konsumentów),   obsługujemy   również   firmy, instytucje   publiczne,   szkoły   i   kluby   sportowe.   Konto   firmowe   pozwala   na otrzymywanie faktur oraz korzystanie z dedykowanych metod płatności oraz ofert specjalnych.  Jeżeli   chcesz   otrzymać   fakturę,   która   dokumentuje   transakcję   pomiędzy przedsiębiorcami i zawiera Twój NIP, musisz zrobić zakupy po zalogowaniu na konto firmowe. Faktury z NIP wystawiamy wyłącznie do zamówień złożonych na koncie firmowym. Jeżeli zrobiłeś zakupy jako konsument z Konta Decathlon lub jako gość, po zawarciu umowy sprzedaży nie będziesz mieć możliwości dodania NIP do faktury.  2.   Jak założyć konto firmowe?  Na   Stronie   Internetowej   kliknij   przycisk   ˮ Moje   Konto ˮ ,   a   w   Aplikacji   po   jej zainstalowaniu naciśnij przycisk “Moje konto ˮ , wybierz przycisk “Zaloguj się ˮ   w celu utworzenia Konta Decathlon.  Nastę",
+          "page_number": 6,
+          "similarity": 0.612511479108851
+        },
+        {
+          "id": "f8fd7716-8794-4142-adaf-b110b6cb44c3",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "11.   Użytkownik   – Ty, czyli każda osoba, która odwiedza nasz Serwis, korzysta z Aplikacji lub robi u nas zakupy bądź korzysta z usług dodatkowych.  35",
+          "page_number": 35,
+          "similarity": 0.608717858791369
+        },
+        {
+          "id": "4410ed51-1e86-442b-b129-2d9597259694",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "ochrony prawnej, jaka Ci przysługuje, gdy robisz zakupy jako konsument.  Zanim Sprzedawca Marketplace zacznie oferować swoje Towary do sprzedaży na Decathlon Marketplace, przeprowadzamy odpowiednią weryfikację, aby potwierdzić jego wiarygodność.  Na karcie produktu informujemy Cię o tym, kto konkretnie sprzedaje Towar, który oglądasz oraz jakie są nasze obowiązki i obowiązki Sprzedawcy Marketplace.  16",
+          "page_number": 16,
+          "similarity": 0.600020629166955
+        },
+        {
+          "id": "7b3d0275-90bc-4eee-9ec7-9907b60265fe",
+          "document_id": "c4742671-1bb6-4e67-ba7e-c60c49917ecc",
+          "content": "i niemu   możesz   sprawdzać   historię   zakupów,   śledzić   zamówienia   i   korzystać   z dodatkowych funkcji czy powiązanych serwisów (np. Decathlon Rent czy Decathlon Go).  5.   Marketplace   – część Serwisu, w której swoje Towary oferują inne, niezależne od nas firmy. My udostępniamy im tylko miejsce i technologię do sprzedaży.  6.   RODO   - rozporządzenie Parlamentu Europejskiego i Rady    UE    2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych   osobowych   i   w   sprawie   swobodnego   przepływu   takich   danych   oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych).  7.   Serwis   – nasza platforma internetowa, na którą składa się Strona Internetowa oraz Aplikacja.  8.   Sprzedawca Marketplace   – firma inna niż Decathlon, która sprzedaje swoje Towary w naszym Serwisie. To z tą firmą zawierasz umowę, gdy kupujesz Towar oznaczony jako „Sprzedawane i wysyłane przez przedsiębiorcę [nazwa firmy] ˮ ",
+          "page_number": 34,
+          "similarity": 0.592981601179752
+        }
+      ],
+      "hitAt1": false,
+      "hitAt3": false,
+      "hitAt5": true,
+      "hitAt10": true,
+      "reciprocalRank": 0.25
+    }
+  ]
+}

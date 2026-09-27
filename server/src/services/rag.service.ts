@@ -6,18 +6,27 @@ export const ragService = {
     async getRelevantContext({
         chatId,
         query,
+        match_count = 5,
     }: {
         chatId: string,
         query:string,
+        match_count?: number,
     }) {
 
         const embedding = await embeddingService.embed(query);
 
-        const {data} = await supabase.rpc("match_documents", {
+        const {data, error} = await supabase.rpc("match_documents", {
             query_embedding: embedding,
-            match_count:5,
+            match_count:match_count,
             chat_id: chatId
         })
+
+        if (error) {
+            console.error("Supabase RPC error:", error);
+            throw error;
+        }
+
+        //console.log(data);
 
         return data || [];
     },
@@ -32,11 +41,11 @@ export const ragService = {
         const contextText = context.map((c) => c.content).join("\n");
 
         const response = await groq.chat.completions.create({
-            model: "llama-3.1-8b-instant",
+            model: "openai/gpt-oss-20b",
             messages: [
               {
                 role: "system",
-                content: "You are a helpful assistant using provided context.",
+                content: "You are a helpful assistant who uses the context provided. Keep your answers as brief as possible, but precise. Don't use tables, lists, or dashes. Write only adult-style sentences. Always answer in the language of the question.",
               },
               {
                 role: "user",

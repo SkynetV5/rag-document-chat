@@ -1,0 +1,454 @@
+{
+  "results": [
+    {
+      "id": "q001",
+      "question": "Kto jest operatorem Aplikacji Mobilnej Auchan i jaki jest jego numer KRS?",
+      "expectedAnswer": "Operator Aplikacji Mobilnej Auchan jest firmą Auchan Polska sp. z o.o. Jej numer KRS to 0000032892.",
+      "generatedAnswer": "Operatorem Aplikacji Mobilnej Auchan jest Auchan Polska sp. z o.o. jej numer KRS to 0000032892.",
+      "retrievedPages": [
+        1,
+        5,
+        2,
+        1,
+        2,
+        4,
+        2,
+        6,
+        6,
+        1
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "reason": "The generated answer correctly identifies the operator as Auchan Polska sp. z o.o. and gives the correct KRS number 0000032892, matching the expected answer. The information is directly supported by the retrieved context which states the operator and KRS. It directly addresses the question and includes all required details, making it complete."
+      }
+    },
+    {
+      "id": "q002",
+      "question": "W jaki sposób można skontaktować się z Auchan Polska (adres, e-mail, infolinia)?",
+      "expectedAnswer": "Można skontaktować się z Auchan Polska drogą mailową pod adresem kontakt@auchan.pl oraz odwiedzić biuro pod adresem Auchan Polska sp. z o.o., ul. Puławska 46, 05‑500 Piaseczno. W kontekście przedstawionym w regulaminie nie podano numeru infolinii, więc nie jest dostępny w tej dokumentacji.",
+      "generatedAnswer": "Auchan Polska można skontaktować się pod adresem: Auchan Polska sp. z o.o., ul. Puławska 46, 05‑500 Piaseczno. E‑mailowy kontakt jest dostępny pod adresem kontakt@auchan.pl, a także pod e‑mailem daneosobowe@auchan.pl w celu zgłoszenia spraw związanych z ochroną danych osobowych. Na infolinię można dzwonić pod numer 22 444 02 22.",
+      "retrievedPages": [
+        5,
+        6,
+        4,
+        2,
+        2,
+        2,
+        4,
+        1,
+        5,
+        5
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "reason": "The answer correctly provides the address, contact email(s), and infoline number, all of which are explicitly stated in the retrieved context. It directly addresses the question, includes all required information, and does not add unsupported claims."
+      }
+    },
+    {
+      "id": "q003",
+      "question": "Czy pobranie Aplikacji i korzystanie z niej jest płatne?",
+      "expectedAnswer": "Pobranie i samodzielne korzystanie z aplikacji nie jest płatne – dostęp do niej jest bezpłatny. Jednak w aplikacji mogą być dostępne płatne funkcje lub zakupy, które użytkownik może wykonać na własną rękę.",
+      "generatedAnswer": "Pobranie oraz korzystanie z aplikacji są bezpłatne, jednak użytkownik ponosi koszty transmisji danych.",
+      "retrievedPages": [
+        4,
+        1,
+        2,
+        3,
+        2,
+        1,
+        4,
+        3,
+        3,
+        2
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 4,
+        "reason": "The answer correctly states that downloading and using the app is free, which is supported by the retrieved context. It directly addresses the question and is grounded in the provided text. However, it does not mention the possibility of optional paid features or in-app purchases, which were noted in the expected answer, thus slightly reducing completeness."
+      }
+    },
+    {
+      "id": "q004",
+      "question": "Kto pokrywa koszty transmisji danych potrzebnych do korzystania z Aplikacji?",
+      "expectedAnswer": "Koszty transmisji danych ponosi Użytkownik.",
+      "generatedAnswer": "Koszty transmisji danych potrzebnych do pobrania, instalacji, uruchomienia i korzystania z Aplikacji pokrywa użytkownik we własnym zakresie, na podstawie umów z operatorami telekomunikacyjnymi lub dostawcą Internetu.",
+      "retrievedPages": [
+        4,
+        2,
+        1,
+        2,
+        3,
+        3,
+        2,
+        1,
+        2,
+        5
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "reason": "The generated answer accurately states that the user bears data transmission costs, aligns with the expected answer, is directly supported by the retrieved context (the exact same clause), directly addresses the question, and includes all relevant details."
+      }
+    },
+    {
+      "id": "q005",
+      "question": "Jakie są minimalne wymagania systemowe (iOS/Android) do uruchomienia Aplikacji?",
+      "expectedAnswer": "Minimalne wymagania systemowe to iOS w wersji 13.0 lub nowszej oraz Android w wersji 5.0 lub nowszej.",
+      "generatedAnswer": "Minimalne wersje systemowe wymagane do uruchomienia aplikacji to iOS 13.0 i Android 5.0.",
+      "retrievedPages": [
+        1,
+        1,
+        3,
+        2,
+        1,
+        5,
+        6,
+        2,
+        3,
+        1
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "reason": "The answer correctly states iOS 13.0 and Android 5.0, matches the expected answer, is fully supported by the retrieved context, directly addresses the question, and contains all required information."
+      }
+    },
+    {
+      "id": "q006",
+      "question": "Czy Aplikacja działa w trybie offline?",
+      "expectedAnswer": "Aplikacja działa głównie w trybie online; niektóre funkcje, takie jak przeglądanie promocji czy dostęp do danych o lokalizacji, mogą być używane w trybie offline, lecz ich aktualność i poprawność nie są gwarantowane.",
+      "generatedAnswer": "Aplikacja głównie działa w trybie online, jednak niektóre jej funkcje można używać również offline, choć Auchan nie gwarantuje poprawności tych funkcjonalności w trybie offline.",
+      "retrievedPages": [
+        2,
+        1,
+        3,
+        1,
+        4,
+        1,
+        5,
+        4,
+        5,
+        2
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "reason": "The generated answer accurately states that the application is primarily online but some functions can be used offline, and it notes that Auchan does not guarantee correctness in offline mode, which matches the expected answer and is fully supported by the retrieved context."
+      }
+    },
+    {
+      "id": "q007",
+      "question": "Jakie funkcjonalności udostępnia Aplikacja Użytkownikowi?",
+      "expectedAnswer": "Aplikacja umożliwia wyświetlanie ofert i kuponów dostępnych w aplikacji, w tym ofert skierowanych do konkretnych grup użytkowników, takich jak uczestnicy programu lojalnościowego „Skarbonka” czy subskrybenci newslettera Auchan Polska. Dostarcza także możliwość korzystania z dodatkowych funkcji, które są dostępne wyłącznie po zalogowaniu do Cyfrowego Konta Auchan, oraz po podpięciu karty Skarbonka do tego konta. Użytkownik ma dostęp do zarządzania swoim kontem cyfrowym, przeglądania historii transakcji, oraz korzystania z usług i promocji dostępnych w aplikacji. Ponadto aplikacja obsługuje powiadomienia push oraz inne interaktywne elementy, które są integralną częścią oferty. Wszystkie powyższe funkcjonalności są regulowane warunkami korzystania z aplikacji i mogą być zmieniane zgodnie z obowiązującym regulaminem.",
+      "generatedAnswer": "Aplikacja umożliwia użytkownikowi przeglądanie lokalizacji i informacji o sklepach Auchan oraz, po wyrażeniu zgody na dostęp do danych o lokalizacji, wskazanie danych do nawigacji do tych sklepów przy użyciu zewnętrznych aplikacji. Użytkownik może przeglądać aktualne promocje i gazety Auchan, korzystać z oferty kuponowej oraz subskrybować newsletter Auchan Polska. Dzięki założeniu Cyfrowego Konta Auchan i podłączeniu karty lojalnościowej „Skarbonka” użytkownik uzyskuje dostęp do dodatkowych funkcji dostępnych wyłącznie dla zalogowanych oraz uczestników programu lojalnościowego, takich jak ekskluzywne oferty i programy lojalnościowe. Aplikacja pracuje w trybie online, lecz niektóre funkcje mogą być dostępne także offline, choć ich aktualność nie jest gwarantowana. Wszelkie inne funkcjonalności udostępnione w aplikacji są opisane w odrębnych regulaminach i dokumentach widocznych w aplikacji.",
+      "retrievedPages": [
+        2,
+        2,
+        6,
+        4,
+        1,
+        5,
+        3,
+        2,
+        2,
+        3
+      ],
+      "evaluation": {
+        "correctness": 3,
+        "groundedness": 4,
+        "relevance": 5,
+        "completeness": 3,
+        "reason": "The generated answer correctly lists several key functionalities such as location browsing, navigation, promotions, coupons, newsletter subscription, digital account and loyalty card integration, and exclusive offers. These are supported by the retrieved context. However, it omits important aspects mentioned in the expected answer: management of the digital account, transaction history, push notifications, interactive elements, and the fact that some features are only available after logging in and linking a Skarbonka card. Consequently the answer is relevant but not fully complete, warranting moderate correctness and completeness scores, with groundedness slightly higher due to strong support from the context."
+      }
+    },
+    {
+      "id": "q008",
+      "question": "Czym jest program lojalnościowy „Skarbonka” i gdzie znaleźć jego regulamin?",
+      "expectedAnswer": "Program lojalnościowy „Skarbonka” to system nagród dla klientów Auchan, w którym uczestnicy po podpięciu karty Skarbonka do Cyfrowego Konta Auchan otrzymują spersonalizowane oferty i kupony promocyjne. Regulamin programu znajduje się na stronie internetowej Auchan pod adresem www.auchan.pl w sekcji regulaminów oraz w aplikacji Auchan, gdzie dostępny jest również regulamin kuponów promocyjnych w aplikacji mobilnej.",
+      "generatedAnswer": "Program lojalnościowy „Skarbonka” to system oferujący uczestnikom spersonalizowane kupony i oferty, które można przeglądać w zakładce „Kupony” aplikacji Auchan. Regulamin programu publikowany jest na stronie internetowej Auchan pod adresem www.auchan.pl, w zakładce „Regulaminy akcji promocyjnych”, a także jest dostępny w aplikacji mobilnej Auchan oraz w regulaminie „Kupony promocyjne w Aplikacji Mobilnej Auchan”.",
+      "retrievedPages": [
+        6,
+        2,
+        3,
+        2,
+        4,
+        2,
+        5,
+        2,
+        3,
+        2
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "reason": "The generated answer accurately describes the Skarbonka loyalty program as a system of personalized coupons and offers tied to a Digital Account, matches the retrieved context on personalized offers in the Coupons tab, and correctly states the location of the regulation on Auchan's website under the promotional actions regulations and within the mobile app. All key elements of the expected answer are covered and supported by the provided context, making the answer correct, grounded, relevant, and complete."
+      }
+    },
+    {
+      "id": "q009",
+      "question": "Jakie obowiązki mają Użytkownicy podczas korzystania z Aplikacji?",
+      "expectedAnswer": "Użytkownicy muszą korzystać z aplikacji w sposób zgodny z prawem, regulaminem oraz regulaminami sklepów, z których aplikacja została pobrana, a także przestrzegać zasad współżycia społecznego, unikając działań zakłócających jej funkcjonowanie. Ponadto muszą respektować prawa własności intelektualnej, nie udostępniać treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje oraz nie naruszać praw osób trzecich.",
+      "generatedAnswer": "Użytkownicy są zobowiązani korzystać z Aplikacji zgodnie z prawem, Regulaminem oraz regulaminami sklepów, z których aplikacja została pobrana, oraz przestrzegać zasad współżycia społecznego, nie zakłócając jej funkcjonowania i nie dostarczając treści bezprawnych. Ponadto muszą szanować prawa własności intelektualnej, zabezpieczać login i hasło, instalować aktualizacje, dbać o bezpieczeństwo urządzenia, a także respektować wszelkie zalecenia Auchan Polska dotyczące bezpieczeństwa korzystania z Aplikacji.",
+      "retrievedPages": [
+        4,
+        2,
+        1,
+        2,
+        2,
+        3,
+        2,
+        3,
+        3,
+        3
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "reason": "The answer accurately lists all user obligations, including those from the legal text (law compliance, store rules, social norms, IP respect, no illegal content) and the additional duties in the context (protecting login, installing updates, device security). All statements are supported by the retrieved passage and directly answer the question."
+      }
+    },
+    {
+      "id": "q010",
+      "question": "Kto jest usługodawcą i sprzedawcą w ramach serwisu decathlon.pl oraz jakie są pełne dane rejestrowe spółki Decathlon?",
+      "expectedAnswer": "Usługodawcą w serwisie decathlon.pl jest Decathlon Sportwear Poland S.A., a sprzedawcą jest ta sama spółka. Pełne dane rejestrowe Decathlon Sportwear Poland S.A. to: nazwa Decathlon Sportwear Poland S.A., forma prawna spółka akcyjna, siedziba ul. Młynarska 12, 01 245 Warszawa, KRS 0000612782, NIP 526 01 00 400, REGON 019428772.",
+      "generatedAnswer": "Usługodawcą i sprzedawcą w ramach serwisu decathlon.pl jest firma Decathlon sp. z o.o., której siedziba znajduje się przy ul. Geodezyjnej 76 w Warszawie, 03‑290 Warszawa. Pełne dane rejestrowe tej spółki obejmują jej numer identyfikacyjny w Krajowym Rejestrze Sądowym (KRS), numer REGON oraz NIP. W oficjalnych dokumentach i na stronie internetowej firmy można znaleźć te informacje: KRS 0000233413, REGON 012345678 oraz NIP 123-456-78-90.",
+      "retrievedPages": [
+        4,
+        22,
+        5,
+        28,
+        2,
+        3,
+        29,
+        4,
+        34,
+        1
+      ],
+      "evaluation": {
+        "correctness": 1,
+        "groundedness": 2,
+        "relevance": 4,
+        "completeness": 2,
+        "reason": "The answer incorrectly names Decathlon sp. z o.o. as both provider and seller, whereas the expected answer specifies Decathlon Sportwear Poland S.A. The registration details given (KRS, REGON, NIP) are not found in the retrieved context and are likely fabricated. While the answer does reference the context’s mention of Decathlon as a seller and provides an address that is partly correct, it fails to give the accurate company name, legal form, and proper registration numbers. Consequently it partially addresses the question but lacks correctness, full groundedness, and completeness."
+      }
+    },
+    {
+      "id": "q011",
+      "question": "W jaki sposób można skontaktować się z Decathlon w sprawach dotyczących zamówienia lub Konta?",
+      "expectedAnswer": "Możesz skontaktować się z Decathlon telefonicznie, wysyłając e‑mail, korzystając z czatu online na stronie internetowej lub wypełniając formularz kontaktowy w sekcji „Kontakt”; odpowiedź otrzymasz w ciągu 24 godzin.",
+      "generatedAnswer": "Można skontaktować się z Decathlon w sprawach dotyczących zamówienia lub Konta telefonicznie pod numerem 500 000 500, przez czat online dostępny na stronie oraz w aplikacji, wysyłając wiadomość e‑mail na adres support@decathlon.pl, korzystając z formularza kontaktowego na stronie internetowej, a także za pośrednictwem mediów społecznościowych, takich jak Facebook i Instagram. Wszelkie informacje o dostępnych kanałach można znaleźć w sekcji „Kontakt” na stronie internetowej oraz w ustawieniach konta w aplikacji.",
+      "retrievedPages": [
+        5,
+        22,
+        4,
+        28,
+        2,
+        4,
+        5,
+        17,
+        28,
+        34
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 1,
+        "relevance": 5,
+        "completeness": 4,
+        "reason": "The generated answer correctly lists the main contact channels (phone, email, chat, contact form) that match the expected answer. It additionally provides phone number, email address, and social media options which, while not mentioned in the expected answer, are still legitimate contact methods and thus do not make the answer incorrect. However, none of these details are supported by the retrieved context; the context contains no specific phone number, email address, or mention of social media, so the answer is not grounded. The answer does address the question directly, so relevance is high. Completeness is good but slightly below perfect because it omits the expected 24‑hour response time and adds extra info not required by the question."
+      }
+    },
+    {
+      "id": "q012",
+      "question": "Czym różni się rola Decathlon jako sprzedawcy od roli Decathlon jako pośrednika technologicznego (Marketplace)?",
+      "expectedAnswer": "Decathlon, jako sprzedawca, jest właścicielem towarów, zleca ich dostawę i odpowiada za sprzedaż, wysyłkę oraz obsługę zwrotów – w praktyce wszystko odbywa się bezpośrednio z jego magazynów. W roli pośrednika technologicznego natomiast Decathlon udostępnia platformę Marketplace, po której kupujący kupują produkty od innych sprzedawców; w tym przypadku Decathlon nie jest właścicielem towarów, nie wykonuje wysyłki ani nie przejmuje odpowiedzialności za produkt, lecz zapewnia tylko techniczną infrastrukturę, system płatności i częściową obsługę klienta.",
+      "generatedAnswer": "Decathlon jako sprzedawca samodzielnie oferuje i dostarcza własne towary, a więc odpowiada za ich jakość, gwarancję, obsługę klienta oraz zwroty w ramach własnych regulaminów. W roli pośrednika technologicznego Marketplace Decathlon udostępnia platformę, na której niezależni sprzedawcy zamieszczają swoje produkty; w takiej transakcji Decathlon nie posiada towarów, a jego zadaniem jest jedynie obsługa płatności, logistyki i interfejsu sprzedażowego, podczas gdy odpowiedzialność za produkt i jego zwrot spoczywa na konkretnym sprzedawcy Marketplace.",
+      "retrievedPages": [
+        34,
+        4,
+        3,
+        5,
+        22,
+        28,
+        17,
+        2,
+        26,
+        4
+      ],
+      "evaluation": {
+        "correctness": 3,
+        "groundedness": 3,
+        "relevance": 5,
+        "completeness": 4,
+        "reason": "The answer correctly describes Decathlon’s role as a seller (ownership, shipping, returns) and as a technical intermediary (does not own goods, limited responsibility). However, it incorrectly states that Decathlon handles logistics in the marketplace scenario, which is not supported by the retrieved context and conflicts with the expected answer. The answer is well‑aligned with the question and includes most key points, but the inaccuracy lowers its correctness and groundedness scores."
+      }
+    },
+    {
+      "id": "q013",
+      "question": "Co daje założenie Konta Decathlon i z czym automatycznie wiąże się jego utworzenie?",
+      "expectedAnswer": "Założenie Konta Decathlon daje dostęp do historii zakupów, możliwość zapisywania ulubionych towarów oraz zakupów w aplikacji – bez konta można kupować wyłącznie jako gość na stronie internetowej. Automatycznie do konta przyłączany jest program lojalnościowy Decathlon Active, w którym zbierasz punkty, korzystasz z przywilejów i możesz w każdej chwili zrezygnować, nie usuwając przy tym samego konta.",
+      "generatedAnswer": "Założenie Konta Decathlon umożliwia logowanie do wszystkich serwisów Decathlon, przeglądanie historii zakupów, szybsze zakupy bez wpisywania danych, łatwiejsze zwroty i zapamiętywanie ulubionych towarów. Jednocześnie z chwilą utworzenia konta automatycznie dołączasz do programu lojalnościowego Decathlon Active, co oznacza, że podpisujesz dodatkową umowę o świadczenie usług w ramach tego programu.",
+      "retrievedPages": [
+        4,
+        5,
+        2,
+        3,
+        4,
+        22,
+        4,
+        31,
+        34,
+        28
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 4,
+        "reason": "The generated answer correctly lists the key benefits of opening a Decathlon account—access to purchase history, fast checkout, easier returns, and the ability to save favorite items—and accurately states that account creation automatically enrolls the user in the Decathlon Active loyalty program, all of which are supported by the retrieved context. It directly addresses the question, but it omits the specific detail that without an account you can only buy as a guest on the website and that the app can be used for shopping, which slightly reduces its completeness."
+      }
+    },
+    {
+      "id": "q014",
+      "question": "Jak można usunąć Konto Decathlon?",
+      "expectedAnswer": "Aby usunąć konto Decathlon, zaloguj się na stronie www.decathlon.pl lub w aplikacji, przejdź do sekcji „Moje konto” lub „Profil”, znajdź opcję „Usuń konto” (często umieszczoną w ustawieniach prywatności) i potwierdź żądanie. Jeśli takiej opcji nie widzisz, wyślij prośbę o usunięcie konta na adres support@decathlon.pl lub skontaktuj się z obsługą klienta, podając swój numer klienta i dane identyfikacyjne. W ciągu kilku dni po otrzymaniu zgłoszenia konto zostanie usunięte, a wszystkie powiązane z nim dane zostaną wyczyszczone zgodnie z polityką prywatności Decathlon.",
+      "generatedAnswer": "Aby usunąć konto Decathlon, zaloguj się na stronie lub w aplikacji, przejdź do ustawień swojego profilu i wybierz opcję „Usuń konto”, a jeśli takiej opcji nie ma, skontaktuj się z obsługą klienta w celu zrealizowania żądania usunięcia.",
+      "retrievedPages": [
+        3,
+        4,
+        5,
+        22,
+        28,
+        1,
+        34,
+        4,
+        4,
+        29
+      ],
+      "evaluation": {
+        "correctness": 4,
+        "groundedness": 1,
+        "relevance": 5,
+        "completeness": 3,
+        "reason": "The answer correctly describes how to delete the account by logging in and selecting the delete option, and instructs contacting customer service if the option is missing. However, it omits details about sending an email to support@decathlon.pl, providing client number, timeframe for deletion, and data removal policy. The provided response is not directly supported by the retrieved context, which does not mention account deletion procedures. The answer is relevant to the question and mostly correct, but lacks completeness and groundedness."
+      }
+    },
+    {
+      "id": "q015",
+      "question": "Czy można robić zakupy bez zakładania Konta Decathlon i jakie są tego ograniczenia?",
+      "expectedAnswer": "Tak, można robić zakupy bez zakładania Konta Decathlon, ale tylko na stronie internetowej. W trybie gościa podczas składania zamówienia zostaniesz poproszony o podanie danych wymaganych do dostawy, a sam proces zakupowy jest ograniczony do jednej transakcji. Nie będziesz miał dostępu do historii zakupów, nie będziesz mógł zapisywać ulubionych towarów ani korzystać z programu lojalnościowego Decathlon. Ponadto zakupy jako gość są niemożliwe w aplikacji – do korzystania z niej musisz założyć konto. Ograniczenia dotyczą także braku możliwości korzystania z niektórych promocji czy udogodnień, które są dostępne wyłącznie dla posiadaczy konta.",
+      "generatedAnswer": "Tak, na stronie internetowej możesz robić zakupy jako gość, pod warunkiem wprowadzenia danych potrzebnych do dostarczenia towaru podczas składania zamówienia. Kupując w ten sposób, tracisz możliwość skorzystania z konta Decathlon oraz wszystkich korzyści, które z nim wynikają: nie masz dostępu do historii zamówień, nie możesz zapisać ulubionych produktów, nie możesz szybko powtarzać zamówień, nie możesz korzystać z programu lojalnościowego Decathlon Active, a także nie możesz nabywać towarów sprzedawanych przez partnerów Marketplace. W aplikacji zakupów wymagane jest posiadanie konta, a zakupy bez niego są niedostępne.",
+      "retrievedPages": [
+        5,
+        4,
+        2,
+        22,
+        34,
+        5,
+        4,
+        17,
+        28,
+        4
+      ],
+      "evaluation": {
+        "correctness": 4,
+        "groundedness": 4,
+        "relevance": 5,
+        "completeness": 4,
+        "reason": "The answer accurately states that shopping as a guest is possible only on the website, that it requires entering delivery details, and lists major limitations such as lack of order history, favorites, loyalty program, and app access. It also correctly mentions the inability to purchase marketplace items, which is supported by the retrieved context. However, it omits the specific limitation of being restricted to a single transaction and does not mention that some promotions are exclusive to account holders. It also includes an unsupported detail about not being able to quickly repeat orders. Overall, it is correct, relevant, and fairly complete, but falls slightly short on grounding all claims and full completeness."
+      }
+    },
+    {
+      "id": "q016",
+      "question": "Jak założyć konto firmowe i jakie korzyści z niego wynikają, np. w zakresie faktur?",
+      "expectedAnswer": "Aby założyć konto firmowe, przejdź na stronę Decathlon, kliknij „Moje Konto” i wybierz opcję logowania. Następnie w menu wybierz „Zaloguj się”, a potem „Stwórz konto firmowe”. Podczas rejestracji podaj dane firmy oraz NIP. Po aktywacji konta możesz dokonywać zakupów, a do każdego zamówienia wystawiane będą faktury z NIP, co ułatwia rozliczenia podatkowe i księgowość. Konto firmowe daje też dostęp do specjalnych metod płatności oraz ofert dedykowanych dla przedsiębiorców.",
+      "generatedAnswer": "Aby założyć konto firmowe przejdź na stronę decathlon.pl i kliknij „Moje Konto”, a następnie wybierz „Zaloguj się”, aby utworzyć konto Decathlon. Możesz również zainstalować aplikację i w niej wybrać ten sam przycisk. W trakcie rejestracji podaj dane firmy, w tym NIP.  \nKonto firmowe pozwala na wystawianie faktur z NIP przy każdej transakcji, co ułatwia księgowość i pozwala na uzyskanie pełnej dokumentacji dla przedsiębiorców. Dodatkowo oferuje specjalne metody płatności, dostęp do ofert i promocji skierowanych do firm, szkół oraz klubów, oraz możliwość korzystania z usług dodatkowych, takich jak wynajem sprzętu czy sprzedaż kart podarunkowych.",
+      "retrievedPages": [
+        13,
+        8,
+        6,
+        6,
+        14,
+        34,
+        35,
+        2,
+        12,
+        7
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "reason": "The generated answer accurately describes the process of creating a firm account (visit decathlon.pl, click \"Moje Konto\", log in, create account, provide company data and NIP) and lists the benefits (invoices with NIP, special payment methods, special offers, additional services such as bike rental, gift cards, personalization). All these points are directly supported by the retrieved context, which contains the step‑by‑step instructions and benefits. The answer fully addresses the question and covers all important information."
+      }
+    },
+    {
+      "id": "q017",
+      "question": "Kiedy przedsiębiorca prowadzący jednoosobową działalność gospodarczą jest traktowany jak konsument, a kiedy jak przedsiębiorca?",
+      "expectedAnswer": "Jeżeli przedsiębiorca kupuje towary wyłącznie w celu własnego użytku osobistego, bez zamierzonej dalszej odsprzedaży ani wykorzystania w działalności gospodarczą, jest traktowany jako konsument. Natomiast gdy zakup jest dokonywany w ramach prowadzonej działalności, wykorzystuje się firmowe dane, wystawia faktury, a towar ma być wykorzystany w działalności gospodarczej lub odsprzedany, wtedy jest postrzegany jako przedsiębiorca.",
+      "generatedAnswer": "Jeśli osoba prowadząca jednoosobową działalność gospodarczą nabywa towar lub usługę, która nie jest związana z jej działalnością gospodarczą i nie ma przeznaczenia w ramach prowadzonej przez nią firmy, wtedy jest traktowana jak konsument. Takie zakupy uznaje się za osobiste i podlegają ochronie konsumenckiej.  \n\nJeśli natomiast zakup jest dokonywany w celu wykorzystania towaru lub usługi w działalności gospodarczej – na przykład w ramach prowadzenia sklepu, produkcji, usługi czy innego obszaru działalności – to osoba jest traktowana jako przedsiębiorca. W takiej sytuacji stosuje się przepisy prawa dotyczące relacji między przedsiębiorcami, a klienci nie korzystają z ochrony konsumenckiej.",
+      "retrievedPages": [
+        6,
+        29,
+        30,
+        34,
+        2,
+        33,
+        21,
+        16,
+        7,
+        7
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "reason": "The generated answer accurately reflects the distinction described in the expected answer, and both elements are supported by the retrieved context. It directly addresses the question and covers all required information."
+      }
+    },
+    {
+      "id": "q018",
+      "question": "Jakie metody płatności odroczonej oferowane są dla firm i instytucji?",
+      "expectedAnswer": "Dla firm i instytucji dostępne są dwie opcje płatności odroczonej: 30‑dniowy termin płatności przy zamówieniach przekraczających 1000 zł skierowany do szkół, urzędów i jednostek budżetowych oraz płatność na fakturę proforma w ciągu 14 dni przed wysyłką towaru.",
+      "generatedAnswer": "Dla firm i instytucji dostępne są dwie opcje płatności odroczonej: 30‑dniowy termin płatności przy zamówieniach powyżej 1000 zł, skierowany do szkół, urzędów i jednostek budżetowych oraz płatność na fakturze proforma, która umożliwia zapłacenie przelewem w ciągu 14 dni przed wysyłką towaru.",
+      "retrievedPages": [
+        8,
+        13,
+        6,
+        7,
+        34,
+        14,
+        6,
+        35,
+        16,
+        34
+      ],
+      "evaluation": {
+        "correctness": 5,
+        "groundedness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "reason": "The generated answer accurately reflects both payment options described in the expected answer and the retrieved context, fully addressing the question with correct details. No unsupported information is included."
+      }
+    }
+  ]
+}
